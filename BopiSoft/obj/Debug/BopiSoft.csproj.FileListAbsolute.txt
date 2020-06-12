@@ -1,0 +1,64 @@
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDocente.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificaciones.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificacionesJefe.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual.resources
+C:\Users\Dell\source\repos\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._13.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21RegistroEditar.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._22RegistroListDoc.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._23RegistroListaJefe.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._24Carrera.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._25MateriaEditar.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._27MateriaLista.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._28GruposEditra.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._29GruposLista.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft._30Departamento.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificaciones.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificacionesJefe.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.EvidenciasJefe_16_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDespegableRevision.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDocente.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.PlaneacionJefe_11_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual_17_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal_19_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDespegable_18_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDesplegable_20_.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.GenerateResource.cache
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CoreCompileInputs.cache
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
