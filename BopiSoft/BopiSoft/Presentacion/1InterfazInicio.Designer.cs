@@ -35,6 +35,11 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             this.SuspendLayout();
             // 
             // Inicio
@@ -72,15 +77,24 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(191, 20);
             this.txtEmail.TabIndex = 3;
+<<<<<<< HEAD
             this.txtEmail.Text = "E M A I L";
+=======
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // 
             // txtContra
             // 
             this.txtContra.Location = new System.Drawing.Point(281, 330);
             this.txtContra.Name = "txtContra";
+<<<<<<< HEAD
             this.txtContra.Size = new System.Drawing.Size(191, 20);
             this.txtContra.TabIndex = 4;
             this.txtContra.Text = "C O N T R A S E Ñ A";
+=======
+            this.txtContra.PasswordChar = '*';
+            this.txtContra.Size = new System.Drawing.Size(191, 20);
+            this.txtContra.TabIndex = 4;
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // 
             // btnLogin
             // 
@@ -96,6 +110,29 @@
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "L O G I N";
             this.btnLogin.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
+=======
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(227, 279);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "EMAIL";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(205, 333);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "PASSWORD";
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // 
             // Form1
             // 
@@ -103,6 +140,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(109)))), ((int)(((byte)(198)))));
             this.ClientSize = new System.Drawing.Size(800, 530);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtEmail);
@@ -126,6 +168,11 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.Button btnLogin;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
     }
 }
 

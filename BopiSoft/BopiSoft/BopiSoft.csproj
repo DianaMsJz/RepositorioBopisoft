@@ -35,7 +35,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BibliotecaDeClases">
+<<<<<<< HEAD
       <HintPath>..\..\..\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.dll</HintPath>
+=======
+      <HintPath>.\BibliotecaDeClases.dll</HintPath>
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
     </Reference>
     <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

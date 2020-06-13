@@ -1,0 +1,15 @@
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.dll
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.pdb
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\MySql.Data.dll
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\MySql.Data.xml
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.csproj.CopyComplete
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.dll
+C:\Users\Diana Miramontes\source\repos\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.pdb
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.dll
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.pdb
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\MySql.Data.dll
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\MySql.Data.xml
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.csproj.CopyComplete
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.dll
+C:\Users\dell\Documents\BopiProyecto\BibliotecaDeClases\BibliotecaDeClases\obj\Debug\BibliotecaDeClases.pdb

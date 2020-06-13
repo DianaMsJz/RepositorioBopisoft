@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
+<<<<<<< HEAD
 -- Tiempo de generación: 08-06-2020 a las 10:04:32
+=======
+-- Tiempo de generación: 27-05-2020 a las 00:48:50
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
 -- Versión del servidor: 5.7.24
 -- Versión de PHP: 7.2.14
 
@@ -67,6 +71,7 @@ CREATE TABLE IF NOT EXISTS `lista_carreras` (
   PRIMARY KEY (`Clave`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 --
 -- Volcado de datos para la tabla `lista_carreras`
 --
@@ -75,6 +80,8 @@ INSERT INTO `lista_carreras` (`Clave`, `Nombre`) VALUES
 ('1', 'Ingeniería en Sistemas Computacionales'),
 ('2', 'Ingeniería Industrial');
 
+=======
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
 -- --------------------------------------------------------
 
 --
@@ -83,6 +90,7 @@ INSERT INTO `lista_carreras` (`Clave`, `Nombre`) VALUES
 
 DROP TABLE IF EXISTS `lista_departamentos`;
 CREATE TABLE IF NOT EXISTS `lista_departamentos` (
+<<<<<<< HEAD
   `IdDpto` int(12) NOT NULL AUTO_INCREMENT,
   `Nombre` varchar(50) NOT NULL,
   PRIMARY KEY (`IdDpto`)
@@ -95,6 +103,12 @@ CREATE TABLE IF NOT EXISTS `lista_departamentos` (
 INSERT INTO `lista_departamentos` (`IdDpto`, `Nombre`) VALUES
 (1, 'Departamento de Sistemas Computacionales'),
 (2, 'Departamento de Ingeniería Industrial');
+=======
+  `IdDepa` int(12) NOT NULL,
+  `Nombre` varchar(50) NOT NULL,
+  PRIMARY KEY (`IdDepa`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
 
 -- --------------------------------------------------------
 
@@ -127,8 +141,11 @@ CREATE TABLE IF NOT EXISTS `lista_materias` (
   `Creditos` int(1) NOT NULL,
   `Carrera` varchar(50) NOT NULL,
   `Unidades` int(1) NOT NULL,
+<<<<<<< HEAD
   `Caracterización` text NOT NULL,
   `Competencia` text NOT NULL,
+=======
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
   PRIMARY KEY (`IdMateria`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -140,12 +157,19 @@ CREATE TABLE IF NOT EXISTS `lista_materias` (
 
 DROP TABLE IF EXISTS `lista_personal`;
 CREATE TABLE IF NOT EXISTS `lista_personal` (
+<<<<<<< HEAD
   `IdPersonal` int(12) NOT NULL AUTO_INCREMENT,
   `Tipo` char(13) NOT NULL,
+=======
+  `IdPersonal` int(12) NOT NULL,
+  `Tipo` char(13) NOT NULL,
+  `IdDepartamento` int(5) NOT NULL,
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
   `Nombre` varchar(20) NOT NULL,
   `Apaterno` varchar(20) NOT NULL,
   `Amaterno` varchar(20) NOT NULL,
   `Sexo` char(1) NOT NULL,
+<<<<<<< HEAD
   `NombreDpto` varchar(50) NOT NULL,
   `Direccion` varchar(40) NOT NULL,
   `Telefono` varchar(12) NOT NULL,
@@ -168,6 +192,24 @@ CREATE TABLE IF NOT EXISTS `materia_contenido` (
   `Subtema` varchar(255) NOT NULL,
   PRIMARY KEY (`IdMateria`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+=======
+  `Direccion` varchar(40) NOT NULL,
+  `Telefono` varchar(12) NOT NULL,
+  `Email` varchar(30) NOT NULL,
+  `Contraseña` varchar(12) NOT NULL,
+  `Foto` varchar(255) NOT NULL,
+  PRIMARY KEY (`IdPersonal`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `lista_personal`
+--
+
+INSERT INTO `lista_personal` (`IdPersonal`, `Tipo`, `IdDepartamento`, `Nombre`, `Apaterno`, `Amaterno`, `Sexo`, `Direccion`, `Telefono`, `Email`, `Contraseña`, `Foto`) VALUES
+(1, 'Docente', 1, 'ALAN', 'LOPEZ', 'GALLARDO', 'M', 'PTE', '123', 'alan@gmail.com', 'HOLA', '1'),
+(2, 'Docente', 1, 'Mariel', 'Baeza', 'Loya', 'M', 'MIOKI', '12', 'Mariel@GMAIL.COM', 'ALO', '2'),
+(3, 'Jefe', 1, 'DIANITA', 'MIRAMONTES', 'JUAREZ', 'F', 'PTE', '143', 'diana@hotmail.com', 'siu', '3');
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
 
 -- --------------------------------------------------------
 

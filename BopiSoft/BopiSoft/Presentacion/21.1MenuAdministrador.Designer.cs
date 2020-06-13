@@ -38,12 +38,21 @@
             this.asignarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.carreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.gruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.listaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.listaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+=======
+            this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,6 +87,10 @@
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
             this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editarToolStripMenuItem.Text = "Editar";
+<<<<<<< HEAD
+=======
+            this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // 
             // toolStripSeparator1
             // 
@@ -89,6 +102,10 @@
             this.listaDocenteToolStripMenuItem.Name = "listaDocenteToolStripMenuItem";
             this.listaDocenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listaDocenteToolStripMenuItem.Text = "Lista Docente";
+<<<<<<< HEAD
+=======
+            this.listaDocenteToolStripMenuItem.Click += new System.EventHandler(this.listaDocenteToolStripMenuItem_Click);
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // 
             // listaJefeToolStripMenuItem
             // 
@@ -117,6 +134,7 @@
             this.materiaToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.materiaToolStripMenuItem.Text = "Materia";
             // 
+<<<<<<< HEAD
             // gruposToolStripMenuItem
             // 
             this.gruposToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -136,11 +154,18 @@
             // 
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
             this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+=======
+            // editarToolStripMenuItem1
+            // 
+            this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(104, 22);
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             this.editarToolStripMenuItem1.Text = "Editar";
             // 
             // listaToolStripMenuItem
             // 
             this.listaToolStripMenuItem.Name = "listaToolStripMenuItem";
+<<<<<<< HEAD
             this.listaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listaToolStripMenuItem.Text = "Lista";
             // 
@@ -148,14 +173,44 @@
             // 
             this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
             this.editarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+=======
+            this.listaToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.listaToolStripMenuItem.Text = "Lista";
+            // 
+            // gruposToolStripMenuItem
+            // 
+            this.gruposToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editarToolStripMenuItem2,
+            this.listaToolStripMenuItem1});
+            this.gruposToolStripMenuItem.Name = "gruposToolStripMenuItem";
+            this.gruposToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.gruposToolStripMenuItem.Text = "Grupos";
+            // 
+            // editarToolStripMenuItem2
+            // 
+            this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
+            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(104, 22);
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             this.editarToolStripMenuItem2.Text = "Editar";
             // 
             // listaToolStripMenuItem1
             // 
             this.listaToolStripMenuItem1.Name = "listaToolStripMenuItem1";
+<<<<<<< HEAD
             this.listaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.listaToolStripMenuItem1.Text = "Lista";
             // 
+=======
+            this.listaToolStripMenuItem1.Size = new System.Drawing.Size(104, 22);
+            this.listaToolStripMenuItem1.Text = "Lista";
+            // 
+            // departamentoToolStripMenuItem
+            // 
+            this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
+            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
+            this.departamentoToolStripMenuItem.Text = "Departamento";
+            // 
+>>>>>>> 284f12b... Tercer commit Registro de los usuarios
             // _21
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
