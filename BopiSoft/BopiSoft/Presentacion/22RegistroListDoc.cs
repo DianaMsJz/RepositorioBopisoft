@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Presentacion;
+>>>>>>> 6591c39... 5to Commit
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +19,10 @@ namespace BopiSoft
     public partial class _22RegistroListDoc : Form
     {
         BDConexion bd = new BDConexion();
+<<<<<<< HEAD
+=======
+        DatosGrupos datos = new DatosGrupos();
+>>>>>>> 6591c39... 5to Commit
 
         public _22RegistroListDoc()
         {
@@ -96,5 +105,25 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void GRID1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            _28GruposEditra grupos = new _28GruposEditra();
+            DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
+            int IdPersonal= Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+            datos.IdPersonal = IdPersonal;
+            MessageBox.Show(datos.IdPersonal.ToString());
+            grupos.actualizarClaveDocente(datos.IdPersonal);
+            grupos.Show();
+            this.Hide();
+        }
+>>>>>>> 6591c39... 5to Commit
     }
 }

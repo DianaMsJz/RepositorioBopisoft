@@ -61,14 +61,26 @@
   <ItemGroup>
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Datos\DatosGrupos.cs" />
+>>>>>>> 6591c39... 5to Commit
     <Compile Include="Datos\DatosMaterias.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
     <Compile Include="Datos\RegistroCarrerasSql.cs" />
     <Compile Include="Datos\RegistroDepartamentoSql.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Datos\RegistroGruposSql.cs" />
+>>>>>>> 6591c39... 5to Commit
     <Compile Include="Datos\RegistroMateriaSql.cs" />
     <Compile Include="Datos\RegistroPersonalSql.cs" />
     <Compile Include="Negocios\PuenteCarrera.cs" />
     <Compile Include="Negocios\PuenteDepartamento.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Negocios\PuenteGrupo.cs" />
+>>>>>>> 6591c39... 5to Commit
     <Compile Include="Negocios\PuenteMaterias.cs" />
     <Compile Include="Negocios\PuentePersonal.cs" />
     <Compile Include="Presentacion\13.1MenuJefe.cs">
