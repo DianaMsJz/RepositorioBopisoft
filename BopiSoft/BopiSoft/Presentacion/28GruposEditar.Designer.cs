@@ -36,12 +36,17 @@
             this.lbClave = new System.Windows.Forms.Label();
             this.cmbCarrera = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.txtClaveD = new System.Windows.Forms.TextBox();
             this.btnBuscarCD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtClaveM = new System.Windows.Forms.TextBox();
             this.btnBuscarCM = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+=======
+            this.txtClaveDoc = new System.Windows.Forms.TextBox();
+            this.txtNombreMat = new System.Windows.Forms.TextBox();
+>>>>>>> 6591c39... 5to Commit
             this.cmbSemestre = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmbTurno = new System.Windows.Forms.ComboBox();
@@ -65,6 +70,11 @@
             this.listaGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+            this.btnBuscarMateria = new System.Windows.Forms.Button();
+            this.btnBuscarDocente = new System.Windows.Forms.Button();
+>>>>>>> 6591c39... 5to Commit
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,9 +83,16 @@
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombre.Location = new System.Drawing.Point(104, 122);
+<<<<<<< HEAD
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(335, 26);
+=======
+            this.txtNombre.MaxLength = 2;
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(95, 26);
+>>>>>>> 6591c39... 5to Commit
             this.txtNombre.TabIndex = 110;
             // 
             // txtClave
@@ -87,6 +104,10 @@
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(95, 26);
             this.txtClave.TabIndex = 109;
+<<<<<<< HEAD
+=======
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
+>>>>>>> 6591c39... 5to Commit
             // 
             // btnBuscarClave
             // 
@@ -122,6 +143,7 @@
             // cmbCarrera
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Items.AddRange(new object[] {
             "Ingeniería en Sistemas Computacionales ",
@@ -129,6 +151,10 @@
             "Ingeniería Electromecánica",
             "Ingeniería en Energías Renovables",
             "Ingeniería en Gestión Empresarial"});
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCarrera.FormattingEnabled = true;
+>>>>>>> 6591c39... 5to Commit
             this.cmbCarrera.Location = new System.Drawing.Point(104, 166);
             this.cmbCarrera.Name = "cmbCarrera";
             this.cmbCarrera.Size = new System.Drawing.Size(335, 21);
@@ -145,6 +171,7 @@
             this.label1.TabIndex = 132;
             this.label1.Text = "Carrera";
             // 
+<<<<<<< HEAD
             // txtClaveD
             // 
             this.txtClaveD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
@@ -204,10 +231,37 @@
             this.label3.Size = new System.Drawing.Size(63, 40);
             this.label3.TabIndex = 137;
             this.label3.Text = "Clave\r\nmateria\r\n";
+=======
+            // txtClaveDoc
+            // 
+            this.txtClaveDoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+            this.txtClaveDoc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtClaveDoc.Enabled = false;
+            this.txtClaveDoc.Location = new System.Drawing.Point(174, 262);
+            this.txtClaveDoc.Multiline = true;
+            this.txtClaveDoc.Name = "txtClaveDoc";
+            this.txtClaveDoc.Size = new System.Drawing.Size(209, 26);
+            this.txtClaveDoc.TabIndex = 136;
+            // 
+            // txtNombreMat
+            // 
+            this.txtNombreMat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+            this.txtNombreMat.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreMat.Enabled = false;
+            this.txtNombreMat.Location = new System.Drawing.Point(174, 206);
+            this.txtNombreMat.Multiline = true;
+            this.txtNombreMat.Name = "txtNombreMat";
+            this.txtNombreMat.Size = new System.Drawing.Size(209, 26);
+            this.txtNombreMat.TabIndex = 139;
+>>>>>>> 6591c39... 5to Commit
             // 
             // cmbSemestre
             // 
             this.cmbSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 6591c39... 5to Commit
             this.cmbSemestre.FormattingEnabled = true;
             this.cmbSemestre.Items.AddRange(new object[] {
             "1",
@@ -218,10 +272,14 @@
             "6",
             "7",
             "8",
+<<<<<<< HEAD
             "9",
             "10",
             "11",
             "12"});
+=======
+            "9"});
+>>>>>>> 6591c39... 5to Commit
             this.cmbSemestre.Location = new System.Drawing.Point(560, 72);
             this.cmbSemestre.Name = "cmbSemestre";
             this.cmbSemestre.Size = new System.Drawing.Size(146, 21);
@@ -241,6 +299,10 @@
             // cmbTurno
             // 
             this.cmbTurno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 6591c39... 5to Commit
             this.cmbTurno.FormattingEnabled = true;
             this.cmbTurno.Items.AddRange(new object[] {
             "Matutino",
@@ -269,7 +331,11 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(425, 329);
+=======
+            this.btnEliminar.Location = new System.Drawing.Point(683, 350);
+>>>>>>> 6591c39... 5to Commit
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(117, 40);
             this.btnEliminar.TabIndex = 155;
@@ -284,7 +350,11 @@
             this.btnModi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModi.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnModi.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnModi.Location = new System.Drawing.Point(548, 329);
+=======
+            this.btnModi.Location = new System.Drawing.Point(560, 350);
+>>>>>>> 6591c39... 5to Commit
             this.btnModi.Name = "btnModi";
             this.btnModi.Size = new System.Drawing.Size(117, 40);
             this.btnModi.TabIndex = 154;
@@ -299,7 +369,11 @@
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAñadir.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAñadir.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnAñadir.Location = new System.Drawing.Point(671, 329);
+=======
+            this.btnAñadir.Location = new System.Drawing.Point(437, 350);
+>>>>>>> 6591c39... 5to Commit
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(117, 40);
             this.btnAñadir.TabIndex = 153;
@@ -427,12 +501,40 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // btnBuscarMateria
+            // 
+            this.btnBuscarMateria.Location = new System.Drawing.Point(31, 206);
+            this.btnBuscarMateria.Name = "btnBuscarMateria";
+            this.btnBuscarMateria.Size = new System.Drawing.Size(137, 23);
+            this.btnBuscarMateria.TabIndex = 157;
+            this.btnBuscarMateria.Text = "Buscar Nombre Materia";
+            this.btnBuscarMateria.UseVisualStyleBackColor = true;
+            this.btnBuscarMateria.Click += new System.EventHandler(this.btnBuscarMateria_Click);
+            // 
+            // btnBuscarDocente
+            // 
+            this.btnBuscarDocente.Location = new System.Drawing.Point(31, 265);
+            this.btnBuscarDocente.Name = "btnBuscarDocente";
+            this.btnBuscarDocente.Size = new System.Drawing.Size(137, 23);
+            this.btnBuscarDocente.TabIndex = 158;
+            this.btnBuscarDocente.Text = "Buscar Clave Docente";
+            this.btnBuscarDocente.UseVisualStyleBackColor = true;
+            this.btnBuscarDocente.Click += new System.EventHandler(this.btnBuscarDocente_Click);
+            // 
+>>>>>>> 6591c39... 5to Commit
             // _28GruposEditra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(800, 402);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.btnBuscarDocente);
+            this.Controls.Add(this.btnBuscarMateria);
+>>>>>>> 6591c39... 5to Commit
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModi);
@@ -441,12 +543,17 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbSemestre);
             this.Controls.Add(this.label4);
+<<<<<<< HEAD
             this.Controls.Add(this.txtClaveM);
             this.Controls.Add(this.btnBuscarCM);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtClaveD);
             this.Controls.Add(this.btnBuscarCD);
             this.Controls.Add(this.label2);
+=======
+            this.Controls.Add(this.txtNombreMat);
+            this.Controls.Add(this.txtClaveDoc);
+>>>>>>> 6591c39... 5to Commit
             this.Controls.Add(this.cmbCarrera);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
@@ -457,6 +564,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "_28GruposEditra";
             this.Text = "Grupos Editar";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this._28GruposEditra_Load);
+>>>>>>> 6591c39... 5to Commit
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -473,12 +584,15 @@
         private System.Windows.Forms.Label lbClave;
         private System.Windows.Forms.ComboBox cmbCarrera;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtClaveD;
         private System.Windows.Forms.Button btnBuscarCD;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtClaveM;
         private System.Windows.Forms.Button btnBuscarCM;
         private System.Windows.Forms.Label label3;
+=======
+>>>>>>> 6591c39... 5to Commit
         private System.Windows.Forms.ComboBox cmbSemestre;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbTurno;
@@ -502,5 +616,12 @@
         private System.Windows.Forms.ToolStripMenuItem listaGrupoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnBuscarMateria;
+        private System.Windows.Forms.Button btnBuscarDocente;
+        public System.Windows.Forms.TextBox txtClaveDoc;
+        public System.Windows.Forms.TextBox txtNombreMat;
+>>>>>>> 6591c39... 5to Commit
     }
 }

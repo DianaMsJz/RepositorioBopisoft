@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 6591c39... 5to Commit
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +19,14 @@ namespace BopiSoft
 {
     public partial class _28GruposEditra : Form
     {
+<<<<<<< HEAD
+=======
+        PuenteGrupo puente = new PuenteGrupo();
+        _27MateriaLista lista = new _27MateriaLista();
+        _22RegistroListDoc listaDoc = new _22RegistroListDoc();
+        DatosGrupos datos = new DatosGrupos();
+
+>>>>>>> 6591c39... 5to Commit
         public _28GruposEditra()
         {
             InitializeComponent();
@@ -87,5 +101,82 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void _28GruposEditra_Load(object sender, EventArgs e)
+        {
+            
+            this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
+            this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+            puente.LlenarCombo(cmbCarrera);
+        }
+
+        private void btnBuscarMateria_Click(object sender, EventArgs e)
+        {
+            lista.form = 2;
+            this.Hide();
+            lista.Show();
+            MessageBox.Show("Selecciona la materia para obtener el nombre");
+        }
+
+        private void btnBuscarDocente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            listaDoc.Show();
+            MessageBox.Show("Selecciona el docente para obtener la clave");
+        }
+
+        public void actualizarNombreMateria(String nombreMateria)
+        {
+            txtNombreMat.Text =nombreMateria;
+        }
+
+        public void actualizarClaveDocente(int IdPersonal)
+        {
+            txtClaveDoc.Text =IdPersonal.ToString();
+        }
+
+        public static void SoloNumeros(KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        public static void SoloLetras(KeyPressEventArgs e)
+        {
+            if (char.IsLetter(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SoloNumeros(e);
+        }
+>>>>>>> 6591c39... 5to Commit
     }
 }

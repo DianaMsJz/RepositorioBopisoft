@@ -79,6 +79,11 @@
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(624, 219);
             this.GRID1.TabIndex = 4;
+<<<<<<< HEAD
+=======
+            this.GRID1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellClick);
+            this.GRID1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellContentClick);
+>>>>>>> 6591c39... 5to Commit
             // 
             // menuStrip2
             // 

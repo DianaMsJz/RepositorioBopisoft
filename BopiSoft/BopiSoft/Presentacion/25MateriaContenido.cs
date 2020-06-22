@@ -18,7 +18,11 @@ namespace BopiSoft.Presentacion
         DatosMaterias datos = new DatosMaterias();
         _27MateriaLista lista = new _27MateriaLista();
         RegistroMateriaSql Registro = new RegistroMateriaSql();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 6591c39... 5to Commit
         int s = 1;
 
         public _25MateriaContenido()
@@ -98,6 +102,10 @@ namespace BopiSoft.Presentacion
 
         private void _25MateriaContenido_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 6591c39... 5to Commit
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
@@ -109,6 +117,11 @@ namespace BopiSoft.Presentacion
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            lista.form = 1;
+
+>>>>>>> 6591c39... 5to Commit
             this.Hide();
             lista.Show();
             MessageBox.Show("Selecciona la materia para obtener la clave");

@@ -245,6 +245,7 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSo
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion._25MateriaContenido.resources
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -292,3 +293,5 @@ C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CopyComplete
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+=======
+>>>>>>> 6591c39... 5to Commit
