@@ -178,6 +178,10 @@
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
             this.menuStrip2.TabIndex = 119;
             this.menuStrip2.Text = "menuStrip2";
+<<<<<<< HEAD
+=======
+            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // toolStripMenuItem1
             // 

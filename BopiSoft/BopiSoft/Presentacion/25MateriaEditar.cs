@@ -17,6 +17,10 @@ namespace BopiSoft
     {
         PuenteMaterias puente = new PuenteMaterias();
         DatosMaterias datos = new DatosMaterias();
+<<<<<<< HEAD
+=======
+        RegistroMateriaSql registro = new RegistroMateriaSql();
+>>>>>>> 01c80df... 6to Commit: Login creado
 
         public _25MateriaEditar()
         {
@@ -59,6 +63,7 @@ namespace BopiSoft
                 try
                 {
                     datos.IdMateria = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
                     datos.Creditos = Convert.ToInt32(txtCreditos.Text);
                     datos.Carrera = cmbCarrera.SelectedItem.ToString();
@@ -67,6 +72,23 @@ namespace BopiSoft
                     datos.Competencia = txtCompetencia.Text;
                     puente.RegistroModificar(datos);
                     Limpiar();
+=======
+                    if (!registro.ExisteMateria(datos.IdMateria))
+                    {
+                        datos.Nombre = txtNombre.Text;
+                        datos.Creditos = Convert.ToInt32(txtCreditos.Text);
+                        datos.Carrera = cmbCarrera.SelectedItem.ToString();
+                        datos.Unidades = Convert.ToInt32(txtUnidades.Text);
+                        datos.Caracterizacion = txtCaracterizacion.Text;
+                        datos.Competencia = txtCompetencia.Text;
+                        puente.RegistroModificar(datos);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe materia con esa ID" );
+                    }
+>>>>>>> 01c80df... 6to Commit: Login creado
 
                 }
                 catch (Exception ex)
@@ -88,6 +110,7 @@ namespace BopiSoft
                 try
                 {
                     datos.IdMateria = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
                     puente.RegistroEliminar(datos);
                     Limpiar();
 
@@ -95,6 +118,26 @@ namespace BopiSoft
                 catch (Exception ex)
                 {
                     MessageBox.Show("" + ex);
+=======
+
+                    if (!registro.ExisteMateria(datos.IdMateria))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar la materia con la ID " + datos.IdMateria + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+                        if (n == DialogResult.Yes)
+                        {
+                            puente.RegistroEliminar(datos);
+                            Limpiar();
+                        }
+                    }
+                    else
+                    {
+                       MessageBox.Show("No existe materia con esa ID" );
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("" + ex.ToString());
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
 
             }
@@ -124,7 +167,11 @@ namespace BopiSoft
                 }
                 catch (Exception ex)
                 {
+<<<<<<< HEAD
                     MessageBox.Show("" + ex);
+=======
+                    MessageBox.Show("No existe materia con esa ID" );
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
             }
             else

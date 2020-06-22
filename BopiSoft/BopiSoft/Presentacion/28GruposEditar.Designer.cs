@@ -37,6 +37,7 @@
             this.cmbCarrera = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtClaveD = new System.Windows.Forms.TextBox();
             this.btnBuscarCD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,6 +48,10 @@
             this.txtClaveDoc = new System.Windows.Forms.TextBox();
             this.txtNombreMat = new System.Windows.Forms.TextBox();
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.txtClaveDoc = new System.Windows.Forms.TextBox();
+            this.txtNombreMat = new System.Windows.Forms.TextBox();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbSemestre = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmbTurno = new System.Windows.Forms.ComboBox();
@@ -71,10 +76,15 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnBuscarMateria = new System.Windows.Forms.Button();
             this.btnBuscarDocente = new System.Windows.Forms.Button();
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.btnBuscarMateria = new System.Windows.Forms.Button();
+            this.btnBuscarDocente = new System.Windows.Forms.Button();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +93,7 @@
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombre.Location = new System.Drawing.Point(104, 122);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
@@ -94,6 +105,13 @@
             this.txtNombre.Size = new System.Drawing.Size(95, 26);
 >>>>>>> 6591c39... 5to Commit
             this.txtNombre.TabIndex = 110;
+=======
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(335, 26);
+            this.txtNombre.TabIndex = 110;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // txtClave
             // 
@@ -105,9 +123,13 @@
             this.txtClave.Size = new System.Drawing.Size(95, 26);
             this.txtClave.TabIndex = 109;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // btnBuscarClave
             // 
@@ -144,6 +166,7 @@
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Items.AddRange(new object[] {
             "Ingeniería en Sistemas Computacionales ",
@@ -155,6 +178,10 @@
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCarrera.FormattingEnabled = true;
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCarrera.FormattingEnabled = true;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbCarrera.Location = new System.Drawing.Point(104, 166);
             this.cmbCarrera.Name = "cmbCarrera";
             this.cmbCarrera.Size = new System.Drawing.Size(335, 21);
@@ -171,6 +198,7 @@
             this.label1.TabIndex = 132;
             this.label1.Text = "Carrera";
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // txtClaveD
             // 
@@ -232,15 +260,24 @@
             this.label3.TabIndex = 137;
             this.label3.Text = "Clave\r\nmateria\r\n";
 =======
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             // txtClaveDoc
             // 
             this.txtClaveDoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtClaveDoc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtClaveDoc.Enabled = false;
+<<<<<<< HEAD
             this.txtClaveDoc.Location = new System.Drawing.Point(174, 262);
             this.txtClaveDoc.Multiline = true;
             this.txtClaveDoc.Name = "txtClaveDoc";
             this.txtClaveDoc.Size = new System.Drawing.Size(209, 26);
+=======
+            this.txtClaveDoc.Location = new System.Drawing.Point(153, 253);
+            this.txtClaveDoc.Multiline = true;
+            this.txtClaveDoc.Name = "txtClaveDoc";
+            this.txtClaveDoc.Size = new System.Drawing.Size(286, 26);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.txtClaveDoc.TabIndex = 136;
             // 
             // txtNombreMat
@@ -248,20 +285,32 @@
             this.txtNombreMat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtNombreMat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreMat.Enabled = false;
+<<<<<<< HEAD
             this.txtNombreMat.Location = new System.Drawing.Point(174, 206);
             this.txtNombreMat.Multiline = true;
             this.txtNombreMat.Name = "txtNombreMat";
             this.txtNombreMat.Size = new System.Drawing.Size(209, 26);
             this.txtNombreMat.TabIndex = 139;
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.txtNombreMat.Location = new System.Drawing.Point(153, 207);
+            this.txtNombreMat.Multiline = true;
+            this.txtNombreMat.Name = "txtNombreMat";
+            this.txtNombreMat.Size = new System.Drawing.Size(286, 26);
+            this.txtNombreMat.TabIndex = 139;
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // cmbSemestre
             // 
             this.cmbSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbSemestre.FormattingEnabled = true;
             this.cmbSemestre.Items.AddRange(new object[] {
             "1",
@@ -273,13 +322,19 @@
             "7",
             "8",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             "9",
             "10",
             "11",
             "12"});
+<<<<<<< HEAD
 =======
             "9"});
 >>>>>>> 6591c39... 5to Commit
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbSemestre.Location = new System.Drawing.Point(560, 72);
             this.cmbSemestre.Name = "cmbSemestre";
             this.cmbSemestre.Size = new System.Drawing.Size(146, 21);
@@ -300,9 +355,13 @@
             // 
             this.cmbTurno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbTurno.FormattingEnabled = true;
             this.cmbTurno.Items.AddRange(new object[] {
             "Matutino",
@@ -332,10 +391,14 @@
             this.btnEliminar.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(425, 329);
 =======
             this.btnEliminar.Location = new System.Drawing.Point(683, 350);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.btnEliminar.Location = new System.Drawing.Point(671, 324);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(117, 40);
             this.btnEliminar.TabIndex = 155;
@@ -351,10 +414,14 @@
             this.btnModi.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnModi.ForeColor = System.Drawing.Color.Black;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnModi.Location = new System.Drawing.Point(548, 329);
 =======
             this.btnModi.Location = new System.Drawing.Point(560, 350);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.btnModi.Location = new System.Drawing.Point(547, 324);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.btnModi.Name = "btnModi";
             this.btnModi.Size = new System.Drawing.Size(117, 40);
             this.btnModi.TabIndex = 154;
@@ -370,10 +437,14 @@
             this.btnAñadir.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAñadir.ForeColor = System.Drawing.Color.Black;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnAñadir.Location = new System.Drawing.Point(671, 329);
 =======
             this.btnAñadir.Location = new System.Drawing.Point(437, 350);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.btnAñadir.Location = new System.Drawing.Point(424, 324);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(117, 40);
             this.btnAñadir.TabIndex = 153;
@@ -502,6 +573,7 @@
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             // btnBuscarMateria
             // 
@@ -524,6 +596,28 @@
             this.btnBuscarDocente.Click += new System.EventHandler(this.btnBuscarDocente_Click);
             // 
 >>>>>>> 6591c39... 5to Commit
+=======
+            // btnBuscarMateria
+            // 
+            this.btnBuscarMateria.Location = new System.Drawing.Point(10, 210);
+            this.btnBuscarMateria.Name = "btnBuscarMateria";
+            this.btnBuscarMateria.Size = new System.Drawing.Size(137, 23);
+            this.btnBuscarMateria.TabIndex = 158;
+            this.btnBuscarMateria.Text = "Buscar Nombre Materia";
+            this.btnBuscarMateria.UseVisualStyleBackColor = true;
+            this.btnBuscarMateria.Click += new System.EventHandler(this.btnBuscarMateria_Click_1);
+            // 
+            // btnBuscarDocente
+            // 
+            this.btnBuscarDocente.Location = new System.Drawing.Point(10, 256);
+            this.btnBuscarDocente.Name = "btnBuscarDocente";
+            this.btnBuscarDocente.Size = new System.Drawing.Size(137, 23);
+            this.btnBuscarDocente.TabIndex = 159;
+            this.btnBuscarDocente.Text = "Buscar Clave Docente";
+            this.btnBuscarDocente.UseVisualStyleBackColor = true;
+            this.btnBuscarDocente.Click += new System.EventHandler(this.btnBuscarDocente_Click_1);
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // _28GruposEditra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -531,10 +625,15 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(800, 402);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.Controls.Add(this.btnBuscarDocente);
             this.Controls.Add(this.btnBuscarMateria);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.Controls.Add(this.btnBuscarDocente);
+            this.Controls.Add(this.btnBuscarMateria);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModi);
@@ -543,6 +642,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbSemestre);
             this.Controls.Add(this.label4);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.Controls.Add(this.txtClaveM);
             this.Controls.Add(this.btnBuscarCM);
@@ -554,6 +654,10 @@
             this.Controls.Add(this.txtNombreMat);
             this.Controls.Add(this.txtClaveDoc);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.Controls.Add(this.txtNombreMat);
+            this.Controls.Add(this.txtClaveDoc);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Controls.Add(this.cmbCarrera);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
@@ -565,9 +669,13 @@
             this.Name = "_28GruposEditra";
             this.Text = "Grupos Editar";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.Load += new System.EventHandler(this._28GruposEditra_Load);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.Load += new System.EventHandler(this._28GruposEditra_Load);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -585,6 +693,7 @@
         private System.Windows.Forms.ComboBox cmbCarrera;
         private System.Windows.Forms.Label label1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtClaveD;
         private System.Windows.Forms.Button btnBuscarCD;
         private System.Windows.Forms.Label label2;
@@ -593,6 +702,10 @@
         private System.Windows.Forms.Label label3;
 =======
 >>>>>>> 6591c39... 5to Commit
+=======
+        private System.Windows.Forms.TextBox txtClaveDoc;
+        private System.Windows.Forms.TextBox txtNombreMat;
+>>>>>>> 01c80df... 6to Commit: Login creado
         private System.Windows.Forms.ComboBox cmbSemestre;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbTurno;
@@ -617,11 +730,16 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.Button btnBuscarMateria;
         private System.Windows.Forms.Button btnBuscarDocente;
         public System.Windows.Forms.TextBox txtClaveDoc;
         public System.Windows.Forms.TextBox txtNombreMat;
 >>>>>>> 6591c39... 5to Commit
+=======
+        private System.Windows.Forms.Button btnBuscarMateria;
+        private System.Windows.Forms.Button btnBuscarDocente;
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

@@ -51,6 +51,13 @@ namespace BopiSoft.Negocios
         {
             registro.RegistroBuscarContenido(datos);
         }
+<<<<<<< HEAD
+=======
+        public void ExisteMateria(int ID)
+        {
+            registro.ExisteMateria(ID);
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
 
     }
 }

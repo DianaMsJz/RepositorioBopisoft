@@ -66,5 +66,31 @@ namespace BopiSoft.Datos
             }
             bd.closeconnection();
         }
+<<<<<<< HEAD
+=======
+        public void LlenarComboBoxDeptos(ComboBox combo)
+        {
+            MySqlCommand buscarporID = new MySqlCommand("select * from lista_departamentos", bd.connect);
+            bd.connecttodb();
+            MySqlDataReader registro = buscarporID.ExecuteReader();
+            while (registro.Read())
+            {
+                combo.Items.Add(registro["Nombre"]);
+            }
+            combo.SelectedIndex = 0;
+            bd.closeconnection();
+        }
+        public bool ExisteDepto(int ID)
+        {
+            bd.connecttodb();
+            string existe = "Select count(*) from lista_departamentos where IdDpto=@IdDpto";
+            bd.command = new MySqlCommand(existe, bd.connect);
+            bd.command.Parameters.AddWithValue("@IdDpto", ID);
+
+            int count = Convert.ToInt32(bd.command.ExecuteScalar());
+
+            return count == 0;
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

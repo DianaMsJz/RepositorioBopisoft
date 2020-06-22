@@ -121,6 +121,20 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<<<<<<< HEAD
+=======
+  <data name="btnSalir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAURJREFUWEdj
+        GAXoYOed/2K77/1asefe73e77/3+Tz7+c2/X/d/lUGOJB0DNazANIx/vuvcnFGo0cQCo6TO6IRTh+3/m
+        Qo0mDmA1hAIMjMpVUKOJA9gMoQSPOoCuDpi5/fn/XXd+oYjR1QEZDWf/J5Sd+L/5yje4GN0dYB+49X9A
+        6r7/K058BIsNiANA2CN61//Zu14OnANA2DF42/+aqdfPQo0mDmA1uP4MisFk4IkMDQ1MUCvwAxo5AIS3
+        mXtu44NagxvQ0gEuobv5odbgBlR3QNDW/w5BWxsYGP4zQq3AD7A5gFiMnghdwnb8b1l45zjUaOIANoOJ
+        xcgO8I7b83/B/jcDkw3Dcw//X3f+M1iM7g5Iqzvzf9v1H3AxujpgwCsjbHjUAUPSAQPeLB/Yjgm0a7YS
+        qPkbumEk4mdkdc1GGGBgAABMh76D5Ch7BQAAAABJRU5ErkJggg==
+</value>
+  </data>
+>>>>>>> 01c80df... 6to Commit: Login creado
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAADAE

@@ -30,5 +30,13 @@ namespace BopiSoft.Negocios
         {
             registro.RegistroBuscar(datos);
         }
+<<<<<<< HEAD
+=======
+
+        public void ExisteCarreta(int ID)
+        {
+            registro.ExisteCarrera(ID);
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

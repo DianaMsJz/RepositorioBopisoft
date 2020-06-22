@@ -55,6 +55,10 @@
             // cmbCarrera
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Location = new System.Drawing.Point(100, 45);
             this.cmbCarrera.Name = "cmbCarrera";
@@ -204,7 +208,10 @@
             this.GRID1.Size = new System.Drawing.Size(712, 235);
             this.GRID1.TabIndex = 155;
             this.GRID1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellClick);
+<<<<<<< HEAD
             
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // _27MateriaLista
             // 

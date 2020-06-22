@@ -33,7 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.lbArea = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.lbPeriodo = new System.Windows.Forms.Label();
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.btnNotif = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,6 +58,11 @@
             this.label18 = new System.Windows.Forms.Label();
             this.btnReporteF = new System.Windows.Forms.Button();
             this.btnProyectoI = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.pbFotoDoc = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).BeginInit();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.SuspendLayout();
             // 
             // lbImagen
@@ -98,6 +106,7 @@
             this.lbArea.TabIndex = 5;
             this.lbArea.Text = "Área a la que pertenece";
             // 
+<<<<<<< HEAD
             // lbPeriodo
             // 
             this.lbPeriodo.AutoSize = true;
@@ -109,6 +118,8 @@
             this.lbPeriodo.TabIndex = 7;
             this.lbPeriodo.Text = "Periodo";
             // 
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             // btnNotif
             // 
             this.btnNotif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -138,6 +149,10 @@
             this.btnSalir.Size = new System.Drawing.Size(71, 69);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
+=======
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // label1
             // 
@@ -345,12 +360,28 @@
             this.btnProyectoI.Text = "Proyecto individual";
             this.btnProyectoI.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
+=======
+            // pbFotoDoc
+            // 
+            this.pbFotoDoc.Location = new System.Drawing.Point(5, 9);
+            this.pbFotoDoc.Name = "pbFotoDoc";
+            this.pbFotoDoc.Size = new System.Drawing.Size(140, 131);
+            this.pbFotoDoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFotoDoc.TabIndex = 30;
+            this.pbFotoDoc.TabStop = false;
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // MenuDocente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(811, 505);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.pbFotoDoc);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Controls.Add(this.btnProyectoI);
             this.Controls.Add(this.btnReporteF);
             this.Controls.Add(this.label16);
@@ -372,7 +403,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNotif);
+<<<<<<< HEAD
             this.Controls.Add(this.lbPeriodo);
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Controls.Add(this.lbArea);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.label2);
@@ -380,6 +414,11 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuDocente";
             this.Text = "Menu Docente";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.MenuDocente_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).EndInit();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,7 +430,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Label lbArea;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbPeriodo;
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
         private System.Windows.Forms.Button btnNotif;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label1;
@@ -413,5 +455,9 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button btnReporteF;
         private System.Windows.Forms.Button btnProyectoI;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox pbFotoDoc;
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

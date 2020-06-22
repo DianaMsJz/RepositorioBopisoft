@@ -32,8 +32,13 @@
             this.Inicio = new System.Windows.Forms.Label();
             this.ImgenUser = new System.Windows.Forms.Label();
             this.NomBopi = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
+=======
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -68,6 +73,7 @@
             this.NomBopi.TabIndex = 2;
             this.NomBopi.Text = "BOPISOFT";
             // 
+<<<<<<< HEAD
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(281, 279);
@@ -82,6 +88,23 @@
             this.txtContra.PasswordChar = '*';
             this.txtContra.Size = new System.Drawing.Size(191, 20);
             this.txtContra.TabIndex = 4;
+=======
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(281, 279);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(191, 20);
+            this.txtID.TabIndex = 3;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(281, 330);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(191, 20);
+            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtContra_TextChanged);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // btnLogin
             // 
@@ -104,9 +127,15 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(227, 279);
             this.label1.Name = "label1";
+<<<<<<< HEAD
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "EMAIL";
+=======
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ID";
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -127,8 +156,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogin);
+<<<<<<< HEAD
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtEmail);
+=======
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtID);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Controls.Add(this.NomBopi);
             this.Controls.Add(this.ImgenUser);
             this.Controls.Add(this.Inicio);
@@ -146,8 +180,13 @@
         private System.Windows.Forms.Label Inicio;
         private System.Windows.Forms.Label ImgenUser;
         private System.Windows.Forms.Label NomBopi;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtContra;
+=======
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtPassword;
+>>>>>>> 01c80df... 6to Commit: Login creado
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

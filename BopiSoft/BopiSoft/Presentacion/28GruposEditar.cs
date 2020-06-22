@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 6591c39... 5to Commit
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 01c80df... 6to Commit: Login creado
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,13 +26,19 @@ namespace BopiSoft
     public partial class _28GruposEditra : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
         PuenteGrupo puente = new PuenteGrupo();
         _27MateriaLista lista = new _27MateriaLista();
         _22RegistroListDoc listaDoc = new _22RegistroListDoc();
         DatosGrupos datos = new DatosGrupos();
 
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
         public _28GruposEditra()
         {
             InitializeComponent();
@@ -102,17 +114,39 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         private void _28GruposEditra_Load(object sender, EventArgs e)
         {
             
+=======
+
+        private void _28GruposEditra_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
             puente.LlenarCombo(cmbCarrera);
         }
 
+<<<<<<< HEAD
         private void btnBuscarMateria_Click(object sender, EventArgs e)
+=======
+
+        public void actualizarNombreMateria(String nombreMateria)
+        {
+            txtNombreMat.Text = nombreMateria;
+        }
+
+        public void actualizarClaveDocente(int IdPersonal)
+        {
+            txtClaveDoc.Text = IdPersonal.ToString();
+        }
+
+        private void btnBuscarMateria_Click_1(object sender, EventArgs e)
+>>>>>>> 01c80df... 6to Commit: Login creado
         {
             lista.form = 2;
             this.Hide();
@@ -120,13 +154,18 @@ namespace BopiSoft
             MessageBox.Show("Selecciona la materia para obtener el nombre");
         }
 
+<<<<<<< HEAD
         private void btnBuscarDocente_Click(object sender, EventArgs e)
+=======
+        private void btnBuscarDocente_Click_1(object sender, EventArgs e)
+>>>>>>> 01c80df... 6to Commit: Login creado
         {
             this.Hide();
             listaDoc.Show();
             MessageBox.Show("Selecciona el docente para obtener la clave");
         }
 
+<<<<<<< HEAD
         public void actualizarNombreMateria(String nombreMateria)
         {
             txtNombreMat.Text =nombreMateria;
@@ -135,6 +174,11 @@ namespace BopiSoft
         public void actualizarClaveDocente(int IdPersonal)
         {
             txtClaveDoc.Text =IdPersonal.ToString();
+=======
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SoloNumeros(e);
+>>>>>>> 01c80df... 6to Commit: Login creado
         }
 
         public static void SoloNumeros(KeyPressEventArgs e)
@@ -173,10 +217,17 @@ namespace BopiSoft
             }
         }
 
+<<<<<<< HEAD
         private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
         {
             SoloNumeros(e);
         }
 >>>>>>> 6591c39... 5to Commit
+=======
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SoloLetras(e);
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

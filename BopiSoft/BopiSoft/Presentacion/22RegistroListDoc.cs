@@ -1,9 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
 using BopiSoft.Presentacion;
 >>>>>>> 6591c39... 5to Commit
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 01c80df... 6to Commit: Login creado
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,9 +26,14 @@ namespace BopiSoft
     {
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         DatosGrupos datos = new DatosGrupos();
 >>>>>>> 6591c39... 5to Commit
+=======
+        DatosGrupos datos = new DatosGrupos();
+        PuenteDepartamento puente = new PuenteDepartamento();
+>>>>>>> 01c80df... 6to Commit: Login creado
 
         public _22RegistroListDoc()
         {
@@ -33,7 +44,14 @@ namespace BopiSoft
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente'");
+=======
+            puente.LlenarComboBoxDeptos(comboBox1);
+            String depto;
+            depto = comboBox1.Text;
+            GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='"+depto+"'");
+>>>>>>> 01c80df... 6to Commit: Login creado
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -106,7 +124,10 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
 
         private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -117,13 +138,27 @@ namespace BopiSoft
         {
             _28GruposEditra grupos = new _28GruposEditra();
             DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
+<<<<<<< HEAD
             int IdPersonal= Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+=======
+            int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+>>>>>>> 01c80df... 6to Commit: Login creado
             datos.IdPersonal = IdPersonal;
             MessageBox.Show(datos.IdPersonal.ToString());
             grupos.actualizarClaveDocente(datos.IdPersonal);
             grupos.Show();
             this.Hide();
         }
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
+=======
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            String depto;
+            depto = comboBox1.Text;
+            GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='" + depto + "'");
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }
