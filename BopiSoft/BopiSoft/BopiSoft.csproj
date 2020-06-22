@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BopiSoft</RootNamespace>
+    <AssemblyName>BopiSoft</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BibliotecaDeClases, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\BibliotecaDeClases\BibliotecaDeClases\bin\Debug\BibliotecaDeClases.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.9\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\DatosCarreras.cs" />
+    <Compile Include="Datos\DatosDepartamentos.cs" />
+    <Compile Include="Datos\DatosMaterias.cs" />
+    <Compile Include="Datos\DatosPersonal.cs" />
+    <Compile Include="Datos\RegistroCarrerasSql.cs" />
+    <Compile Include="Datos\RegistroDepartamentoSql.cs" />
+    <Compile Include="Datos\RegistroMateriaSql.cs" />
+    <Compile Include="Datos\RegistroPersonalSql.cs" />
+    <Compile Include="Negocios\PuenteCarrera.cs" />
+    <Compile Include="Negocios\PuenteDepartamento.cs" />
+    <Compile Include="Negocios\PuenteMaterias.cs" />
+    <Compile Include="Negocios\PuentePersonal.cs" />
+    <Compile Include="Presentacion\13.1MenuJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\13.1MenuJefe.Designer.cs">
+      <DependentUpon>13.1MenuJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\21.1MenuAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\21.1MenuAdministrador.Designer.cs">
+      <DependentUpon>21.1MenuAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\21RegistroEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\21RegistroEditar.Designer.cs">
+      <DependentUpon>21RegistroEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\22RegistroListDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\22RegistroListDoc.Designer.cs">
+      <DependentUpon>22RegistroListDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\23RegistroListaJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\23RegistroListaJefe.Designer.cs">
+      <DependentUpon>23RegistroListaJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\24Carrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\24Carrera.Designer.cs">
+      <DependentUpon>24Carrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\25MateriaContenido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\25MateriaContenido.Designer.cs">
+      <DependentUpon>25MateriaContenido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\25MateriaEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\25MateriaEditar.Designer.cs">
+      <DependentUpon>25MateriaEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\27MateriaLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\27MateriaLista.Designer.cs">
+      <DependentUpon>27MateriaLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\28GruposEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\28GruposEditar.Designer.cs">
+      <DependentUpon>28GruposEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\29GruposLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\29GruposLista.Designer.cs">
+      <DependentUpon>29GruposLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\30Departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\30Departamento.Designer.cs">
+      <DependentUpon>30Departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\3AreaNotificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\3AreaNotificaciones.Designer.cs">
+      <DependentUpon>3AreaNotificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\12AreaNotificacionesJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\12AreaNotificacionesJefe.Designer.cs">
+      <DependentUpon>12AreaNotificacionesJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\7CalificacionesPorUnidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\7CalificacionesPorUnidad.Designer.cs">
+      <DependentUpon>7CalificacionesPorUnidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\8CalificacionesSemestral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\8CalificacionesSemestral.Designer.cs">
+      <DependentUpon>8CalificacionesSemestral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\5Evidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\5Evidencias.Designer.cs">
+      <DependentUpon>5Evidencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\16EvidenciasJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\16EvidenciasJefe.Designer.cs">
+      <DependentUpon>16EvidenciasJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\1InterfazInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\1InterfazInicio.Designer.cs">
+      <DependentUpon>1InterfazInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\6ListaAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\6ListaAlumnos.Designer.cs">
+      <DependentUpon>6ListaAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\2.1Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\2.1Menu.Designer.cs">
+      <DependentUpon>2.1Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\15MenuDespegableRevision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\15MenuDespegableRevision.Designer.cs">
+      <DependentUpon>15MenuDespegableRevision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\2MenuDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\2MenuDocente.Designer.cs">
+      <DependentUpon>2MenuDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\11MenuJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\11MenuJefe.Designer.cs">
+      <DependentUpon>11MenuJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\13MenuJefeAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\13MenuJefeAlumno.Designer.cs">
+      <DependentUpon>13MenuJefeAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\4Planeacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\4Planeacion.Designer.cs">
+      <DependentUpon>4Planeacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\14PlaneacionJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\14PlaneacionJefe.Designer.cs">
+      <DependentUpon>14PlaneacionJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Presentacion\17ProyectoIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\17ProyectoIndividual.Designer.cs">
+      <DependentUpon>17ProyectoIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\10ProyectoIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\10ProyectoIndividual.Designer.cs">
+      <DependentUpon>10ProyectoIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\19ReporteFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\19ReporteFinal.Designer.cs">
+      <DependentUpon>19ReporteFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\9ReporteFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\9ReporteFinal.Designer.cs">
+      <DependentUpon>9ReporteFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\18VentanaDespegable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\18VentanaDespegable.Designer.cs">
+      <DependentUpon>18VentanaDespegable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\20VentanaDesplegable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\20VentanaDesplegable.Designer.cs">
+      <DependentUpon>20VentanaDesplegable.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Presentacion\13.1MenuJefe.resx">
+      <DependentUpon>13.1MenuJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\21.1MenuAdministrador.resx">
+      <DependentUpon>21.1MenuAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\21RegistroEditar.resx">
+      <DependentUpon>21RegistroEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\22RegistroListDoc.resx">
+      <DependentUpon>22RegistroListDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\23RegistroListaJefe.resx">
+      <DependentUpon>23RegistroListaJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\24Carrera.resx">
+      <DependentUpon>24Carrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\25MateriaContenido.resx">
+      <DependentUpon>25MateriaContenido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\25MateriaEditar.resx">
+      <DependentUpon>25MateriaEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\27MateriaLista.resx">
+      <DependentUpon>27MateriaLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\28GruposEditar.resx">
+      <DependentUpon>28GruposEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\29GruposLista.resx">
+      <DependentUpon>29GruposLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\30Departamento.resx">
+      <DependentUpon>30Departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\3AreaNotificaciones.resx">
+      <DependentUpon>3AreaNotificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\12AreaNotificacionesJefe.resx">
+      <DependentUpon>12AreaNotificacionesJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\7CalificacionesPorUnidad.resx">
+      <DependentUpon>7CalificacionesPorUnidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\8CalificacionesSemestral.resx">
+      <DependentUpon>8CalificacionesSemestral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\5Evidencias.resx">
+      <DependentUpon>5Evidencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\16EvidenciasJefe.resx">
+      <DependentUpon>16EvidenciasJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\1InterfazInicio.resx">
+      <DependentUpon>1InterfazInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\6ListaAlumnos.resx">
+      <DependentUpon>6ListaAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\2.1Menu.resx">
+      <DependentUpon>2.1Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\15MenuDespegableRevision.resx">
+      <DependentUpon>15MenuDespegableRevision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\2MenuDocente.resx">
+      <DependentUpon>2MenuDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\11MenuJefe.resx">
+      <DependentUpon>11MenuJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\13MenuJefeAlumno.resx">
+      <DependentUpon>13MenuJefeAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\4Planeacion.resx">
+      <DependentUpon>4Planeacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\14PlaneacionJefe.resx">
+      <DependentUpon>14PlaneacionJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Presentacion\17ProyectoIndividual.resx">
+      <DependentUpon>17ProyectoIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\10ProyectoIndividual.resx">
+      <DependentUpon>10ProyectoIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\19ReporteFinal.resx">
+      <DependentUpon>19ReporteFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\9ReporteFinal.resx">
+      <DependentUpon>9ReporteFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\18VentanaDespegable.resx">
+      <DependentUpon>18VentanaDespegable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\20VentanaDesplegable.resx">
+      <DependentUpon>20VentanaDesplegable.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

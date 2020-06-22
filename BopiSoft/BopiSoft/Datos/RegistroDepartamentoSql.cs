@@ -1,0 +1,70 @@
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BopiSoft.Datos
+{
+    class RegistroDepartamentoSql
+    {
+        BDConexion bd = new BDConexion();
+
+        public void RegistroAñadir(DatosDepartamentos datos)
+        {
+            string agregar = "insert into lista_departamentos values ('" + datos.IdDpto + "','" + datos.Nombre +  "')";
+            if (bd.executecommand(agregar))
+            {
+                MessageBox.Show("Departamento añadido con exito!");
+            }
+            else
+            {
+                MessageBox.Show("No se pudo añadir, intente de nuevo");
+            }
+        }
+
+        public void RegistroModificar(DatosDepartamentos datos)
+        {
+            string actualizar = "update lista_departamentos set Nombre='" + datos.Nombre + "' where IdDpto=" + datos.IdDpto;
+
+            if (bd.executecommand(actualizar))
+            {
+                MessageBox.Show("Departamento modificado con exito!");
+            }
+            else
+            {
+                MessageBox.Show("No se pudo modificar, intente de nuevo");
+            }
+        }
+
+        public void RegistroEliminar(DatosDepartamentos datos)
+        {
+            string eliminar = "delete from lista_departamentos where IdDpto=" + datos.IdDpto;
+
+            if (bd.executecommand(eliminar))
+            {
+
+                MessageBox.Show("Departamento eliminado con exito!");
+            }
+            else
+            {
+                MessageBox.Show("No se pudo eliminar, intente de nuevo");
+            }
+        }
+
+        public void RegistroBuscar(DatosDepartamentos datos)
+        {
+            MySqlCommand buscarporID = new MySqlCommand("select * from lista_departamentos where IdDpto=@IdDpto", bd.connect);
+            buscarporID.Parameters.AddWithValue("@IdDpto", datos.IdDpto);
+            bd.connecttodb();
+            MySqlDataReader registro = buscarporID.ExecuteReader();
+            if (registro.Read())
+            {
+                datos.Nombre = registro[1].ToString();
+            }
+            bd.closeconnection();
+        }
+    }
+}
