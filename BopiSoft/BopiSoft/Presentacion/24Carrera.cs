@@ -18,6 +18,14 @@ namespace BopiSoft
         DatosCarreras datos = new DatosCarreras();
         PuenteCarrera puente = new PuenteCarrera();
         BDConexion bd = new BDConexion();
+<<<<<<< HEAD
+=======
+        RegistroCarrerasSql registro = new RegistroCarrerasSql();
+
+        string ID;
+        string Nombre;
+
+>>>>>>> 01c80df... 6to Commit: Login creado
 
         public _24Carrera()
         {
@@ -26,7 +34,14 @@ namespace BopiSoft
 
         private void btnAñadir_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtClave.Text != "" && txtNombre.Text != "")
+=======
+
+            ID = txtClave.Text;
+            Nombre = txtNombre.Text;
+            if (validarCarreraVacia(ID, Nombre))
+>>>>>>> 01c80df... 6to Commit: Login creado
             {
                 try
                 {
@@ -42,9 +57,14 @@ namespace BopiSoft
                 {
                     MessageBox.Show("" + ex);
                 }
+<<<<<<< HEAD
 
             }
             else
+=======
+            }
+          else
+>>>>>>> 01c80df... 6to Commit: Login creado
             {
                 MessageBox.Show("ERROR LLENE TODOS LOS CAMPOS");
             }
@@ -69,12 +89,26 @@ namespace BopiSoft
                 try
                 {
                     datos.IdCarrera = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
 
 
                     puente.RegistroModificar(datos);
                     Limpiar();
                     actualizarGrid();
+=======
+                    if (!registro.ExisteCarrera(datos.IdCarrera))
+                    {
+                        datos.Nombre = txtNombre.Text;
+                        puente.RegistroModificar(datos);
+                        Limpiar();
+                        actualizarGrid();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe carrera con esa ID");
+                    }
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
                 catch (Exception ex)
                 {
@@ -97,10 +131,28 @@ namespace BopiSoft
                 try
                 {
                     datos.IdCarrera = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
                     actualizarGrid();
+=======
+                    if (!registro.ExisteCarrera(datos.IdCarrera))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar la carrera con la ID " + datos.IdCarrera + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+                        if (n == DialogResult.Yes)
+                        {
+                            puente.RegistroEliminar(datos);
+                            Limpiar();
+                            actualizarGrid();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe carrera con esa ID" );
+                    }
+ 
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
                 catch (Exception ex)
                 {
@@ -262,6 +314,30 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+
+        public bool validarCarreraVacia(string id, string nombre)
+        {
+            Boolean v = false;
+            if (id.Length <= 0 || nombre.Length <= 0)
+            {
+                MessageBox.Show("HAY CAMPOS VACIOS POR FAVOR VERIFIQUE");
+                v = false;
+            }
+            else
+            {
+                v = true;
+            }
+            return v;
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }
 

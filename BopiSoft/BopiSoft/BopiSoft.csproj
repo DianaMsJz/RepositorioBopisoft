@@ -5,7 +5,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}</ProjectGuid>
+<<<<<<< HEAD
     <OutputType>WinExe</OutputType>
+=======
+    <OutputType>Exe</OutputType>
+>>>>>>> 01c80df... 6to Commit: Login creado
     <RootNamespace>BopiSoft</RootNamespace>
     <AssemblyName>BopiSoft</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -62,25 +66,37 @@
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="Datos\DatosGrupos.cs" />
 >>>>>>> 6591c39... 5to Commit
+=======
+    <Compile Include="Datos\DatosGrupos.cs" />
+>>>>>>> 01c80df... 6to Commit: Login creado
     <Compile Include="Datos\DatosMaterias.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
     <Compile Include="Datos\RegistroCarrerasSql.cs" />
     <Compile Include="Datos\RegistroDepartamentoSql.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="Datos\RegistroGruposSql.cs" />
 >>>>>>> 6591c39... 5to Commit
+=======
+    <Compile Include="Datos\RegistroGruposSql.cs" />
+>>>>>>> 01c80df... 6to Commit: Login creado
     <Compile Include="Datos\RegistroMateriaSql.cs" />
     <Compile Include="Datos\RegistroPersonalSql.cs" />
     <Compile Include="Negocios\PuenteCarrera.cs" />
     <Compile Include="Negocios\PuenteDepartamento.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="Negocios\PuenteGrupo.cs" />
 >>>>>>> 6591c39... 5to Commit
+=======
+    <Compile Include="Negocios\PuenteGrupo.cs" />
+>>>>>>> 01c80df... 6to Commit: Login creado
     <Compile Include="Negocios\PuenteMaterias.cs" />
     <Compile Include="Negocios\PuentePersonal.cs" />
     <Compile Include="Presentacion\13.1MenuJefe.cs">

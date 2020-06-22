@@ -227,6 +227,10 @@
             // 
             // cmbUnidad
             // 
+<<<<<<< HEAD
+=======
+            this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbUnidad.FormattingEnabled = true;
             this.cmbUnidad.Location = new System.Drawing.Point(105, 147);
             this.cmbUnidad.Name = "cmbUnidad";

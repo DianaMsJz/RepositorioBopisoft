@@ -40,7 +40,10 @@ namespace BopiSoft.Negocios
 
         public void ExisteRegistro(int ID)
         {
+<<<<<<< HEAD
           
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             registro.ExisteRegistro(ID);
         }
     }

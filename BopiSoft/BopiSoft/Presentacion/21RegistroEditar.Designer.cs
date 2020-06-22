@@ -56,6 +56,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.listaDocenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaJefeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +73,24 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.contenidoMateriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+            this.listaDocenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaJefeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.registroCarreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.registroMateriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contenidoMateriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaMateriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.registroGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pbFoto = new System.Windows.Forms.PictureBox();
+            this.btnSeleccionarImagen = new System.Windows.Forms.Button();
+            this.cmbDepartamento = new System.Windows.Forms.ComboBox();
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
             this.SuspendLayout();
@@ -220,10 +239,19 @@
             // cmbTipo
             // 
             this.cmbTipo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
             this.cmbTipo.FormattingEnabled = true;
             this.cmbTipo.Items.AddRange(new object[] {
             "Docente",
             "Jefe"});
+=======
+            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "Docente",
+            "Jefe",
+            "Admin"});
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbTipo.Location = new System.Drawing.Point(98, 69);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(95, 21);
@@ -266,6 +294,10 @@
             // cmbSexo
             // 
             this.cmbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbSexo.FormattingEnabled = true;
             this.cmbSexo.Items.AddRange(new object[] {
             "M",
@@ -392,6 +424,7 @@
             this.editarToolStripMenuItem.Text = "Registro Personal";
             this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -401,6 +434,12 @@
             // 
             this.listaDocenteToolStripMenuItem.Name = "listaDocenteToolStripMenuItem";
             this.listaDocenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+=======
+            // listaDocenteToolStripMenuItem
+            // 
+            this.listaDocenteToolStripMenuItem.Name = "listaDocenteToolStripMenuItem";
+            this.listaDocenteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.listaDocenteToolStripMenuItem.Text = "Lista Docente";
             this.listaDocenteToolStripMenuItem.Click += new System.EventHandler(this.listaDocenteToolStripMenuItem_Click);
             // 
@@ -411,6 +450,7 @@
             this.listaJefeToolStripMenuItem.Text = "Lista Jefe";
             this.listaJefeToolStripMenuItem.Click += new System.EventHandler(this.listaJefeToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
             // pbFoto
             // 
             this.pbFoto.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -439,6 +479,12 @@
             this.cmbDepartamento.Name = "cmbDepartamento";
             this.cmbDepartamento.Size = new System.Drawing.Size(226, 21);
             this.cmbDepartamento.TabIndex = 120;
+=======
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(193, 6);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // registroCarreraToolStripMenuItem
             // 
@@ -447,6 +493,14 @@
             this.registroCarreraToolStripMenuItem.Text = "Registro Carrera";
             this.registroCarreraToolStripMenuItem.Click += new System.EventHandler(this.registroCarreraToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(193, 6);
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // registroMateriaToolStripMenuItem
             // 
             this.registroMateriaToolStripMenuItem.Name = "registroMateriaToolStripMenuItem";
@@ -454,6 +508,16 @@
             this.registroMateriaToolStripMenuItem.Text = "Registro Materia";
             this.registroMateriaToolStripMenuItem.Click += new System.EventHandler(this.registroMateriaToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // contenidoMateriaToolStripMenuItem
+            // 
+            this.contenidoMateriaToolStripMenuItem.Name = "contenidoMateriaToolStripMenuItem";
+            this.contenidoMateriaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.contenidoMateriaToolStripMenuItem.Text = "Contenido Materia";
+            this.contenidoMateriaToolStripMenuItem.Click += new System.EventHandler(this.contenidoMateriaToolStripMenuItem_Click);
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // listaMateriaToolStripMenuItem
             // 
             this.listaMateriaToolStripMenuItem.Name = "listaMateriaToolStripMenuItem";
@@ -461,6 +525,14 @@
             this.listaMateriaToolStripMenuItem.Text = "Lista Materia";
             this.listaMateriaToolStripMenuItem.Click += new System.EventHandler(this.listaMateriaToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(193, 6);
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // registroGrupoToolStripMenuItem
             // 
             this.registroGrupoToolStripMenuItem.Name = "registroGrupoToolStripMenuItem";
@@ -475,6 +547,14 @@
             this.listaGrupoToolStripMenuItem.Text = "Lista Grupo";
             this.listaGrupoToolStripMenuItem.Click += new System.EventHandler(this.listaGrupoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(193, 6);
+            // 
+>>>>>>> 01c80df... 6to Commit: Login creado
             // registroDepartamentoToolStripMenuItem
             // 
             this.registroDepartamentoToolStripMenuItem.Name = "registroDepartamentoToolStripMenuItem";
@@ -482,6 +562,7 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
@@ -503,6 +584,37 @@
             this.contenidoMateriaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.contenidoMateriaToolStripMenuItem.Text = "Contenido Materia";
             this.contenidoMateriaToolStripMenuItem.Click += new System.EventHandler(this.contenidoMateriaToolStripMenuItem_Click);
+=======
+            // pbFoto
+            // 
+            this.pbFoto.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbFoto.Location = new System.Drawing.Point(561, 210);
+            this.pbFoto.Name = "pbFoto";
+            this.pbFoto.Size = new System.Drawing.Size(226, 180);
+            this.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFoto.TabIndex = 118;
+            this.pbFoto.TabStop = false;
+            // 
+            // btnSeleccionarImagen
+            // 
+            this.btnSeleccionarImagen.Location = new System.Drawing.Point(594, 160);
+            this.btnSeleccionarImagen.Name = "btnSeleccionarImagen";
+            this.btnSeleccionarImagen.Size = new System.Drawing.Size(141, 23);
+            this.btnSeleccionarImagen.TabIndex = 119;
+            this.btnSeleccionarImagen.Text = "Seleccionar Imagen";
+            this.btnSeleccionarImagen.UseVisualStyleBackColor = true;
+            this.btnSeleccionarImagen.Click += new System.EventHandler(this.btnSeleccionarImagen_Click);
+            // 
+            // cmbDepartamento
+            // 
+            this.cmbDepartamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbDepartamento.FormattingEnabled = true;
+            this.cmbDepartamento.Location = new System.Drawing.Point(207, 423);
+            this.cmbDepartamento.Name = "cmbDepartamento";
+            this.cmbDepartamento.Size = new System.Drawing.Size(226, 21);
+            this.cmbDepartamento.TabIndex = 120;
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // _21RegistroEditar
             // 

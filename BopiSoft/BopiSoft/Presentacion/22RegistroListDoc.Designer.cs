@@ -55,11 +55,21 @@
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(146, 61);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
+=======
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(146, 61);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(319, 21);
+            this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // lbTipo
             // 
@@ -75,6 +85,7 @@
             // GRID1
             // 
             this.GRID1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.GRID1.Location = new System.Drawing.Point(63, 140);
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(624, 219);
@@ -84,6 +95,12 @@
             this.GRID1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellClick);
             this.GRID1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellContentClick);
 >>>>>>> 6591c39... 5to Commit
+=======
+            this.GRID1.Location = new System.Drawing.Point(12, 140);
+            this.GRID1.Name = "GRID1";
+            this.GRID1.Size = new System.Drawing.Size(776, 219);
+            this.GRID1.TabIndex = 4;
+>>>>>>> 01c80df... 6to Commit: Login creado
             // 
             // menuStrip2
             // 

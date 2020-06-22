@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
+=======
+using System.Windows.Forms;
+>>>>>>> 01c80df... 6to Commit: Login creado
 
 namespace BopiSoft.Negocios
 {
@@ -30,5 +34,16 @@ namespace BopiSoft.Negocios
         {
             registro.RegistroBuscar(datos);
         }
+<<<<<<< HEAD
+=======
+        public void LlenarComboBoxDeptos(ComboBox combo)
+        {
+            registro.LlenarComboBoxDeptos(combo);
+        }
+        public void ExisteDepto(int ID)
+        {
+            registro.ExisteDepto(ID);
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

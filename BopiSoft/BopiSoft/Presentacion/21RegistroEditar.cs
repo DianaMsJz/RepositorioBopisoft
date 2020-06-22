@@ -83,6 +83,7 @@ namespace BopiSoft
             {
                 try
                 {
+<<<<<<< HEAD
                     MemoryStream ms = new MemoryStream();
                     pbFoto.Image.Save(ms, ImageFormat.Jpeg);
                     byte[] imagen = ms.ToArray();
@@ -100,6 +101,34 @@ namespace BopiSoft
                     datos.Contraseña = txtContraseña.Text;
                     PuentePersonal.RegistroModificar(datos);
                     Limpiar();
+=======
+                    datos.IdPersonal = Int32.Parse(txtIdPersonal.Text);
+                    if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
+                    {
+                        MemoryStream ms = new MemoryStream();
+                        pbFoto.Image.Save(ms, ImageFormat.Jpeg);
+                        byte[] imagen = ms.ToArray();
+                        datos.Foto = imagen;
+
+                        datos.IdPersonal = Int32.Parse(txtIdPersonal.Text);
+                        datos.Tipo = cmbTipo.Text;
+                        datos.NombreDpto = cmbDepartamento.Text;
+                        datos.Nombre = txtNombre.Text;
+                        datos.Apaterno = txtApaterno.Text;
+                        datos.Amaterno = txtlbAmaterno.Text;
+                        datos.Sexo = cmbSexo.Text;
+                        datos.Direccion = txtDireccion.Text;
+                        datos.Telefono = txtTelefono.Text;
+                        datos.Contraseña = txtContraseña.Text;
+                        PuentePersonal.RegistroModificar(datos);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe registro con esa ID");
+                        
+                    }
+>>>>>>> 01c80df... 6to Commit: Login creado
 
                 }
                 catch (Exception ex)
@@ -324,11 +353,19 @@ namespace BopiSoft
         
         private void cmbTipo_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
             if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
             {
                 MessageBox.Show("Ya existe un registro con esa ID");
             }
+=======
+            ////datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
+            //if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
+            //{
+            //    MessageBox.Show("Ya existe un registro con esa ID");
+            //}
+>>>>>>> 01c80df... 6to Commit: Login creado
         }
 
         private void toolStripListaDocente_Click(object sender, EventArgs e)

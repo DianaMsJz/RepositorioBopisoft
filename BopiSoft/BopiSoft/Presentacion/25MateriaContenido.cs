@@ -19,10 +19,14 @@ namespace BopiSoft.Presentacion
         _27MateriaLista lista = new _27MateriaLista();
         RegistroMateriaSql Registro = new RegistroMateriaSql();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> 6591c39... 5to Commit
+=======
+
+>>>>>>> 01c80df... 6to Commit: Login creado
         int s = 1;
 
         public _25MateriaContenido()
@@ -103,9 +107,12 @@ namespace BopiSoft.Presentacion
         private void _25MateriaContenido_Load(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> 6591c39... 5to Commit
+=======
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
@@ -118,10 +125,15 @@ namespace BopiSoft.Presentacion
         private void btnBuscar_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             lista.form = 1;
 
 >>>>>>> 6591c39... 5to Commit
+=======
+            lista.form = 1;
+
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.Hide();
             lista.Show();
             MessageBox.Show("Selecciona la materia para obtener la clave");
@@ -267,6 +279,46 @@ namespace BopiSoft.Presentacion
                 }
             }
         }
+<<<<<<< HEAD
+=======
+        public static void SoloNumeros(KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        public static void SoloLetras(KeyPressEventArgs e)
+        {
+            if (char.IsLetter(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+       
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 
 }

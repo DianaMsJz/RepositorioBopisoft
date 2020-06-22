@@ -18,6 +18,13 @@ namespace BopiSoft
         BDConexion bd = new BDConexion();
         PuenteDepartamento puente = new PuenteDepartamento();
         DatosDepartamentos datos = new DatosDepartamentos();
+<<<<<<< HEAD
+=======
+        RegistroDepartamentoSql registro = new RegistroDepartamentoSql();
+
+        string ID;
+        string Nombre;
+>>>>>>> 01c80df... 6to Commit: Login creado
 
         public _30Departamento()
         {
@@ -33,7 +40,16 @@ namespace BopiSoft
 
         private void btnAñadir_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtClave.Text!="" && txtNombre.Text!="")
+=======
+
+            ID = txtClave.Text;
+            Nombre = txtNombre.Text;
+
+
+            if (validarDepaVacio(ID,Nombre))
+>>>>>>> 01c80df... 6to Commit: Login creado
             {
                 try
                 {
@@ -70,12 +86,26 @@ namespace BopiSoft
                 try
                 {
                     datos.IdDpto = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
                    
 
                     puente.RegistroModificar(datos);
                     Limpiar();
                     actualizarGrid();
+=======
+                    if (!registro.ExisteDepto(datos.IdDpto))
+                    {
+                        datos.Nombre = txtNombre.Text;
+                        puente.RegistroModificar(datos);
+                        Limpiar();
+                        actualizarGrid();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe departamento con esa ID" );
+                    }
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
                 catch (Exception ex)
                 {
@@ -98,10 +128,27 @@ namespace BopiSoft
                 try
                 {
                     datos.IdDpto = Int32.Parse(txtClave.Text);
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
                     actualizarGrid();
+=======
+                    if (!registro.ExisteDepto(datos.IdDpto))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar el departamento con la ID " + datos.IdDpto + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+                        if (n == DialogResult.Yes)
+                        {
+                            puente.RegistroEliminar(datos);
+                            Limpiar();
+                            actualizarGrid();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe departamento con esa ID");
+                    }
+>>>>>>> 01c80df... 6to Commit: Login creado
                 }
                 catch (Exception ex)
                 {
@@ -280,5 +327,28 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+
+        public bool validarDepaVacio(string id, string nombre)
+        {
+
+            Boolean v = false;
+            if (id.Length <= 0 || nombre.Length <= 0)
+            {
+                MessageBox.Show("HAY CAMPOS VACIOS POR FAVOR VERIFIQUE");
+                v = false;
+            }
+            else
+            {
+                v = true;
+
+            }
+
+            return v;
+        }
+
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }

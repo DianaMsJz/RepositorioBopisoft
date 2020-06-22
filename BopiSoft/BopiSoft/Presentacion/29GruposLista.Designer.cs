@@ -58,6 +58,10 @@
             // cmbTurno
             // 
             this.cmbTurno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbTurno.FormattingEnabled = true;
             this.cmbTurno.Items.AddRange(new object[] {
             "Matutino",
@@ -81,6 +85,10 @@
             // cmbSemestre
             // 
             this.cmbSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbSemestre.FormattingEnabled = true;
             this.cmbSemestre.Items.AddRange(new object[] {
             "1",
@@ -114,6 +122,10 @@
             // cmbCarrera
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 01c80df... 6to Commit: Login creado
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Items.AddRange(new object[] {
             "Ingeniería en Sistemas Computacionales ",

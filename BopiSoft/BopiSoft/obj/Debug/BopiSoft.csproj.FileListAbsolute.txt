@@ -246,6 +246,7 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSo
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion._25MateriaContenido.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -295,3 +296,142 @@ C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
 =======
 >>>>>>> 6591c39... 5to Commit
+=======
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\MySql.Data.dll
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BibliotecaDeClases.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\MySql.Data.xml
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._13.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21RegistroEditar.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._22RegistroListDoc.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._23RegistroListaJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._24Carrera.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion._25MateriaContenido.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._25MateriaEditar.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._27MateriaLista.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._28GruposEditra.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._29GruposLista.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft._30Departamento.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificaciones.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificacionesJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.EvidenciasJefe_16_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDespegableRevision.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDocente.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.PlaneacionJefe_11_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual_17_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal_19_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDespegable_18_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDesplegable_20_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.GenerateResource.cache
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CopyComplete
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._13.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21RegistroEditar.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._22RegistroListDoc.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._23RegistroListaJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._24Carrera.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion._25MateriaContenido.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._25MateriaEditar.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._27MateriaLista.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._28GruposEditra.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._29GruposLista.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._30Departamento.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificaciones.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificacionesJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.EvidenciasJefe_16_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDespegableRevision.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDocente.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.PlaneacionJefe_11_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual_17_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal_19_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDespegable_18_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDesplegable_20_.resources
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.GenerateResource.cache
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\MySql.Data.dll
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BibliotecaDeClases.pdb
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\MySql.Data.xml
+C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CopyComplete
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BibliotecaDeClases.dll
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\MySql.Data.dll
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\BibliotecaDeClases.pdb
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\bin\Debug\MySql.Data.xml
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._13.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21RegistroEditar.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._22RegistroListDoc.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._23RegistroListaJefe.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._24Carrera.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion._25MateriaContenido.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._25MateriaEditar.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._27MateriaLista.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._28GruposEditra.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._29GruposLista.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft._30Departamento.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificaciones.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.AreaNotificacionesJefe.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.EvidenciasJefe_16_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDespegableRevision.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDocente.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.PlaneacionJefe_11_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual_17_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ProyectoIndividual.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal_19_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ReporteFinal.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDespegable_18_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.VentanaDesplegable_20_.resources
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.GenerateResource.cache
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CoreCompileInputs.cache
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CopyComplete
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
+C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+>>>>>>> 01c80df... 6to Commit: Login creado

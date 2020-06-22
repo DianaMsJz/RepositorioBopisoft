@@ -66,5 +66,19 @@ namespace BopiSoft.Datos
             }
             bd.closeconnection();
         }
+<<<<<<< HEAD
+=======
+        public bool ExisteCarrera(int ID)
+        {
+            bd.connecttodb();
+            string existe = "Select count(*) from lista_carreras where Clave=@Clave";
+            bd.command = new MySqlCommand(existe, bd.connect);
+            bd.command.Parameters.AddWithValue("@Clave", ID);
+
+            int count = Convert.ToInt32(bd.command.ExecuteScalar());
+
+            return count == 0;
+        }
+>>>>>>> 01c80df... 6to Commit: Login creado
     }
 }
