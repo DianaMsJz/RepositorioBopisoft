@@ -40,6 +40,7 @@ namespace BopiSoft.Datos
         public void RegistroModificar(DatosMaterias datos)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             string actualizar = "update lista_materias set Nombre='" + datos.Nombre + "','" + datos.Creditos  +"','" + datos.Carrera + "','" + datos.Unidades + "','" + datos.Caracterizacion + "','" + datos.Competencia + "' where Clave=" + datos.IdMateria;
 =======
             string actualizar = "update lista_materias set Nombre='" + datos.Nombre + "','" + datos.Creditos  +"','" + datos.Carrera + "','" + datos.Unidades + "','" + datos.Caracterizacion + "','" + datos.Competencia + "' where IdMateria=" + datos.IdMateria;
@@ -70,10 +71,76 @@ namespace BopiSoft.Datos
             {
                 MessageBox.Show("No se pudo modificar, intente de nuevo");
             }
+=======
+            try
+            {
+                bd.connecttodb();
+                string actualizar = "update lista_materias set Nombre=@Nombre , Creditos=@Creditos , Carrera=@Carrera, Unidades=@Unidades , Caracterización=@Caracterizacion, Competencia=@Competencia where IdMateria=" + datos.IdMateria;
+
+                bd.command = new MySqlCommand(actualizar, bd.connect);
+                bd.command.Parameters.AddWithValue("@Nombre", datos.Nombre);
+                bd.command.Parameters.AddWithValue("@Creditos", datos.Creditos);
+                bd.command.Parameters.AddWithValue("@Carrera", datos.Carrera);
+                bd.command.Parameters.AddWithValue("@Unidades", datos.Unidades);
+                bd.command.Parameters.AddWithValue("@Caracterizacion", datos.Caracterizacion);
+                bd.command.Parameters.AddWithValue("@Competencia", datos.Competencia);
+
+
+                int cant;
+                cant = bd.command.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                     MessageBox.Show("Materia modificada con exito");
+                }
+                else
+                {
+                    MessageBox.Show("Algo salió mal");
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+        }
+
+        public void RegistroModificarContenido(DatosMaterias datos)
+        {
+            try
+            {
+                bd.connecttodb();
+                string actualizar = "update materia_contenido set Tema=@Tema , Subtema=@Subtema  where IdMateria=" + datos.IdMateria + " and Unidad=" + datos.Unidad;
+
+                bd.command = new MySqlCommand(actualizar, bd.connect);
+                bd.command.Parameters.AddWithValue("@Tema", datos.TemaUnidad);
+                bd.command.Parameters.AddWithValue("@Subtema", datos.SubtemaUnidad);
+                
+                int cant;
+                cant = bd.command.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                    MessageBox.Show("Contenido de materia modificado con exito");
+                }
+                else
+                {
+                    MessageBox.Show("Algo salió mal");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+           
+
+           
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         public void RegistroEliminar(DatosMaterias datos)
         {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             string eliminar = "delete from lista_materias where IdMateria=" + datos.IdMateria;
 
             if (bd.executecommand(eliminar))
@@ -89,6 +156,7 @@ namespace BopiSoft.Datos
 
         public void RegistroEliminarContenido(DatosMaterias datos)
         {
+<<<<<<< HEAD
             string eliminar = "delete from materia_contenido where IdMateria=" + datos.IdMateria+ "and Unidad=" +datos.Unidad;
 
             if (bd.executecommand(eliminar))
@@ -100,10 +168,41 @@ namespace BopiSoft.Datos
             {
                 MessageBox.Show("No se pudo eliminar, intente de nuevo");
             }
+=======
+            try
+            {
+                bd.connecttodb();
+                string eliminar = "delete from materia_contenido where IdMateria=@IdMateria and Unidad=@Unidad";
+
+                bd.command = new MySqlCommand(eliminar, bd.connect);
+                bd.command.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
+                bd.command.Parameters.AddWithValue("@Unidad", datos.Unidad);
+
+                int cant;
+                cant = bd.command.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                    MessageBox.Show("Contenido de materia eliminado con exito");
+                }
+                else
+                {
+                    MessageBox.Show("Algo salió mal");
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            
+          
+
+           
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         public void RegistroBuscar(DatosMaterias datos)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             MySqlCommand buscarporID = new MySqlCommand("select * from lista_materias where IdMateria=@IdMateria", bd.connect);
             buscarporID.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
@@ -119,6 +218,8 @@ namespace BopiSoft.Datos
                 datos.Competencia = registro[6].ToString();
             }
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
            
                 MySqlCommand buscarporID = new MySqlCommand("select * from lista_materias where IdMateria=@IdMateria", bd.connect);
                 buscarporID.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
@@ -135,7 +236,10 @@ namespace BopiSoft.Datos
                 }
             
             
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             bd.closeconnection();
         }
         public void RegistroBuscarContenido(DatosMaterias datos)
@@ -161,10 +265,14 @@ namespace BopiSoft.Datos
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             public void LlenarComboBoxCarreras(ComboBox combo)
 =======
         public void LlenarComboBoxCarreras(ComboBox combo)
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        public void LlenarComboBoxCarreras(ComboBox combo)
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         {
             MySqlCommand buscarporID = new MySqlCommand("select * from lista_carreras", bd.connect);
             bd.connecttodb();
@@ -191,7 +299,10 @@ namespace BopiSoft.Datos
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public bool ExisteMateria(int ID)
         {
             bd.connecttodb();
@@ -204,7 +315,10 @@ namespace BopiSoft.Datos
             return count == 0;
         }
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
     }
 }

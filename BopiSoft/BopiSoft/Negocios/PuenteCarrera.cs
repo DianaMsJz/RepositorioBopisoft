@@ -31,12 +31,18 @@ namespace BopiSoft.Negocios
             registro.RegistroBuscar(datos);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public void ExisteCarreta(int ID)
         {
             registro.ExisteCarrera(ID);
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

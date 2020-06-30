@@ -67,7 +67,10 @@ namespace BopiSoft.Datos
             bd.closeconnection();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public void LlenarComboBoxDeptos(ComboBox combo)
         {
             MySqlCommand buscarporID = new MySqlCommand("select * from lista_departamentos", bd.connect);
@@ -91,6 +94,9 @@ namespace BopiSoft.Datos
 
             return count == 0;
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

@@ -84,6 +84,7 @@ namespace BopiSoft
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     MemoryStream ms = new MemoryStream();
                     pbFoto.Image.Save(ms, ImageFormat.Jpeg);
                     byte[] imagen = ms.ToArray();
@@ -102,6 +103,8 @@ namespace BopiSoft
                     PuentePersonal.RegistroModificar(datos);
                     Limpiar();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     datos.IdPersonal = Int32.Parse(txtIdPersonal.Text);
                     if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
                     {
@@ -128,7 +131,10 @@ namespace BopiSoft
                         MessageBox.Show("No existe registro con esa ID");
                         
                     }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
                 }
                 catch (Exception ex)
@@ -237,12 +243,20 @@ namespace BopiSoft
         public  void Limpiar()
         {
             txtIdPersonal.Text = "";
+<<<<<<< HEAD
                 cmbTipo.Text = "";
+=======
+            cmbTipo.Text = "";
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             cmbDepartamento.Text="";
             txtNombre.Text = "";
             txtApaterno.Text = "";
             txtlbAmaterno.Text = "";
+<<<<<<< HEAD
                 cmbSexo.Text = "";
+=======
+            cmbSexo.Text = "";
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtContraseña.Text = "";
@@ -354,6 +368,7 @@ namespace BopiSoft
         private void cmbTipo_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
             if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
             {
@@ -366,6 +381,17 @@ namespace BopiSoft
             //    MessageBox.Show("Ya existe un registro con esa ID");
             //}
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            if(txtIdPersonal.Text != "")
+            {
+                datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
+                if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
+                {
+                    MessageBox.Show("Ya existe un registro con esa ID");
+                }
+            }
+           
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         private void toolStripListaDocente_Click(object sender, EventArgs e)
@@ -437,5 +463,34 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void txtIdPersonal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SoloNumeros(e);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

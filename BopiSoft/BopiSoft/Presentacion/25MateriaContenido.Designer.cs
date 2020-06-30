@@ -56,13 +56,22 @@
             this.btnModi = new System.Windows.Forms.Button();
             this.txtTema = new System.Windows.Forms.TextBox();
             this.txtSubtema = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
             this.toolStripMenuItem1});
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
@@ -228,9 +237,13 @@
             // cmbUnidad
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.cmbUnidad.FormattingEnabled = true;
             this.cmbUnidad.Location = new System.Drawing.Point(105, 147);
             this.cmbUnidad.Name = "cmbUnidad";
@@ -324,6 +337,16 @@
             this.txtSubtema.Size = new System.Drawing.Size(326, 82);
             this.txtSubtema.TabIndex = 132;
             // 
+<<<<<<< HEAD
+=======
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // _25MateriaContenido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -383,5 +406,9 @@
         private System.Windows.Forms.Button btnModi;
         private System.Windows.Forms.TextBox txtTema;
         private System.Windows.Forms.TextBox txtSubtema;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

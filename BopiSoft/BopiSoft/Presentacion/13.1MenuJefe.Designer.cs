@@ -33,15 +33,21 @@
             this.planeaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.evidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip1.SuspendLayout();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.btnSalir = new System.Windows.Forms.Button();
             this.pbJefe = new System.Windows.Forms.PictureBox();
             this.lbAreaJefe = new System.Windows.Forms.Label();
             this.lbNombreJefe = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).BeginInit();
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -68,7 +74,10 @@
             this.evidenciasToolStripMenuItem.Text = "Evidencias";
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -116,7 +125,10 @@
             this.lbNombreJefe.TabIndex = 12;
             this.lbNombreJefe.Text = "nombre";
             // 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // _13
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -124,26 +136,38 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(109)))), ((int)(((byte)(198)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.lbAreaJefe);
             this.Controls.Add(this.lbNombreJefe);
             this.Controls.Add(this.pbJefe);
             this.Controls.Add(this.btnSalir);
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "_13";
             this.Text = "Menú Jefe";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Load += new System.EventHandler(this._13_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,11 +179,17 @@
         private System.Windows.Forms.ToolStripMenuItem planeaciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem evidenciasToolStripMenuItem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.PictureBox pbJefe;
         private System.Windows.Forms.Label lbAreaJefe;
         private System.Windows.Forms.Label lbNombreJefe;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

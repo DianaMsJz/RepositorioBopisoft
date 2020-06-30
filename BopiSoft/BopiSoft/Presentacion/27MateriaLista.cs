@@ -18,6 +18,7 @@ namespace BopiSoft
         PuenteMaterias puente = new PuenteMaterias();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
 =======
         DatosGrupos datos = new DatosGrupos();
@@ -29,6 +30,11 @@ namespace BopiSoft
         BDConexion bd = new BDConexion();
         public int form;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        DatosGrupos datos = new DatosGrupos();
+        BDConexion bd = new BDConexion();
+        public int form;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public _27MateriaLista()
         {
@@ -37,11 +43,14 @@ namespace BopiSoft
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 >>>>>>> 6591c39... 5to Commit
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         private void toolStripMenuItem2_Click_2(object sender, EventArgs e)
         {
@@ -125,6 +134,7 @@ namespace BopiSoft
             String carrera;
             carrera = cmbCarrera.SelectedIndex.ToString();
 <<<<<<< HEAD
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_materias where Carrera="+carrera);
         }
 <<<<<<< HEAD
@@ -148,6 +158,8 @@ namespace BopiSoft
             
             if (form==1)
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             GRID1.DataSource = bd.SelectDataTable("select * from lista_materias where Carrera=" + carrera);
         }
 
@@ -158,7 +170,10 @@ namespace BopiSoft
             _28GruposEditra gruposEditra = new _28GruposEditra();
 
             if (form == 1)
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             {
                 DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
                 materiaContenido.txtClave.Text = llenarClave.Cells["IdMateria"].Value.ToString();
@@ -166,12 +181,17 @@ namespace BopiSoft
                 this.Hide();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             else if (form==2)
 =======
 
             else if (form == 2)
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+
+            else if (form == 2)
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             {
                 DataGridViewRow llenarNombreMateria = GRID1.Rows[e.RowIndex];
                 String nombreMateria = llenarNombreMateria.Cells["Nombre"].Value.ToString();
@@ -184,6 +204,7 @@ namespace BopiSoft
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
         }
 =======
@@ -192,5 +213,24 @@ namespace BopiSoft
        
        
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

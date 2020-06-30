@@ -20,6 +20,7 @@ namespace BopiSoft.Presentacion
         RegistroMateriaSql Registro = new RegistroMateriaSql();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -27,6 +28,9 @@ namespace BopiSoft.Presentacion
 =======
 
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         int s = 1;
 
         public _25MateriaContenido()
@@ -108,11 +112,14 @@ namespace BopiSoft.Presentacion
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> 6591c39... 5to Commit
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
@@ -126,6 +133,7 @@ namespace BopiSoft.Presentacion
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             lista.form = 1;
 
@@ -134,6 +142,10 @@ namespace BopiSoft.Presentacion
             lista.form = 1;
 
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            lista.form = 1;
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Hide();
             lista.Show();
             MessageBox.Show("Selecciona la materia para obtener la clave");
@@ -145,10 +157,17 @@ namespace BopiSoft.Presentacion
             {
                 try
                 {
+<<<<<<< HEAD
                     datos.IdMateria = Int32.Parse(txtClave.Text);
                     datos.Unidad =Convert.ToInt32(cmbUnidad.SelectedItem);
                     datos.TemaUnidad = txtTema.ToString();
                     datos.SubtemaUnidad = txtSubtema.ToString();
+=======
+                    datos.IdMateria = Convert.ToInt32(txtClave.Text);
+                    datos.Unidad =Convert.ToInt32(cmbUnidad.Text);
+                    datos.TemaUnidad = txtTema.Text;
+                    datos.SubtemaUnidad = txtSubtema.Text;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     puente.RegistroAñadirContenido(datos);
                     Limpiar();
 
@@ -183,11 +202,16 @@ namespace BopiSoft.Presentacion
         {
             txtClave.Text = "";
             txtTema.Text = "";
+<<<<<<< HEAD
             cmbUnidad.SelectedIndex = 0;
+=======
+            cmbUnidad.Text="";
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             txtSubtema.Text = "";
         }
 
         private void cmbUnidad_Click(object sender, EventArgs e)
+<<<<<<< HEAD
         {
             datos.IdMateria = Int32.Parse(txtClave.Text);
             puente.RegistroBuscar(datos);
@@ -201,11 +225,32 @@ namespace BopiSoft.Presentacion
                 s++;
             }
             
+=======
+        {//para que el comboBox jale el número de unidades que tiene dicha materia
+            if (!txtClave.Text.Equals(""))
+            {
+                datos.IdMateria = Int32.Parse(txtClave.Text);
+                puente.RegistroBuscar(datos);
+                if (s == 1)
+                {
+                     for (int i = 0; i < datos.Unidades; i++)
+                     {
+                         cmbUnidad.Items.Insert(i, i + 1);
+                    
+                     }
+                     s++;
+                }
+            }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         private void cmbUnidad_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             datos.IdMateria= Int32.Parse(txtClave.Text);
+=======
+            datos.IdMateria= Convert.ToInt32(txtClave.Text);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
 
             if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria,datos.Unidad))
@@ -225,11 +270,19 @@ namespace BopiSoft.Presentacion
                 {
                     try
                     {
+<<<<<<< HEAD
                         datos.IdMateria = Int32.Parse(txtClave.Text);
                         datos.Unidad = Convert.ToInt32(cmbUnidad.SelectedItem);
                         datos.TemaUnidad = txtTema.ToString();
                         datos.SubtemaUnidad = txtSubtema.ToString();
                         puente.RegistroModificar(datos);
+=======
+                        datos.IdMateria = Convert.ToInt32(txtClave.Text);
+                        datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
+                        datos.TemaUnidad = txtTema.Text;
+                        datos.SubtemaUnidad = txtSubtema.Text;
+                        puente.RegistroModificarContenido(datos);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                         Limpiar();
 
                     }
@@ -256,7 +309,11 @@ namespace BopiSoft.Presentacion
             {
                 try
                 {
+<<<<<<< HEAD
                     datos.IdMateria = Int32.Parse(txtClave.Text);
+=======
+                    datos.IdMateria = Convert.ToInt32(txtClave.Text);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
                     if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
                     {
@@ -280,7 +337,10 @@ namespace BopiSoft.Presentacion
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public static void SoloNumeros(KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -317,8 +377,26 @@ namespace BopiSoft.Presentacion
             }
         }
 
+<<<<<<< HEAD
        
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 
 }

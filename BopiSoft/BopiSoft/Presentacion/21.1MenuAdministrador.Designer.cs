@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_21));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -159,6 +160,8 @@
             this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.departamentoToolStripMenuItem.Text = "Departamento";
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.btnSalir = new System.Windows.Forms.Button();
             this.pbAdmin = new System.Windows.Forms.PictureBox();
             this.lbNombreAdmin = new System.Windows.Forms.Label();
@@ -350,7 +353,10 @@
             this.registroDepartamentoToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // 
             // _21
             // 
@@ -358,6 +364,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(153)))), ((int)(((byte)(222)))));
@@ -368,6 +375,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.lbAreaAdmin);
             this.Controls.Add(this.lbNombreAdmin);
@@ -381,13 +390,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAdmin)).EndInit();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -406,6 +419,8 @@
         private System.Windows.Forms.ToolStripMenuItem listaToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem departamentoToolStripMenuItem;
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.PictureBox pbAdmin;
         private System.Windows.Forms.Label lbNombreAdmin;
@@ -426,6 +441,9 @@
         private System.Windows.Forms.ToolStripMenuItem listaGrupoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

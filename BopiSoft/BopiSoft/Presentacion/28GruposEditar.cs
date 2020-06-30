@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
@@ -11,6 +12,11 @@ using BopiSoft.Presentacion;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +33,7 @@ namespace BopiSoft
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -39,6 +46,15 @@ namespace BopiSoft
 >>>>>>> 6591c39... 5to Commit
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        BDConexion bd = new BDConexion();
+        PuenteGrupo puente = new PuenteGrupo();
+        PuenteDepartamento puenteDpto = new PuenteDepartamento();
+        _27MateriaLista lista = new _27MateriaLista();
+        DatosGrupos datos = new DatosGrupos();
+        RegistroGruposSql registro = new RegistroGruposSql();
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public _28GruposEditra()
         {
             InitializeComponent();
@@ -115,6 +131,7 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         private void _28GruposEditra_Load(object sender, EventArgs e)
@@ -126,14 +143,23 @@ namespace BopiSoft
         {
 
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+
+        private void _28GruposEditra_Load(object sender, EventArgs e)
+        {
+            puenteDpto.LlenarComboBoxDeptos(comboBox1);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
             puente.LlenarCombo(cmbCarrera);
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void btnBuscarMateria_Click(object sender, EventArgs e)
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public void actualizarNombreMateria(String nombreMateria)
         {
@@ -146,7 +172,10 @@ namespace BopiSoft
         }
 
         private void btnBuscarMateria_Click_1(object sender, EventArgs e)
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         {
             lista.form = 2;
             this.Hide();
@@ -154,6 +183,7 @@ namespace BopiSoft
             MessageBox.Show("Selecciona la materia para obtener el nombre");
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         private void btnBuscarDocente_Click(object sender, EventArgs e)
 =======
@@ -179,6 +209,16 @@ namespace BopiSoft
         {
             SoloNumeros(e);
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        private void btnBuscarDocente_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Selecciona el docente en la tabla para obtener la clave");
+        }
+
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SoloNumeros(e);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         public static void SoloNumeros(KeyPressEventArgs e)
@@ -218,6 +258,7 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
         {
             SoloNumeros(e);
@@ -229,5 +270,208 @@ namespace BopiSoft
             SoloLetras(e);
         }
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            String depto;
+            depto = comboBox1.Text;
+            GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='" + depto + "'");
+        }
+
+        private void GRID1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
+            int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+            txtClaveDoc.Text = IdPersonal.ToString();
+        }
+        public Boolean VerificadoCorrecto()
+        {
+            Boolean v;
+            if (txtClave.Text.Equals("") || txtNombre.Text.Equals("") || cmbCarrera.Text.Equals("") || txtNombreMat.Text.Equals("") || txtClaveDoc.Text.Equals("") ||
+                cmbSemestre.Text.Equals("") || cmbTurno.Text.Equals(""))
+            {
+                v = false;
+            }
+            else
+            {
+                v = true;
+            }
+            return v;
+        }
+        public void Limpiar()
+        {
+            txtClave.Text = "";
+            txtNombre.Text = "";
+            cmbCarrera.Text = "";
+            txtNombreMat.Text = "";
+            txtClaveDoc.Text = "";
+            cmbSemestre.Text = "";
+            cmbTurno.Text = "";
+        }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            if (VerificadoCorrecto())
+            {
+                try
+                {
+                    datos.IdGrupo = Convert.ToInt32(txtClave.Text);
+                    if (!registro.ExisteRegistro(datos.IdGrupo))
+                    {
+                        MessageBox.Show("Ya existe un grupo con esa clave");
+                    }
+                    else
+                    {
+                        datos.Nombre = txtNombre.Text;
+                        datos.NombreCarrera = cmbCarrera.Text;
+                        datos.NombreMateria = txtNombreMat.Text;
+                        datos.IdPersonal = Convert.ToInt32(txtClaveDoc.Text);
+                        datos.Semestre = Convert.ToInt32(cmbSemestre.Text);
+                        datos.Turno = cmbTurno.Text;
+                        puente.AñadirGrupo(datos);
+                        Limpiar();
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+        }
+
+        private void btnModi_Click(object sender, EventArgs e)
+        {
+            if (VerificadoCorrecto())
+            {
+                try
+                {
+                    datos.IdGrupo = Convert.ToInt32(txtClave.Text);
+                    if (!registro.ExisteRegistro(datos.IdGrupo))
+                    {
+                        datos.Nombre = txtNombre.Text;
+                        datos.NombreCarrera = cmbCarrera.Text;
+                        datos.NombreMateria = txtNombreMat.Text;
+                        datos.IdPersonal = Convert.ToInt32(txtClaveDoc.Text);
+                        datos.Semestre = Convert.ToInt32(cmbSemestre.Text);
+                        datos.Turno = cmbTurno.Text;
+                        puente.ModificarGrupo(datos);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe un grupo con esa clave");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+        }
+
+        private void btnBuscarClave_Click(object sender, EventArgs e)
+        {
+            if (txtClave.Text != "")
+            {
+                try
+                {
+                    datos.IdGrupo = Int32.Parse(txtClave.Text);
+                    if (!registro.ExisteRegistro(datos.IdGrupo))
+                    {
+                        puente.GrupoBuscar(datos);
+
+                        txtNombre.Text = datos.Nombre;
+                        cmbCarrera.Text = datos.NombreCarrera;
+                        txtNombreMat.Text = datos.NombreMateria;
+                        txtClaveDoc.Text = datos.IdPersonal.ToString();
+                        cmbSemestre.Text = datos.Semestre.ToString();
+                        cmbTurno.Text = datos.Turno.ToString();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe un grupo con esa clave");
+                    }
+
+
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (txtClave.Text != "")
+            {
+                try
+                {
+                    datos.IdGrupo = Int32.Parse(txtClave.Text);
+                    if (!registro.ExisteRegistro(datos.IdGrupo))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar el grupo con la clave " + datos.IdGrupo + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+                        if (n == DialogResult.Yes)
+                        {
+                            puente.GrupoEliminar(datos);
+                            Limpiar();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No existe grupo con esa clave");
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("" + ex.ToString());
+                }
+            }
+        }
+
+        private void txtNombre_Click(object sender, EventArgs e)
+        {
+            if(txtClave.Text != "")
+            {
+                datos.IdGrupo = Convert.ToInt32(txtClave.Text);
+                if (!registro.ExisteRegistro(datos.IdGrupo))
+                {
+                    MessageBox.Show("Ya existe un registro con esa clave");
+                }
+
+            }
+           
+        }
+
+        private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

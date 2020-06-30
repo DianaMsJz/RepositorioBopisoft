@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -19,17 +22,23 @@ using BopiSoft.Presentacion;
 using System.Drawing.Imaging;
 using System.IO;
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
 namespace BopiSoft
 {
     public partial class _21 : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public _21()
         {
             InitializeComponent();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         string nombreAdmin;
         string paternoAdmin;
@@ -44,7 +53,10 @@ namespace BopiSoft
             this.maternoAdmin = maternoAdmin;
             this.areaAdmin = areaAdmin;
             this.fotoAdmin = fotoAdmin;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         private void listaDocenteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -63,9 +75,12 @@ namespace BopiSoft
             RegistroListaPersonal.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
     }
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         private void carreraToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -186,5 +201,8 @@ namespace BopiSoft
     }
 
 }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 

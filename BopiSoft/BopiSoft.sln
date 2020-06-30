@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopiSoft", "BopiSoft\BopiSoft.csproj", "{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}"
 EndProject
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -18,7 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaCarrera", "Prueba2\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaDepaVacio", "PruebaDepaVacio\PruebaDepaVacio.csproj", "{457DC96E-30DE-45AA-BA48-4A71A93BCF2A}"
 EndProject
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,7 +54,10 @@ Global
 		{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}.Release|x86.ActiveCfg = Release|Any CPU
 		{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}.Release|x86.Build.0 = Release|Any CPU
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 		{4307AB6E-7665-4417-B621-8455D1659A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4307AB6E-7665-4417-B621-8455D1659A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4307AB6E-7665-4417-B621-8455D1659A81}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -97,7 +106,10 @@ Global
 		{457DC96E-30DE-45AA-BA48-4A71A93BCF2A}.Release|x64.Build.0 = Release|Any CPU
 		{457DC96E-30DE-45AA-BA48-4A71A93BCF2A}.Release|x86.ActiveCfg = Release|Any CPU
 		{457DC96E-30DE-45AA-BA48-4A71A93BCF2A}.Release|x86.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

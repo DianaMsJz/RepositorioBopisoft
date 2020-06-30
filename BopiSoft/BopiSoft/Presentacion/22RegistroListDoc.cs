@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
@@ -10,6 +11,11 @@ using BopiSoft.Presentacion;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +33,7 @@ namespace BopiSoft
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         DatosGrupos datos = new DatosGrupos();
 >>>>>>> 6591c39... 5to Commit
@@ -34,6 +41,10 @@ namespace BopiSoft
         DatosGrupos datos = new DatosGrupos();
         PuenteDepartamento puente = new PuenteDepartamento();
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        DatosGrupos datos = new DatosGrupos();
+        PuenteDepartamento puente = new PuenteDepartamento();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public _22RegistroListDoc()
         {
@@ -45,13 +56,19 @@ namespace BopiSoft
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente'");
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             puente.LlenarComboBoxDeptos(comboBox1);
             String depto;
             depto = comboBox1.Text;
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='"+depto+"'");
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -125,9 +142,12 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -139,10 +159,14 @@ namespace BopiSoft
             _28GruposEditra grupos = new _28GruposEditra();
             DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
 <<<<<<< HEAD
+<<<<<<< HEAD
             int IdPersonal= Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 =======
             int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             datos.IdPersonal = IdPersonal;
             MessageBox.Show(datos.IdPersonal.ToString());
             grupos.actualizarClaveDocente(datos.IdPersonal);
@@ -150,8 +174,11 @@ namespace BopiSoft
             this.Hide();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -159,6 +186,25 @@ namespace BopiSoft
             depto = comboBox1.Text;
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='" + depto + "'");
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

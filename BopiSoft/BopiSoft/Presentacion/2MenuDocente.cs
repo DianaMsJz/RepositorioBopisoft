@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -22,6 +25,7 @@ using BopiSoft.Presentacion;
 
 using System.IO;
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 
 namespace BopiSoft
@@ -36,15 +40,45 @@ namespace BopiSoft
 
        
 =======
+=======
+
+namespace BopiSoft
+{
+    public partial class _2MenuDocente : Form
+    {
+        BDConexion bd = new BDConexion();
+        PuenteGrupo puente = new PuenteGrupo();
+        PuenteDepartamento puenteDpto = new PuenteDepartamento();
+
+        _27MateriaLista lista = new _27MateriaLista();
+
+
+
+        DatosGrupos datos = new DatosGrupos();
+        RegistroGruposSql registro = new RegistroGruposSql();
+
+        string IDGrupo;
+        string NombreMateria;
+        string NombreGrupo;
+
+        string IDdoc;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         string nombredoc;
         string paternodoc;
         string maternodoc;
         string areadoc;
         byte[] fotodoc;
 
+<<<<<<< HEAD
         public MenuDocente(string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
         {
             InitializeComponent();
+=======
+        public _2MenuDocente(string IDdoc, string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
+        {
+            InitializeComponent();
+            this.IDdoc = IDdoc;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.nombredoc = nombredoc;
             this.paternodoc = paternodoc;
             this.maternodoc = maternodoc;
@@ -52,10 +86,14 @@ namespace BopiSoft
             this.fotodoc = fotodoc;
         }
 
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
         PuentePersonal PuentePersonal = new PuentePersonal();
         DatosPersonal datos = new DatosPersonal();
         RegistroPersonalSql registroPersonal = new RegistroPersonalSql();
+=======
+     
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -82,6 +120,11 @@ namespace BopiSoft
             pbFotoDoc.Image = byteArrayToImage(this.fotodoc);
             lbNombre.Text = nombredoc + " " + paternodoc + " " + maternodoc;
             lbArea.Text = areadoc;
+<<<<<<< HEAD
+=======
+            tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         public Image byteArrayToImage(byte[] byteArrayIn)
@@ -91,6 +134,26 @@ namespace BopiSoft
             return returnImage;
         }
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        private void tablaGruposDOC_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow llenarIDGrupo = tablaGruposDOC.Rows[e.RowIndex];
+            IDGrupo = Convert.ToString(llenarIDGrupo.Cells["IdGrupo"].Value);
+           
+
+            DataGridViewRow llenarNombreGrupo = tablaGruposDOC.Rows[e.RowIndex];
+            NombreGrupo = Convert.ToString(llenarNombreGrupo.Cells["Nombre"].Value);
+         
+
+            DataGridViewRow llenarNombreMateria = tablaGruposDOC.Rows[e.RowIndex];
+            NombreMateria = Convert.ToString(llenarNombreMateria.Cells["NombreMateria"].Value);
+            
+            ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo,NombreMateria,Convert.ToInt32(IDdoc));
+            this.Hide();
+            AlumnosLista.Show(); 
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }
