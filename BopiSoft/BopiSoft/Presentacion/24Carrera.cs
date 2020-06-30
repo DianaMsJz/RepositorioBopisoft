@@ -19,13 +19,19 @@ namespace BopiSoft
         PuenteCarrera puente = new PuenteCarrera();
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         RegistroCarrerasSql registro = new RegistroCarrerasSql();
 
         string ID;
         string Nombre;
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public _24Carrera()
         {
@@ -35,13 +41,19 @@ namespace BopiSoft
         private void btnAñadir_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (txtClave.Text != "" && txtNombre.Text != "")
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
             ID = txtClave.Text;
             Nombre = txtNombre.Text;
             if (validarCarreraVacia(ID, Nombre))
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             {
                 try
                 {
@@ -58,6 +70,7 @@ namespace BopiSoft
                     MessageBox.Show("" + ex);
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             }
             else
@@ -65,6 +78,10 @@ namespace BopiSoft
             }
           else
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            }
+          else
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             {
                 MessageBox.Show("ERROR LLENE TODOS LOS CAMPOS");
             }
@@ -90,6 +107,7 @@ namespace BopiSoft
                 {
                     datos.IdCarrera = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
 
 
@@ -97,6 +115,8 @@ namespace BopiSoft
                     Limpiar();
                     actualizarGrid();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     if (!registro.ExisteCarrera(datos.IdCarrera))
                     {
                         datos.Nombre = txtNombre.Text;
@@ -108,7 +128,10 @@ namespace BopiSoft
                     {
                         MessageBox.Show("No existe carrera con esa ID");
                     }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                 }
                 catch (Exception ex)
                 {
@@ -132,11 +155,14 @@ namespace BopiSoft
                 {
                     datos.IdCarrera = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
                     actualizarGrid();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     if (!registro.ExisteCarrera(datos.IdCarrera))
                     {
                         var n = MessageBox.Show("¿Está seguro que desea eliminar la carrera con la ID " + datos.IdCarrera + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
@@ -152,7 +178,10 @@ namespace BopiSoft
                         MessageBox.Show("No existe carrera con esa ID" );
                     }
  
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                 }
                 catch (Exception ex)
                 {
@@ -315,7 +344,10 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
 
         public bool validarCarreraVacia(string id, string nombre)
@@ -337,7 +369,26 @@ namespace BopiSoft
         {
 
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }
 

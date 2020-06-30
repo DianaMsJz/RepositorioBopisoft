@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -18,17 +21,23 @@ using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 using System.Drawing.Imaging;
 using System.IO;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
 namespace BopiSoft
 {
     public partial class MenuJefe : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public MenuJefe()
         {
             InitializeComponent();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         string nombreJefe;
         string paternoJefe;
         string maternoJefe;
@@ -43,14 +52,20 @@ namespace BopiSoft
             this.maternoJefe = maternoJefe;
             this.areaJefe = areaJefe;
             this.fotoJefe = fotoJefe;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
 
         private void MenuJefe_Load(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
 
@@ -80,7 +95,10 @@ namespace BopiSoft
 
 
             }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         }
     }
 }

@@ -67,7 +67,10 @@ namespace BopiSoft.Datos
             bd.closeconnection();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public bool ExisteCarrera(int ID)
         {
             bd.connecttodb();
@@ -79,6 +82,9 @@ namespace BopiSoft.Datos
 
             return count == 0;
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

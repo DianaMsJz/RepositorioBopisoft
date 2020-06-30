@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
+=======
+﻿using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +18,12 @@ namespace BopiSoft
 {
     public partial class _29GruposLista : Form
     {
+<<<<<<< HEAD
+=======
+        BDConexion bd = new BDConexion();
+        PuenteMaterias puenteMat = new PuenteMaterias();
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public _29GruposLista()
         {
             InitializeComponent();
@@ -89,6 +100,47 @@ namespace BopiSoft
             _30Departamento departamento = new _30Departamento();
             departamento.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            if(cmbCarrera.Text != ""  && cmbSemestre.Text != "" && cmbTurno.Text != "")
+            {
+                String carrera = cmbCarrera.Text;
+                String semestre = cmbSemestre.Text;
+                String turno = cmbTurno.Text;
+                GRID1.DataSource = bd.SelectDataTable("select * from lista_grupos where NombreCarrera='"+carrera+"' and Semestre='" + semestre + "' and Turno='"+ turno + "'");
+            }
+            else
+            {
+                MessageBox.Show("Seleccione la carrera, semestre y turno");
+            }
+        }
+
+        private void _29GruposLista_Load(object sender, EventArgs e)
+        {
+            this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
+            this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+            puenteMat.LlenarCombo(cmbCarrera);
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure to log out?", "Warning",
+          MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+                Form1 Login = new Form1();
+                Login.Show();
+            }
+            else
+            {
+
+
+            }
+        }
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 
 

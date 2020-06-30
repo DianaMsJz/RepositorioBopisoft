@@ -1,6 +1,10 @@
 ﻿namespace BopiSoft
 {
+<<<<<<< HEAD
     partial class MenuDocente
+=======
+    partial class _2MenuDocente
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +32,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuDocente));
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_2MenuDocente));
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.lbImagen = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.lbArea = new System.Windows.Forms.Label();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbPeriodo = new System.Windows.Forms.Label();
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.btnNotif = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -63,6 +75,14 @@
             this.pbFotoDoc = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).BeginInit();
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.btnReporteF = new System.Windows.Forms.Button();
+            this.btnProyectoI = new System.Windows.Forms.Button();
+            this.pbFotoDoc = new System.Windows.Forms.PictureBox();
+            this.tablaGruposDOC = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaGruposDOC)).BeginInit();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.SuspendLayout();
             // 
             // lbImagen
@@ -107,6 +127,7 @@
             this.lbArea.Text = "Área a la que pertenece";
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // lbPeriodo
             // 
             this.lbPeriodo.AutoSize = true;
@@ -120,6 +141,8 @@
             // 
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // btnNotif
             // 
             this.btnNotif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -150,9 +173,13 @@
             this.btnSalir.TabIndex = 9;
             this.btnSalir.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // 
             // label1
             // 
@@ -173,6 +200,7 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "GRUPOS ASIGNADOS";
             // 
+<<<<<<< HEAD
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
@@ -329,6 +357,8 @@
             this.label18.TabIndex = 25;
             this.label18.Text = "Materia";
             // 
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // btnReporteF
             // 
             this.btnReporteF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(204)))));
@@ -337,7 +367,11 @@
             this.btnReporteF.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnReporteF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporteF.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnReporteF.Location = new System.Drawing.Point(250, 434);
+=======
+            this.btnReporteF.Location = new System.Drawing.Point(250, 465);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.btnReporteF.Name = "btnReporteF";
             this.btnReporteF.Size = new System.Drawing.Size(113, 59);
             this.btnReporteF.TabIndex = 28;
@@ -353,7 +387,11 @@
             this.btnProyectoI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProyectoI.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProyectoI.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnProyectoI.Location = new System.Drawing.Point(470, 434);
+=======
+            this.btnProyectoI.Location = new System.Drawing.Point(472, 465);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.btnProyectoI.Name = "btnProyectoI";
             this.btnProyectoI.Size = new System.Drawing.Size(109, 59);
             this.btnProyectoI.TabIndex = 29;
@@ -361,7 +399,10 @@
             this.btnProyectoI.UseVisualStyleBackColor = false;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // pbFotoDoc
             // 
             this.pbFotoDoc.Location = new System.Drawing.Point(5, 9);
@@ -371,12 +412,26 @@
             this.pbFotoDoc.TabIndex = 30;
             this.pbFotoDoc.TabStop = false;
             // 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            // tablaGruposDOC
+            // 
+            this.tablaGruposDOC.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tablaGruposDOC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaGruposDOC.Location = new System.Drawing.Point(15, 214);
+            this.tablaGruposDOC.Name = "tablaGruposDOC";
+            this.tablaGruposDOC.Size = new System.Drawing.Size(784, 231);
+            this.tablaGruposDOC.TabIndex = 31;
+            this.tablaGruposDOC.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaGruposDOC_CellClick);
+            // 
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // MenuDocente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(811, 505);
 <<<<<<< HEAD
 =======
@@ -399,14 +454,24 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+=======
+            this.ClientSize = new System.Drawing.Size(811, 549);
+            this.Controls.Add(this.tablaGruposDOC);
+            this.Controls.Add(this.pbFotoDoc);
+            this.Controls.Add(this.btnProyectoI);
+            this.Controls.Add(this.btnReporteF);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNotif);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.lbPeriodo);
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.lbArea);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.label2);
@@ -415,10 +480,16 @@
             this.Name = "MenuDocente";
             this.Text = "Menu Docente";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.Load += new System.EventHandler(this.MenuDocente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).EndInit();
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.Load += new System.EventHandler(this.MenuDocente_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaGruposDOC)).EndInit();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -431,13 +502,17 @@
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Label lbArea;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbPeriodo;
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         private System.Windows.Forms.Button btnNotif;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -459,5 +534,11 @@
 =======
         private System.Windows.Forms.PictureBox pbFotoDoc;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+        private System.Windows.Forms.Button btnReporteF;
+        private System.Windows.Forms.Button btnProyectoI;
+        private System.Windows.Forms.PictureBox pbFotoDoc;
+        private System.Windows.Forms.DataGridView tablaGruposDOC;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

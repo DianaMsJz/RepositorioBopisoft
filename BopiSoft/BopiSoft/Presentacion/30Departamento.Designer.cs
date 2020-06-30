@@ -165,6 +165,7 @@
             this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.GRID1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.GRID1.Location = new System.Drawing.Point(200, 135);
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(331, 150);
@@ -173,6 +174,11 @@
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(410, 150);
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.GRID1.Location = new System.Drawing.Point(176, 135);
+            this.GRID1.Name = "GRID1";
+            this.GRID1.Size = new System.Drawing.Size(410, 150);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.GRID1.TabIndex = 159;
             // 
             // menuStrip2

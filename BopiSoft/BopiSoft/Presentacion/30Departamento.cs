@@ -19,12 +19,18 @@ namespace BopiSoft
         PuenteDepartamento puente = new PuenteDepartamento();
         DatosDepartamentos datos = new DatosDepartamentos();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         RegistroDepartamentoSql registro = new RegistroDepartamentoSql();
 
         string ID;
         string Nombre;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
         public _30Departamento()
         {
@@ -41,15 +47,21 @@ namespace BopiSoft
         private void btnAñadir_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (txtClave.Text!="" && txtNombre.Text!="")
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
             ID = txtClave.Text;
             Nombre = txtNombre.Text;
 
 
             if (validarDepaVacio(ID,Nombre))
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             {
                 try
                 {
@@ -87,6 +99,7 @@ namespace BopiSoft
                 {
                     datos.IdDpto = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
                    
 
@@ -94,6 +107,8 @@ namespace BopiSoft
                     Limpiar();
                     actualizarGrid();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     if (!registro.ExisteDepto(datos.IdDpto))
                     {
                         datos.Nombre = txtNombre.Text;
@@ -105,7 +120,10 @@ namespace BopiSoft
                     {
                         MessageBox.Show("No existe departamento con esa ID" );
                     }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                 }
                 catch (Exception ex)
                 {
@@ -129,11 +147,14 @@ namespace BopiSoft
                 {
                     datos.IdDpto = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
                     actualizarGrid();
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                     if (!registro.ExisteDepto(datos.IdDpto))
                     {
                         var n = MessageBox.Show("¿Está seguro que desea eliminar el departamento con la ID " + datos.IdDpto + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
@@ -148,7 +169,10 @@ namespace BopiSoft
                     {
                         MessageBox.Show("No existe departamento con esa ID");
                     }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
                 }
                 catch (Exception ex)
                 {
@@ -328,7 +352,10 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
 
         public bool validarDepaVacio(string id, string nombre)
@@ -349,6 +376,9 @@ namespace BopiSoft
             return v;
         }
 
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

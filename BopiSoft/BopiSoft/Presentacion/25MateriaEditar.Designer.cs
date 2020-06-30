@@ -63,6 +63,10 @@
             this.listaGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,6 +79,10 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(335, 26);
             this.txtNombre.TabIndex = 110;
+<<<<<<< HEAD
+=======
+            this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtClave
@@ -224,9 +232,13 @@
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Location = new System.Drawing.Point(544, 108);
             this.cmbCarrera.Name = "cmbCarrera";
@@ -284,7 +296,12 @@
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
             this.toolStripMenuItem1});
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(827, 24);
@@ -402,6 +419,16 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // _25MateriaEditar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -474,5 +501,9 @@
         private System.Windows.Forms.ToolStripMenuItem listaGrupoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

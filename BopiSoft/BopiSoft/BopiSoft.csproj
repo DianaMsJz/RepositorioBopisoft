@@ -6,10 +6,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}</ProjectGuid>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <OutputType>WinExe</OutputType>
 =======
     <OutputType>Exe</OutputType>
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+    <OutputType>Exe</OutputType>
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     <RootNamespace>BopiSoft</RootNamespace>
     <AssemblyName>BopiSoft</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -63,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
 <<<<<<< HEAD
@@ -73,10 +78,17 @@
 =======
     <Compile Include="Datos\DatosGrupos.cs" />
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+    <Compile Include="Datos\DatosAlumnosGrupos.cs" />
+    <Compile Include="Datos\DatosCarreras.cs" />
+    <Compile Include="Datos\DatosDepartamentos.cs" />
+    <Compile Include="Datos\DatosGrupos.cs" />
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     <Compile Include="Datos\DatosMaterias.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
     <Compile Include="Datos\RegistroCarrerasSql.cs" />
     <Compile Include="Datos\RegistroDepartamentoSql.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -97,6 +109,16 @@
 =======
     <Compile Include="Negocios\PuenteGrupo.cs" />
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+    <Compile Include="Datos\RegistroGruposSql.cs" />
+    <Compile Include="Datos\RegistroListaAlumnosSql.cs" />
+    <Compile Include="Datos\RegistroMateriaSql.cs" />
+    <Compile Include="Datos\RegistroPersonalSql.cs" />
+    <Compile Include="Negocios\PuenteAlumnos.cs" />
+    <Compile Include="Negocios\PuenteCarrera.cs" />
+    <Compile Include="Negocios\PuenteDepartamento.cs" />
+    <Compile Include="Negocios\PuenteGrupo.cs" />
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     <Compile Include="Negocios\PuenteMaterias.cs" />
     <Compile Include="Negocios\PuentePersonal.cs" />
     <Compile Include="Presentacion\13.1MenuJefe.cs">

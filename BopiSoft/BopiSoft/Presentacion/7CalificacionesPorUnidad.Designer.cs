@@ -68,6 +68,10 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.label22 = new System.Windows.Forms.Label();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.SuspendLayout();
             // 
             // cmbUnidad
@@ -476,12 +480,30 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
+=======
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.label22.Location = new System.Drawing.Point(323, 320);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(107, 21);
+            this.label22.TabIndex = 96;
+            this.label22.Text = "Ponderación";
+            // 
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // CalificacionesPorUnidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.label22);
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -569,5 +591,9 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button btnGuardar;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label22;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }

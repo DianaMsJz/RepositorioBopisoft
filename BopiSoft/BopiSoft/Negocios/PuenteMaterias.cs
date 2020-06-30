@@ -27,6 +27,14 @@ namespace BopiSoft.Negocios
             registro.RegistroModificar(datos);
         }
 
+<<<<<<< HEAD
+=======
+        public void RegistroModificarContenido(DatosMaterias datos)
+        {
+            registro.RegistroModificarContenido(datos);
+        }
+
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public void RegistroEliminar(DatosMaterias datos)
         {
             registro.RegistroEliminar(datos);
@@ -52,12 +60,18 @@ namespace BopiSoft.Negocios
             registro.RegistroBuscarContenido(datos);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
         public void ExisteMateria(int ID)
         {
             registro.ExisteMateria(ID);
         }
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
 
     }
 }

@@ -48,6 +48,10 @@
             this.listaGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -56,12 +60,15 @@
             // 
             this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(146, 61);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
 =======
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(146, 61);
@@ -69,7 +76,10 @@
             this.comboBox1.Size = new System.Drawing.Size(319, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // 
             // lbTipo
             // 
@@ -84,6 +94,7 @@
             // 
             // GRID1
             // 
+<<<<<<< HEAD
             this.GRID1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 <<<<<<< HEAD
             this.GRID1.Location = new System.Drawing.Point(63, 140);
@@ -96,16 +107,28 @@
             this.GRID1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRID1_CellContentClick);
 >>>>>>> 6591c39... 5to Commit
 =======
+=======
+            this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.GRID1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.GRID1.Location = new System.Drawing.Point(12, 140);
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(776, 219);
             this.GRID1.TabIndex = 4;
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
+=======
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // 
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
             this.toolStripMenuItem1});
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
@@ -223,6 +246,16 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+=======
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
             // _22RegistroListDoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,5 +299,9 @@
         private System.Windows.Forms.ToolStripMenuItem listaGrupoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 48fe993... Commit 7: Registrar alumnos
     }
 }
