@@ -34,6 +34,7 @@
             this.NomBopi = new System.Windows.Forms.Label();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
 =======
@@ -44,6 +45,10 @@
             this.txtID = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -80,6 +85,7 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(281, 279);
@@ -97,6 +103,8 @@
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // txtID
             // 
             this.txtID.Location = new System.Drawing.Point(281, 279);
@@ -113,9 +121,12 @@
             this.txtPassword.TabIndex = 4;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtContra_TextChanged);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnLogin
             // 
@@ -140,6 +151,7 @@
             this.label1.Name = "label1";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "EMAIL";
@@ -153,6 +165,11 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "ID";
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ID";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -175,6 +192,7 @@
             this.Controls.Add(this.btnLogin);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtEmail);
 =======
@@ -185,6 +203,10 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtID);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtID);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.NomBopi);
             this.Controls.Add(this.ImgenUser);
             this.Controls.Add(this.Inicio);
@@ -204,6 +226,7 @@
         private System.Windows.Forms.Label NomBopi;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtContra;
 =======
@@ -214,6 +237,10 @@
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtPassword;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtPassword;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

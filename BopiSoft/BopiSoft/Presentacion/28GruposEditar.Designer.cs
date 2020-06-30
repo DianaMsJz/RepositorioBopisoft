@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtClaveD = new System.Windows.Forms.TextBox();
             this.btnBuscarCD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -57,6 +58,10 @@
             this.txtClaveDoc = new System.Windows.Forms.TextBox();
             this.txtNombreMat = new System.Windows.Forms.TextBox();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtClaveDoc = new System.Windows.Forms.TextBox();
+            this.txtNombreMat = new System.Windows.Forms.TextBox();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbSemestre = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmbTurno = new System.Windows.Forms.ComboBox();
@@ -83,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnBuscarMateria = new System.Windows.Forms.Button();
             this.btnBuscarDocente = new System.Windows.Forms.Button();
@@ -93,22 +99,33 @@
 >>>>>>> 01c80df... 6to Commit: Login creado
             this.menuStrip2.SuspendLayout();
 =======
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnBuscarMateria = new System.Windows.Forms.Button();
             this.btnBuscarDocente = new System.Windows.Forms.Button();
             this.lbTipo = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.GRID1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).BeginInit();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtIdMateria = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.menuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GRID1)).BeginInit();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.SuspendLayout();
             // 
             // txtNombre
             // 
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.txtNombre.Location = new System.Drawing.Point(104, 122);
 <<<<<<< HEAD
@@ -131,6 +148,8 @@
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNombre.Location = new System.Drawing.Point(104, 159);
             this.txtNombre.MaxLength = 2;
             this.txtNombre.Multiline = true;
@@ -138,21 +157,29 @@
             this.txtNombre.Size = new System.Drawing.Size(335, 26);
             this.txtNombre.TabIndex = 110;
             this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // txtClave
             // 
             this.txtClave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtClave.Location = new System.Drawing.Point(104, 72);
 =======
             this.txtClave.Location = new System.Drawing.Point(104, 112);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtClave.Location = new System.Drawing.Point(104, 112);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtClave.Multiline = true;
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(95, 26);
             this.txtClave.TabIndex = 109;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,23 +192,34 @@
 =======
             this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnBuscarClave
             // 
             this.btnBuscarClave.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarClave.Image")));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnBuscarClave.Location = new System.Drawing.Point(205, 62);
 =======
             this.btnBuscarClave.Location = new System.Drawing.Point(205, 99);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnBuscarClave.Location = new System.Drawing.Point(205, 99);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnBuscarClave.Name = "btnBuscarClave";
             this.btnBuscarClave.Size = new System.Drawing.Size(36, 38);
             this.btnBuscarClave.TabIndex = 108;
             this.btnBuscarClave.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnBuscarClave.Click += new System.EventHandler(this.btnBuscarClave_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnBuscarClave.Click += new System.EventHandler(this.btnBuscarClave_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // lbNombre
             // 
@@ -189,10 +227,14 @@
             this.lbNombre.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbNombre.Location = new System.Drawing.Point(27, 125);
 =======
             this.lbNombre.Location = new System.Drawing.Point(17, 165);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.lbNombre.Location = new System.Drawing.Point(17, 165);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.lbNombre.Name = "lbNombre";
             this.lbNombre.Size = new System.Drawing.Size(67, 20);
             this.lbNombre.TabIndex = 107;
@@ -204,10 +246,14 @@
             this.lbClave.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbClave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbClave.Location = new System.Drawing.Point(31, 73);
 =======
             this.lbClave.Location = new System.Drawing.Point(17, 118);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.lbClave.Location = new System.Drawing.Point(17, 118);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.lbClave.Name = "lbClave";
             this.lbClave.Size = new System.Drawing.Size(46, 20);
             this.lbClave.TabIndex = 106;
@@ -216,6 +262,7 @@
             // cmbCarrera
             // 
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +287,11 @@
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Location = new System.Drawing.Point(104, 209);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCarrera.FormattingEnabled = true;
+            this.cmbCarrera.Location = new System.Drawing.Point(104, 209);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbCarrera.Name = "cmbCarrera";
             this.cmbCarrera.Size = new System.Drawing.Size(335, 21);
             this.cmbCarrera.TabIndex = 133;
@@ -250,15 +302,20 @@
             this.label1.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(31, 167);
 =======
             this.label1.Location = new System.Drawing.Point(17, 209);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.label1.Location = new System.Drawing.Point(17, 209);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 20);
             this.label1.TabIndex = 132;
             this.label1.Text = "Carrera";
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,11 +383,14 @@
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // txtClaveDoc
             // 
             this.txtClaveDoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtClaveDoc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtClaveDoc.Enabled = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.txtClaveDoc.Location = new System.Drawing.Point(174, 262);
@@ -341,14 +401,20 @@
 =======
             this.txtClaveDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtClaveDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtClaveDoc.Location = new System.Drawing.Point(153, 253);
             this.txtClaveDoc.Multiline = true;
             this.txtClaveDoc.Name = "txtClaveDoc";
             this.txtClaveDoc.Size = new System.Drawing.Size(286, 26);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtClaveDoc.TabIndex = 136;
             // 
             // txtNombreMat
@@ -356,6 +422,7 @@
             this.txtNombreMat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtNombreMat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreMat.Enabled = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.txtNombreMat.Location = new System.Drawing.Point(174, 206);
@@ -370,18 +437,26 @@
             this.txtNombreMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreMat.Location = new System.Drawing.Point(164, 56);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNombreMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreMat.Location = new System.Drawing.Point(164, 56);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNombreMat.Multiline = true;
             this.txtNombreMat.Name = "txtNombreMat";
             this.txtNombreMat.Size = new System.Drawing.Size(286, 26);
             this.txtNombreMat.TabIndex = 139;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // cmbSemestre
             // 
             this.cmbSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +469,9 @@
 =======
             this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbSemestre.FormattingEnabled = true;
             this.cmbSemestre.Items.AddRange(new object[] {
             "1",
@@ -407,14 +485,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             "9",
             "10",
             "11",
             "12"});
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -425,6 +507,9 @@
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
             this.cmbSemestre.Location = new System.Drawing.Point(560, 72);
+=======
+            this.cmbSemestre.Location = new System.Drawing.Point(560, 129);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbSemestre.Name = "cmbSemestre";
             this.cmbSemestre.Size = new System.Drawing.Size(146, 21);
             this.cmbSemestre.TabIndex = 141;
@@ -434,7 +519,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(480, 73);
+=======
+            this.label4.Location = new System.Drawing.Point(480, 129);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 20);
             this.label4.TabIndex = 140;
@@ -446,6 +535,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 6591c39... 5to Commit
@@ -455,11 +545,18 @@
 =======
             this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbTurno.FormattingEnabled = true;
             this.cmbTurno.Items.AddRange(new object[] {
             "Matutino",
             "Vespertino"});
+<<<<<<< HEAD
             this.cmbTurno.Location = new System.Drawing.Point(560, 127);
+=======
+            this.cmbTurno.Location = new System.Drawing.Point(560, 156);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbTurno.Name = "cmbTurno";
             this.cmbTurno.Size = new System.Drawing.Size(146, 21);
             this.cmbTurno.TabIndex = 143;
@@ -469,7 +566,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(480, 128);
+=======
+            this.label5.Location = new System.Drawing.Point(480, 156);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 142;
@@ -486,6 +587,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(425, 329);
 =======
             this.btnEliminar.Location = new System.Drawing.Point(683, 350);
@@ -496,15 +598,22 @@
 =======
             this.btnEliminar.Location = new System.Drawing.Point(671, 295);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnEliminar.Location = new System.Drawing.Point(671, 295);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(117, 40);
             this.btnEliminar.TabIndex = 155;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnModi
             // 
@@ -514,6 +623,7 @@
             this.btnModi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModi.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnModi.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,15 +637,22 @@
 =======
             this.btnModi.Location = new System.Drawing.Point(671, 244);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnModi.Location = new System.Drawing.Point(671, 244);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnModi.Name = "btnModi";
             this.btnModi.Size = new System.Drawing.Size(117, 40);
             this.btnModi.TabIndex = 154;
             this.btnModi.Text = "Modificar";
             this.btnModi.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnAñadir
             // 
@@ -545,6 +662,7 @@
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAñadir.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAñadir.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,25 +676,37 @@
 =======
             this.btnAñadir.Location = new System.Drawing.Point(671, 190);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnAñadir.Location = new System.Drawing.Point(671, 190);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(117, 40);
             this.btnAñadir.TabIndex = 153;
             this.btnAñadir.Text = "Añadir";
             this.btnAñadir.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.toolStripMenuItem1});
 =======
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
@@ -697,6 +827,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             // btnBuscarMateria
             // 
@@ -732,6 +863,22 @@
             this.btnBuscarMateria.Size = new System.Drawing.Size(137, 23);
             this.btnBuscarMateria.TabIndex = 158;
             this.btnBuscarMateria.Text = "Buscar Nombre Materia";
+=======
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+            // btnBuscarMateria
+            // 
+            this.btnBuscarMateria.Location = new System.Drawing.Point(7, 59);
+            this.btnBuscarMateria.Name = "btnBuscarMateria";
+            this.btnBuscarMateria.Size = new System.Drawing.Size(137, 23);
+            this.btnBuscarMateria.TabIndex = 158;
+            this.btnBuscarMateria.Text = "Buscar Materia";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnBuscarMateria.UseVisualStyleBackColor = true;
             this.btnBuscarMateria.Click += new System.EventHandler(this.btnBuscarMateria_Click_1);
             // 
@@ -746,8 +893,11 @@
             this.btnBuscarDocente.Click += new System.EventHandler(this.btnBuscarDocente_Click_1);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // lbTipo
             // 
             this.lbTipo.AutoSize = true;
@@ -792,6 +942,7 @@
             this.label2.TabIndex = 163;
             this.label2.Text = "Tabla de Docentes";
             // 
+<<<<<<< HEAD
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
@@ -800,11 +951,37 @@
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            // txtIdMateria
+            // 
+            this.txtIdMateria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+            this.txtIdMateria.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIdMateria.Enabled = false;
+            this.txtIdMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdMateria.Location = new System.Drawing.Point(560, 56);
+            this.txtIdMateria.Multiline = true;
+            this.txtIdMateria.Name = "txtIdMateria";
+            this.txtIdMateria.Size = new System.Drawing.Size(143, 26);
+            this.txtIdMateria.TabIndex = 164;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Ebrima", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.label3.Location = new System.Drawing.Point(477, 59);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 20);
+            this.label3.TabIndex = 165;
+            this.label3.Text = "IdMateria";
+            // 
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // _28GruposEditra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 402);
 <<<<<<< HEAD
@@ -819,13 +996,21 @@
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
             this.ClientSize = new System.Drawing.Size(800, 671);
+=======
+            this.ClientSize = new System.Drawing.Size(800, 671);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtIdMateria);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.label2);
             this.Controls.Add(this.GRID1);
             this.Controls.Add(this.lbTipo);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnBuscarDocente);
             this.Controls.Add(this.btnBuscarMateria);
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModi);
@@ -834,6 +1019,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbSemestre);
             this.Controls.Add(this.label4);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,6 +1041,10 @@
             this.Controls.Add(this.txtNombreMat);
             this.Controls.Add(this.txtClaveDoc);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.Controls.Add(this.txtNombreMat);
+            this.Controls.Add(this.txtClaveDoc);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.cmbCarrera);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
@@ -864,6 +1054,7 @@
             this.Controls.Add(this.lbClave);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "_28GruposEditra";
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.Text = "Grupos Editar";
 <<<<<<< HEAD
@@ -877,12 +1068,17 @@
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Text = "z";
             this.Load += new System.EventHandler(this._28GruposEditra_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).EndInit();
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -897,6 +1093,7 @@
         private System.Windows.Forms.Label lbClave;
         private System.Windows.Forms.ComboBox cmbCarrera;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,6 +1113,10 @@
         private System.Windows.Forms.TextBox txtClaveDoc;
         private System.Windows.Forms.TextBox txtNombreMat;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.TextBox txtClaveDoc;
+        private System.Windows.Forms.TextBox txtNombreMat;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.ComboBox cmbSemestre;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbTurno;
@@ -942,6 +1143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.Button btnBuscarMateria;
         private System.Windows.Forms.Button btnBuscarDocente;
@@ -953,6 +1155,8 @@
         private System.Windows.Forms.Button btnBuscarDocente;
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.Button btnBuscarMateria;
         private System.Windows.Forms.Button btnBuscarDocente;
         private System.Windows.Forms.Label lbTipo;
@@ -960,6 +1164,11 @@
         private System.Windows.Forms.DataGridView GRID1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.TextBox txtIdMateria;
+        private System.Windows.Forms.Label label3;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

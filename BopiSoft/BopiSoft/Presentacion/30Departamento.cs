@@ -20,17 +20,23 @@ namespace BopiSoft
         DatosDepartamentos datos = new DatosDepartamentos();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         RegistroDepartamentoSql registro = new RegistroDepartamentoSql();
 
         string ID;
         string Nombre;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         public _30Departamento()
         {
@@ -48,10 +54,13 @@ namespace BopiSoft
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (txtClave.Text!="" && txtNombre.Text!="")
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
             ID = txtClave.Text;
             Nombre = txtNombre.Text;
@@ -59,9 +68,12 @@ namespace BopiSoft
 
             if (validarDepaVacio(ID,Nombre))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             {
                 try
                 {
@@ -100,6 +112,7 @@ namespace BopiSoft
                     datos.IdDpto = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
                    
 
@@ -109,6 +122,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     if (!registro.ExisteDepto(datos.IdDpto))
                     {
                         datos.Nombre = txtNombre.Text;
@@ -121,9 +136,12 @@ namespace BopiSoft
                         MessageBox.Show("No existe departamento con esa ID" );
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                 }
                 catch (Exception ex)
                 {
@@ -148,6 +166,7 @@ namespace BopiSoft
                     datos.IdDpto = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
@@ -155,6 +174,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     if (!registro.ExisteDepto(datos.IdDpto))
                     {
                         var n = MessageBox.Show("¿Está seguro que desea eliminar el departamento con la ID " + datos.IdDpto + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
@@ -170,9 +191,12 @@ namespace BopiSoft
                         MessageBox.Show("No existe departamento con esa ID");
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                 }
                 catch (Exception ex)
                 {
@@ -353,9 +377,12 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
 
         public bool validarDepaVacio(string id, string nombre)
@@ -377,8 +404,11 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

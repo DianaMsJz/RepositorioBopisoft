@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_21));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -162,6 +163,8 @@
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnSalir = new System.Windows.Forms.Button();
             this.pbAdmin = new System.Windows.Forms.PictureBox();
             this.lbNombreAdmin = new System.Windows.Forms.Label();
@@ -354,9 +357,12 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // _21
             // 
@@ -364,6 +370,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.Controls.Add(this.menuStrip1);
@@ -377,6 +384,8 @@
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.lbAreaAdmin);
             this.Controls.Add(this.lbNombreAdmin);
@@ -391,15 +400,19 @@
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -421,6 +434,8 @@
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.PictureBox pbAdmin;
         private System.Windows.Forms.Label lbNombreAdmin;
@@ -442,8 +457,11 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

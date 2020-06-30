@@ -37,7 +37,10 @@
             this.btnModi = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
@@ -55,12 +58,20 @@
             this.registrarAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarAlumnosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.evidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planeacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesSemestralesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.calificacionesSemestralesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.evidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.planeacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.SuspendLayout();
             // 
             // txtNom
@@ -68,46 +79,66 @@
             this.txtNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtNom.Location = new System.Drawing.Point(121, 48);
 =======
             this.txtNom.Location = new System.Drawing.Point(140, 100);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNom.Location = new System.Drawing.Point(140, 100);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNom.Multiline = true;
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(303, 26);
             this.txtNom.TabIndex = 39;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtNom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNom_KeyPress);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNom_KeyPress);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // txtNC
             // 
             this.txtNC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtNC.BorderStyle = System.Windows.Forms.BorderStyle.None;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtNC.Location = new System.Drawing.Point(544, 48);
 =======
             this.txtNC.Location = new System.Drawing.Point(140, 53);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNC.Location = new System.Drawing.Point(140, 53);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNC.Multiline = true;
             this.txtNC.Name = "txtNC";
             this.txtNC.Size = new System.Drawing.Size(152, 26);
             this.txtNC.TabIndex = 40;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtNC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNC_KeyPress);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNC_KeyPress);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 12F);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(47, 53);
 =======
             this.label1.Location = new System.Drawing.Point(45, 100);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.label1.Location = new System.Drawing.Point(45, 100);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 21);
             this.label1.TabIndex = 41;
@@ -118,10 +149,14 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Ebrima", 12F);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(430, 53);
 =======
             this.label2.Location = new System.Drawing.Point(12, 53);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.label2.Location = new System.Drawing.Point(12, 53);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 21);
             this.label2.TabIndex = 42;
@@ -142,9 +177,13 @@
             this.btnAñadir.Text = "Añadir";
             this.btnAñadir.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnModi
             // 
@@ -161,9 +200,13 @@
             this.btnModi.Text = "Modificar";
             this.btnModi.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnEliminar
             // 
@@ -180,7 +223,10 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // label3
@@ -243,6 +289,10 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(603, 212);
             this.dataGridView1.TabIndex = 110;
+<<<<<<< HEAD
+=======
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label5
             // 
@@ -279,7 +329,11 @@
             this.txtIDGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtIDGrupo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIDGrupo.Enabled = false;
+<<<<<<< HEAD
             this.txtIDGrupo.Location = new System.Drawing.Point(647, 53);
+=======
+            this.txtIDGrupo.Location = new System.Drawing.Point(647, 59);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtIDGrupo.Multiline = true;
             this.txtIDGrupo.Name = "txtIDGrupo";
             this.txtIDGrupo.Size = new System.Drawing.Size(211, 26);
@@ -290,7 +344,11 @@
             this.txtNombreGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtNombreGrupo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreGrupo.Enabled = false;
+<<<<<<< HEAD
             this.txtNombreGrupo.Location = new System.Drawing.Point(647, 94);
+=======
+            this.txtNombreGrupo.Location = new System.Drawing.Point(647, 100);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNombreGrupo.Multiline = true;
             this.txtNombreGrupo.Name = "txtNombreGrupo";
             this.txtNombreGrupo.Size = new System.Drawing.Size(211, 26);
@@ -301,7 +359,11 @@
             this.txtNombreMateria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtNombreMateria.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreMateria.Enabled = false;
+<<<<<<< HEAD
             this.txtNombreMateria.Location = new System.Drawing.Point(647, 136);
+=======
+            this.txtNombreMateria.Location = new System.Drawing.Point(647, 142);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNombreMateria.Multiline = true;
             this.txtNombreMateria.Name = "txtNombreMateria";
             this.txtNombreMateria.Size = new System.Drawing.Size(211, 26);
@@ -359,17 +421,34 @@
             this.calificacionesToolStripMenuItem.Text = "Calificaciones parciales";
             this.calificacionesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
             // evidenciasToolStripMenuItem
             // 
             this.evidenciasToolStripMenuItem.Name = "evidenciasToolStripMenuItem";
             this.evidenciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.evidenciasToolStripMenuItem.Text = "Evidencias";
+=======
+            // calificacionesSemestralesToolStripMenuItem
+            // 
+            this.calificacionesSemestralesToolStripMenuItem.Name = "calificacionesSemestralesToolStripMenuItem";
+            this.calificacionesSemestralesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calificacionesSemestralesToolStripMenuItem.Text = "Calificaciones semestrales";
+            this.calificacionesSemestralesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesSemestralesToolStripMenuItem_Click);
+            // 
+            // evidenciasToolStripMenuItem
+            // 
+            this.evidenciasToolStripMenuItem.Name = "evidenciasToolStripMenuItem";
+            this.evidenciasToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.evidenciasToolStripMenuItem.Text = "Evidencias";
+            this.evidenciasToolStripMenuItem.Click += new System.EventHandler(this.evidenciasToolStripMenuItem_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // planeacionToolStripMenuItem
             // 
             this.planeacionToolStripMenuItem.Name = "planeacionToolStripMenuItem";
             this.planeacionToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.planeacionToolStripMenuItem.Text = "Planeacion";
+<<<<<<< HEAD
             // 
             // calificacionesSemestralesToolStripMenuItem
             // 
@@ -377,6 +456,9 @@
             this.calificacionesSemestralesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.calificacionesSemestralesToolStripMenuItem.Text = "Calificaciones semestrales";
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.planeacionToolStripMenuItem.Click += new System.EventHandler(this.planeacionToolStripMenuItem_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // ListaAlumnos
             // 
@@ -384,8 +466,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ClientSize = new System.Drawing.Size(953, 450);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.txtNombreMateria);
@@ -400,7 +485,10 @@
             this.Controls.Add(this.txtApellidoPaterno);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModi);
             this.Controls.Add(this.btnAñadir);
@@ -409,10 +497,13 @@
             this.Controls.Add(this.txtNC);
             this.Controls.Add(this.txtNom);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ListaAlumnos";
             this.Text = "Lista de alumnos";
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -422,7 +513,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -438,7 +532,10 @@
         private System.Windows.Forms.Button btnModi;
         private System.Windows.Forms.Button btnEliminar;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtApellidoPaterno;
@@ -459,6 +556,9 @@
         private System.Windows.Forms.ToolStripMenuItem evidenciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calificacionesSemestralesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem planeacionToolStripMenuItem;
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

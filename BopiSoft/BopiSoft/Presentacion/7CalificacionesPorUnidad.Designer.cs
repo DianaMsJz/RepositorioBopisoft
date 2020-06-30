@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalificacionesPorUnidad));
+<<<<<<< HEAD
             this.cmbUnidad = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCantTra = new System.Windows.Forms.TextBox();
@@ -134,11 +135,120 @@
             this.label2.Size = new System.Drawing.Size(30, 21);
             this.label2.TabIndex = 52;
             this.label2.Text = "NL";
+=======
+            this.calif1 = new System.Windows.Forms.TextBox();
+            this.txtNC = new System.Windows.Forms.TextBox();
+            this.lab1 = new System.Windows.Forms.Label();
+            this.txtIDGrupo = new System.Windows.Forms.TextBox();
+            this.txtNombreGrupo = new System.Windows.Forms.TextBox();
+            this.txtNombreMateria = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btnBuscarNC = new System.Windows.Forms.Button();
+            this.btnAñadir = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnModi = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.registrarAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarAlumnosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calificacionesSemestralesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.evidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.planeacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.lab2 = new System.Windows.Forms.Label();
+            this.calif2 = new System.Windows.Forms.TextBox();
+            this.lab3 = new System.Windows.Forms.Label();
+            this.calif3 = new System.Windows.Forms.TextBox();
+            this.lab4 = new System.Windows.Forms.Label();
+            this.calif4 = new System.Windows.Forms.TextBox();
+            this.calif5 = new System.Windows.Forms.TextBox();
+            this.lab5 = new System.Windows.Forms.Label();
+            this.lab6 = new System.Windows.Forms.Label();
+            this.calif6 = new System.Windows.Forms.TextBox();
+            this.calif7 = new System.Windows.Forms.TextBox();
+            this.lab7 = new System.Windows.Forms.Label();
+            this.btnBuscarClave = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // calif1
+            // 
+            this.calif1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif1.Location = new System.Drawing.Point(116, 149);
+            this.calif1.MaxLength = 3;
+            this.calif1.Multiline = true;
+            this.calif1.Name = "calif1";
+            this.calif1.Size = new System.Drawing.Size(67, 26);
+            this.calif1.TabIndex = 62;
+            this.calif1.Visible = false;
+            this.calif1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCalifUni_KeyPress);
+            // 
+            // txtNC
+            // 
+            this.txtNC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.txtNC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNC.Enabled = false;
+            this.txtNC.Location = new System.Drawing.Point(172, 66);
+            this.txtNC.Multiline = true;
+            this.txtNC.Name = "txtNC";
+            this.txtNC.Size = new System.Drawing.Size(134, 26);
+            this.txtNC.TabIndex = 67;
+            // 
+            // lab1
+            // 
+            this.lab1.AutoSize = true;
+            this.lab1.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab1.Location = new System.Drawing.Point(27, 149);
+            this.lab1.Name = "lab1";
+            this.lab1.Size = new System.Drawing.Size(83, 21);
+            this.lab1.TabIndex = 101;
+            this.lab1.Text = "Unidad 1:";
+            this.lab1.Visible = false;
+            // 
+            // txtIDGrupo
+            // 
+            this.txtIDGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.txtIDGrupo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIDGrupo.Enabled = false;
+            this.txtIDGrupo.Location = new System.Drawing.Point(703, 56);
+            this.txtIDGrupo.Multiline = true;
+            this.txtIDGrupo.Name = "txtIDGrupo";
+            this.txtIDGrupo.Size = new System.Drawing.Size(105, 26);
+            this.txtIDGrupo.TabIndex = 115;
+            // 
+            // txtNombreGrupo
+            // 
+            this.txtNombreGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.txtNombreGrupo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreGrupo.Enabled = false;
+            this.txtNombreGrupo.Location = new System.Drawing.Point(703, 88);
+            this.txtNombreGrupo.Multiline = true;
+            this.txtNombreGrupo.Name = "txtNombreGrupo";
+            this.txtNombreGrupo.Size = new System.Drawing.Size(105, 26);
+            this.txtNombreGrupo.TabIndex = 116;
+            // 
+            // txtNombreMateria
+            // 
+            this.txtNombreMateria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.txtNombreMateria.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreMateria.Enabled = false;
+            this.txtNombreMateria.Location = new System.Drawing.Point(703, 120);
+            this.txtNombreMateria.Multiline = true;
+            this.txtNombreMateria.Name = "txtNombreMateria";
+            this.txtNombreMateria.Size = new System.Drawing.Size(105, 26);
+            this.txtNombreMateria.TabIndex = 117;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(384, 175);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 21);
@@ -174,11 +284,19 @@
             this.label6.Size = new System.Drawing.Size(27, 21);
             this.label6.TabIndex = 56;
             this.label6.Text = "T4";
+=======
+            this.label3.Location = new System.Drawing.Point(572, 56);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(73, 21);
+            this.label3.TabIndex = 118;
+            this.label3.Text = "ID Grupo";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(602, 175);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 21);
@@ -194,11 +312,19 @@
             this.label8.Size = new System.Drawing.Size(27, 21);
             this.label8.TabIndex = 58;
             this.label8.Text = "T1";
+=======
+            this.label7.Location = new System.Drawing.Point(572, 88);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(116, 21);
+            this.label7.TabIndex = 119;
+            this.label7.Text = "Nombre Grupo";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(297, 118);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 21);
@@ -494,11 +620,323 @@
             this.label22.Text = "Ponderación";
             // 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.label9.Location = new System.Drawing.Point(572, 120);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(125, 21);
+            this.label9.TabIndex = 120;
+            this.label9.Text = "Nombre Materia";
+            // 
+            // btnBuscarNC
+            // 
+            this.btnBuscarNC.Location = new System.Drawing.Point(31, 66);
+            this.btnBuscarNC.Name = "btnBuscarNC";
+            this.btnBuscarNC.Size = new System.Drawing.Size(124, 26);
+            this.btnBuscarNC.TabIndex = 121;
+            this.btnBuscarNC.Text = "buscar No. Control";
+            this.btnBuscarNC.UseVisualStyleBackColor = true;
+            this.btnBuscarNC.Click += new System.EventHandler(this.btnBuscarNC_Click);
+            // 
+            // btnAñadir
+            // 
+            this.btnAñadir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(181)))), ((int)(((byte)(221)))));
+            this.btnAñadir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAñadir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAñadir.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAñadir.ForeColor = System.Drawing.Color.Black;
+            this.btnAñadir.Location = new System.Drawing.Point(528, 344);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.Size = new System.Drawing.Size(117, 40);
+            this.btnAñadir.TabIndex = 151;
+            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(181)))), ((int)(((byte)(221)))));
+            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminar.Location = new System.Drawing.Point(774, 344);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(117, 40);
+            this.btnEliminar.TabIndex = 154;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnModi
+            // 
+            this.btnModi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(181)))), ((int)(((byte)(221)))));
+            this.btnModi.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnModi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnModi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModi.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnModi.ForeColor = System.Drawing.Color.Black;
+            this.btnModi.Location = new System.Drawing.Point(651, 344);
+            this.btnModi.Name = "btnModi";
+            this.btnModi.Size = new System.Drawing.Size(117, 40);
+            this.btnModi.TabIndex = 153;
+            this.btnModi.Text = "Modificar";
+            this.btnModi.UseVisualStyleBackColor = false;
+            this.btnModi.Click += new System.EventHandler(this.btnModi_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarAlumnosToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(903, 24);
+            this.menuStrip1.TabIndex = 155;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // registrarAlumnosToolStripMenuItem
+            // 
+            this.registrarAlumnosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarAlumnosToolStripMenuItem1,
+            this.calificacionesToolStripMenuItem,
+            this.calificacionesSemestralesToolStripMenuItem,
+            this.evidenciasToolStripMenuItem,
+            this.planeacionToolStripMenuItem});
+            this.registrarAlumnosToolStripMenuItem.Name = "registrarAlumnosToolStripMenuItem";
+            this.registrarAlumnosToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.registrarAlumnosToolStripMenuItem.Text = "Grupo";
+            // 
+            // registrarAlumnosToolStripMenuItem1
+            // 
+            this.registrarAlumnosToolStripMenuItem1.Name = "registrarAlumnosToolStripMenuItem1";
+            this.registrarAlumnosToolStripMenuItem1.Size = new System.Drawing.Size(211, 22);
+            this.registrarAlumnosToolStripMenuItem1.Text = "Registrar Alumnos";
+            this.registrarAlumnosToolStripMenuItem1.Click += new System.EventHandler(this.registrarAlumnosToolStripMenuItem1_Click);
+            // 
+            // calificacionesToolStripMenuItem
+            // 
+            this.calificacionesToolStripMenuItem.Name = "calificacionesToolStripMenuItem";
+            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calificacionesToolStripMenuItem.Text = "Calificaciones parciales";
+            this.calificacionesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesToolStripMenuItem_Click);
+            // 
+            // calificacionesSemestralesToolStripMenuItem
+            // 
+            this.calificacionesSemestralesToolStripMenuItem.Name = "calificacionesSemestralesToolStripMenuItem";
+            this.calificacionesSemestralesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.calificacionesSemestralesToolStripMenuItem.Text = "Calificaciones semestrales";
+            this.calificacionesSemestralesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesSemestralesToolStripMenuItem_Click);
+            // 
+            // evidenciasToolStripMenuItem
+            // 
+            this.evidenciasToolStripMenuItem.Name = "evidenciasToolStripMenuItem";
+            this.evidenciasToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.evidenciasToolStripMenuItem.Text = "Evidencias";
+            this.evidenciasToolStripMenuItem.Click += new System.EventHandler(this.evidenciasToolStripMenuItem_Click);
+            // 
+            // planeacionToolStripMenuItem
+            // 
+            this.planeacionToolStripMenuItem.Name = "planeacionToolStripMenuItem";
+            this.planeacionToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.planeacionToolStripMenuItem.Text = "Planeacion";
+            this.planeacionToolStripMenuItem.Click += new System.EventHandler(this.planeacionToolStripMenuItem_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnVolver.FlatAppearance.BorderSize = 3;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnVolver.Image = ((System.Drawing.Image)(resources.GetObject("btnVolver.Image")));
+            this.btnVolver.Location = new System.Drawing.Point(843, 27);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(48, 49);
+            this.btnVolver.TabIndex = 156;
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // lab2
+            // 
+            this.lab2.AutoSize = true;
+            this.lab2.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab2.Location = new System.Drawing.Point(195, 154);
+            this.lab2.Name = "lab2";
+            this.lab2.Size = new System.Drawing.Size(83, 21);
+            this.lab2.TabIndex = 157;
+            this.lab2.Text = "Unidad 2:";
+            this.lab2.Visible = false;
+            // 
+            // calif2
+            // 
+            this.calif2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif2.Location = new System.Drawing.Point(284, 149);
+            this.calif2.MaxLength = 3;
+            this.calif2.Multiline = true;
+            this.calif2.Name = "calif2";
+            this.calif2.Size = new System.Drawing.Size(67, 26);
+            this.calif2.TabIndex = 158;
+            this.calif2.Visible = false;
+            this.calif2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif2_KeyPress);
+            // 
+            // lab3
+            // 
+            this.lab3.AutoSize = true;
+            this.lab3.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab3.Location = new System.Drawing.Point(27, 207);
+            this.lab3.Name = "lab3";
+            this.lab3.Size = new System.Drawing.Size(83, 21);
+            this.lab3.TabIndex = 159;
+            this.lab3.Text = "Unidad 3:";
+            this.lab3.Visible = false;
+            // 
+            // calif3
+            // 
+            this.calif3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif3.Location = new System.Drawing.Point(116, 202);
+            this.calif3.MaxLength = 3;
+            this.calif3.Multiline = true;
+            this.calif3.Name = "calif3";
+            this.calif3.Size = new System.Drawing.Size(67, 26);
+            this.calif3.TabIndex = 160;
+            this.calif3.Visible = false;
+            this.calif3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif3_KeyPress);
+            // 
+            // lab4
+            // 
+            this.lab4.AutoSize = true;
+            this.lab4.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab4.Location = new System.Drawing.Point(195, 207);
+            this.lab4.Name = "lab4";
+            this.lab4.Size = new System.Drawing.Size(83, 21);
+            this.lab4.TabIndex = 161;
+            this.lab4.Text = "Unidad 4:";
+            this.lab4.Visible = false;
+            // 
+            // calif4
+            // 
+            this.calif4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif4.Location = new System.Drawing.Point(284, 202);
+            this.calif4.MaxLength = 3;
+            this.calif4.Multiline = true;
+            this.calif4.Name = "calif4";
+            this.calif4.Size = new System.Drawing.Size(67, 26);
+            this.calif4.TabIndex = 162;
+            this.calif4.Visible = false;
+            this.calif4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif4_KeyPress);
+            // 
+            // calif5
+            // 
+            this.calif5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif5.Location = new System.Drawing.Point(116, 261);
+            this.calif5.MaxLength = 3;
+            this.calif5.Multiline = true;
+            this.calif5.Name = "calif5";
+            this.calif5.Size = new System.Drawing.Size(67, 26);
+            this.calif5.TabIndex = 164;
+            this.calif5.Visible = false;
+            this.calif5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif5_KeyPress);
+            // 
+            // lab5
+            // 
+            this.lab5.AutoSize = true;
+            this.lab5.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab5.Location = new System.Drawing.Point(27, 266);
+            this.lab5.Name = "lab5";
+            this.lab5.Size = new System.Drawing.Size(83, 21);
+            this.lab5.TabIndex = 163;
+            this.lab5.Text = "Unidad 5:";
+            this.lab5.Visible = false;
+            // 
+            // lab6
+            // 
+            this.lab6.AutoSize = true;
+            this.lab6.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab6.Location = new System.Drawing.Point(195, 266);
+            this.lab6.Name = "lab6";
+            this.lab6.Size = new System.Drawing.Size(83, 21);
+            this.lab6.TabIndex = 165;
+            this.lab6.Text = "Unidad 6:";
+            this.lab6.Visible = false;
+            // 
+            // calif6
+            // 
+            this.calif6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif6.Location = new System.Drawing.Point(284, 261);
+            this.calif6.MaxLength = 3;
+            this.calif6.Multiline = true;
+            this.calif6.Name = "calif6";
+            this.calif6.Size = new System.Drawing.Size(67, 26);
+            this.calif6.TabIndex = 166;
+            this.calif6.Visible = false;
+            this.calif6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif6_KeyPress);
+            // 
+            // calif7
+            // 
+            this.calif7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.calif7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.calif7.Location = new System.Drawing.Point(116, 312);
+            this.calif7.MaxLength = 3;
+            this.calif7.Multiline = true;
+            this.calif7.Name = "calif7";
+            this.calif7.Size = new System.Drawing.Size(67, 26);
+            this.calif7.TabIndex = 167;
+            this.calif7.Visible = false;
+            this.calif7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.calif7_KeyPress);
+            // 
+            // lab7
+            // 
+            this.lab7.AutoSize = true;
+            this.lab7.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lab7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.lab7.Location = new System.Drawing.Point(27, 317);
+            this.lab7.Name = "lab7";
+            this.lab7.Size = new System.Drawing.Size(83, 21);
+            this.lab7.TabIndex = 168;
+            this.lab7.Text = "Unidad 7:";
+            this.lab7.Visible = false;
+            // 
+            // btnBuscarClave
+            // 
+            this.btnBuscarClave.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarClave.Image")));
+            this.btnBuscarClave.Location = new System.Drawing.Point(315, 60);
+            this.btnBuscarClave.Name = "btnBuscarClave";
+            this.btnBuscarClave.Size = new System.Drawing.Size(36, 38);
+            this.btnBuscarClave.TabIndex = 169;
+            this.btnBuscarClave.UseVisualStyleBackColor = true;
+            this.btnBuscarClave.Click += new System.EventHandler(this.btnBuscarClave_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 21);
+            this.label1.TabIndex = 170;
+            this.label1.Text = "Calificaciones parciales";
+            this.label1.Visible = false;
+            // 
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // CalificacionesPorUnidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
 <<<<<<< HEAD
 =======
@@ -545,12 +983,50 @@
             this.Controls.Add(this.cmbUnidad);
             this.Name = "CalificacionesPorUnidad";
             this.Text = "Calificaciones por unidad";
+=======
+            this.ClientSize = new System.Drawing.Size(903, 402);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnBuscarClave);
+            this.Controls.Add(this.lab7);
+            this.Controls.Add(this.calif7);
+            this.Controls.Add(this.calif6);
+            this.Controls.Add(this.lab6);
+            this.Controls.Add(this.calif5);
+            this.Controls.Add(this.lab5);
+            this.Controls.Add(this.calif4);
+            this.Controls.Add(this.lab4);
+            this.Controls.Add(this.calif3);
+            this.Controls.Add(this.lab3);
+            this.Controls.Add(this.calif2);
+            this.Controls.Add(this.lab2);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnModi);
+            this.Controls.Add(this.btnAñadir);
+            this.Controls.Add(this.btnBuscarNC);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtNombreMateria);
+            this.Controls.Add(this.txtNombreGrupo);
+            this.Controls.Add(this.txtIDGrupo);
+            this.Controls.Add(this.lab1);
+            this.Controls.Add(this.txtNC);
+            this.Controls.Add(this.calif1);
+            this.Name = "CalificacionesPorUnidad";
+            this.Text = "Calificaciones por unidad";
+            this.Load += new System.EventHandler(this.CalificacionesPorUnidad_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
 
         private System.Windows.Forms.ComboBox cmbUnidad;
         private System.Windows.Forms.Label label1;
@@ -595,5 +1071,42 @@
 =======
         private System.Windows.Forms.Label label22;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.TextBox calif1;
+        private System.Windows.Forms.Label lab1;
+        private System.Windows.Forms.TextBox txtIDGrupo;
+        private System.Windows.Forms.TextBox txtNombreGrupo;
+        private System.Windows.Forms.TextBox txtNombreMateria;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnBuscarNC;
+        private System.Windows.Forms.Button btnAñadir;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnModi;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem registrarAlumnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrarAlumnosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calificacionesSemestralesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem evidenciasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem planeacionToolStripMenuItem;
+        private System.Windows.Forms.Button btnVolver;
+        public System.Windows.Forms.TextBox txtNC;
+        private System.Windows.Forms.Label lab2;
+        private System.Windows.Forms.TextBox calif2;
+        private System.Windows.Forms.Label lab3;
+        private System.Windows.Forms.TextBox calif3;
+        private System.Windows.Forms.Label lab4;
+        private System.Windows.Forms.TextBox calif4;
+        private System.Windows.Forms.TextBox calif5;
+        private System.Windows.Forms.Label lab5;
+        private System.Windows.Forms.Label lab6;
+        private System.Windows.Forms.TextBox calif6;
+        private System.Windows.Forms.TextBox calif7;
+        private System.Windows.Forms.Label lab7;
+        private System.Windows.Forms.Button btnBuscarClave;
+        private System.Windows.Forms.Label label1;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

@@ -28,13 +28,19 @@ namespace BopiSoft.Negocios
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public void RegistroModificarContenido(DatosMaterias datos)
         {
             registro.RegistroModificarContenido(datos);
         }
 
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public void RegistroEliminar(DatosMaterias datos)
         {
             registro.RegistroEliminar(datos);
@@ -61,17 +67,23 @@ namespace BopiSoft.Negocios
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public void ExisteMateria(int ID)
         {
             registro.ExisteMateria(ID);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
     }
 }

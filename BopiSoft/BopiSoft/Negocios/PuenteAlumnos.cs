@@ -11,6 +11,7 @@ namespace BopiSoft.Negocios
     {
         RegistroListaAlumnosSql registro = new RegistroListaAlumnosSql();
 
+<<<<<<< HEAD
         public void AñadirAlumno(DatosAlumnosGrupos datos)
         {
             registro.AñadirAlumno(datos);
@@ -27,5 +28,26 @@ namespace BopiSoft.Negocios
         {
             registro.AlumnoEliminar(datos);
         }
+=======
+        public void Añadir(DatosAlumnosGrupos datos)
+        {
+            registro.Añadir(datos);
+        }
+        public void RegistroModificar(DatosAlumnosGrupos datos)
+        {
+            registro.Modificar(datos);
+        }
+
+        public void RegistroEliminar(DatosAlumnosGrupos datos)
+        {
+            registro.Eliminar(datos);
+        }
+
+        public void Buscar(DatosAlumnosGrupos datos)
+        {
+            registro.AlumnoBuscar(datos);
+        }
+
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

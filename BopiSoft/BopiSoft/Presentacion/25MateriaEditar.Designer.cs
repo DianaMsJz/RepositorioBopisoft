@@ -64,9 +64,13 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,9 +84,13 @@
             this.txtNombre.Size = new System.Drawing.Size(335, 26);
             this.txtNombre.TabIndex = 110;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtClave
@@ -233,12 +241,16 @@
             this.cmbCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Location = new System.Drawing.Point(544, 108);
             this.cmbCarrera.Name = "cmbCarrera";
@@ -297,11 +309,16 @@
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.toolStripMenuItem1});
 =======
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(827, 24);
@@ -420,7 +437,10 @@
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
@@ -428,7 +448,10 @@
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // _25MateriaEditar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -502,8 +525,12 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }
