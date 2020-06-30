@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
@@ -16,6 +17,11 @@ using BopiSoft.Presentacion;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,6 +40,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         DatosGrupos datos = new DatosGrupos();
 >>>>>>> 6591c39... 5to Commit
@@ -45,6 +52,10 @@ namespace BopiSoft
         DatosGrupos datos = new DatosGrupos();
         PuenteDepartamento puente = new PuenteDepartamento();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        DatosGrupos datos = new DatosGrupos();
+        PuenteDepartamento puente = new PuenteDepartamento();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         public _22RegistroListDoc()
         {
@@ -57,18 +68,24 @@ namespace BopiSoft
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente'");
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             puente.LlenarComboBoxDeptos(comboBox1);
             String depto;
             depto = comboBox1.Text;
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='"+depto+"'");
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -143,11 +160,14 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -160,6 +180,7 @@ namespace BopiSoft
             DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             int IdPersonal= Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 =======
             int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
@@ -167,6 +188,9 @@ namespace BopiSoft
 =======
             int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             datos.IdPersonal = IdPersonal;
             MessageBox.Show(datos.IdPersonal.ToString());
             grupos.actualizarClaveDocente(datos.IdPersonal);
@@ -175,10 +199,13 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -187,8 +214,11 @@ namespace BopiSoft
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='" + depto + "'");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -205,6 +235,9 @@ namespace BopiSoft
 
             }
         }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

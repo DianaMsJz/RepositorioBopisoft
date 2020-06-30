@@ -12,6 +12,10 @@ namespace BopiSoft.Datos
         public String Nombre { get; set; }
         public String NombreCarrera { get; set; }
         public String NombreMateria { get; set; }
+<<<<<<< HEAD
+=======
+        public int IdMateria { get; set; }
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public int IdPersonal { get; set; }
         public int Semestre { get; set; }
         public String Turno { get; set; }
@@ -20,12 +24,20 @@ namespace BopiSoft.Datos
         {
         }
 
+<<<<<<< HEAD
         public DatosGrupos(int idGrupo, String nombre, String nombreCarrera, String nombreMateria, int idPersonal, int semestre, String turno)
+=======
+        public DatosGrupos(int idGrupo, String nombre, String nombreCarrera, String nombreMateria,int idMateria, int idPersonal, int semestre, String turno)
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         {
             IdGrupo = idGrupo;
             Nombre = nombre;
             NombreCarrera = nombreCarrera;
             NombreMateria = nombreMateria;
+<<<<<<< HEAD
+=======
+            IdMateria = idMateria;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             IdPersonal = idPersonal;
             Semestre = semestre;
             Turno = turno;

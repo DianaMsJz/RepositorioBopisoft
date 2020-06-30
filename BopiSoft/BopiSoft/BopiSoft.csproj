@@ -7,6 +7,7 @@
     <ProjectGuid>{7AA00AD1-9423-4332-A643-FE2E06E0B2C8}</ProjectGuid>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <OutputType>WinExe</OutputType>
 =======
     <OutputType>Exe</OutputType>
@@ -14,6 +15,9 @@
 =======
     <OutputType>Exe</OutputType>
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+    <OutputType>Exe</OutputType>
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     <RootNamespace>BopiSoft</RootNamespace>
     <AssemblyName>BopiSoft</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -68,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
 <<<<<<< HEAD
@@ -84,6 +89,15 @@
     <Compile Include="Datos\DatosDepartamentos.cs" />
     <Compile Include="Datos\DatosGrupos.cs" />
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+    <Compile Include="Datos\CalificacionesSql.cs" />
+    <Compile Include="Datos\DatosAlumnosGrupos.cs" />
+    <Compile Include="Datos\DatosCalificaciones.cs" />
+    <Compile Include="Datos\DatosCarreras.cs" />
+    <Compile Include="Datos\DatosDepartamentos.cs" />
+    <Compile Include="Datos\DatosEvidencias.cs" />
+    <Compile Include="Datos\DatosGrupos.cs" />
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     <Compile Include="Datos\DatosMaterias.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
     <Compile Include="Datos\RegistroCarrerasSql.cs" />
@@ -91,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="Datos\RegistroGruposSql.cs" />
 >>>>>>> 6591c39... 5to Commit
@@ -110,15 +125,26 @@
     <Compile Include="Negocios\PuenteGrupo.cs" />
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+    <Compile Include="Datos\RegistroEvidenciasSql.cs" />
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     <Compile Include="Datos\RegistroGruposSql.cs" />
     <Compile Include="Datos\RegistroListaAlumnosSql.cs" />
     <Compile Include="Datos\RegistroMateriaSql.cs" />
     <Compile Include="Datos\RegistroPersonalSql.cs" />
     <Compile Include="Negocios\PuenteAlumnos.cs" />
+<<<<<<< HEAD
     <Compile Include="Negocios\PuenteCarrera.cs" />
     <Compile Include="Negocios\PuenteDepartamento.cs" />
     <Compile Include="Negocios\PuenteGrupo.cs" />
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+    <Compile Include="Negocios\PuenteCalificaciones.cs" />
+    <Compile Include="Negocios\PuenteCarrera.cs" />
+    <Compile Include="Negocios\PuenteDepartamento.cs" />
+    <Compile Include="Negocios\PuenteEvidencias.cs" />
+    <Compile Include="Negocios\PuenteGrupo.cs" />
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     <Compile Include="Negocios\PuenteMaterias.cs" />
     <Compile Include="Negocios\PuentePersonal.cs" />
     <Compile Include="Presentacion\13.1MenuJefe.cs">
@@ -443,5 +469,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="Resources\icons8_Eye_16.png" />
+  </ItemGroup>
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -25,6 +28,7 @@ using BopiSoft.Presentacion;
 
 using System.IO;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 
@@ -41,6 +45,8 @@ namespace BopiSoft
        
 =======
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
 namespace BopiSoft
 {
@@ -60,9 +66,15 @@ namespace BopiSoft
         string IDGrupo;
         string NombreMateria;
         string NombreGrupo;
+<<<<<<< HEAD
 
         string IDdoc;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        int IdMateria;
+
+        string IDdoc;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         string nombredoc;
         string paternodoc;
         string maternodoc;
@@ -70,15 +82,21 @@ namespace BopiSoft
         byte[] fotodoc;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public MenuDocente(string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
         {
             InitializeComponent();
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public _2MenuDocente(string IDdoc, string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
         {
             InitializeComponent();
             this.IDdoc = IDdoc;
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.nombredoc = nombredoc;
             this.paternodoc = paternodoc;
             this.maternodoc = maternodoc;
@@ -87,6 +105,7 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
         PuentePersonal PuentePersonal = new PuentePersonal();
         DatosPersonal datos = new DatosPersonal();
@@ -94,6 +113,9 @@ namespace BopiSoft
 =======
      
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+     
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -121,10 +143,15 @@ namespace BopiSoft
             lbNombre.Text = nombredoc + " " + paternodoc + " " + maternodoc;
             lbArea.Text = areadoc;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
+
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
 
         public Image byteArrayToImage(byte[] byteArrayIn)
@@ -135,8 +162,11 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private void tablaGruposDOC_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow llenarIDGrupo = tablaGruposDOC.Rows[e.RowIndex];
@@ -149,11 +179,22 @@ namespace BopiSoft
 
             DataGridViewRow llenarNombreMateria = tablaGruposDOC.Rows[e.RowIndex];
             NombreMateria = Convert.ToString(llenarNombreMateria.Cells["NombreMateria"].Value);
+<<<<<<< HEAD
             
             ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo,NombreMateria,Convert.ToInt32(IDdoc));
             this.Hide();
             AlumnosLista.Show(); 
         }
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+
+            DataGridViewRow llenarIdMateria = tablaGruposDOC.Rows[e.RowIndex];
+            IdMateria = Convert.ToInt32(llenarIdMateria.Cells["IdMateria"].Value);
+
+            ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo,NombreMateria,IdMateria,Convert.ToInt32(IDdoc));
+            this.Hide();
+            AlumnosLista.Show(); 
+        }
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

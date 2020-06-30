@@ -21,6 +21,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -31,6 +32,9 @@ namespace BopiSoft.Presentacion
 =======
 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         int s = 1;
 
         public _25MateriaContenido()
@@ -113,6 +117,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> 6591c39... 5to Commit
@@ -120,6 +125,8 @@ namespace BopiSoft.Presentacion
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
@@ -134,6 +141,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             lista.form = 1;
 
@@ -146,6 +154,10 @@ namespace BopiSoft.Presentacion
             lista.form = 1;
 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            lista.form = 1;
+
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Hide();
             lista.Show();
             MessageBox.Show("Selecciona la materia para obtener la clave");
@@ -158,16 +170,22 @@ namespace BopiSoft.Presentacion
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.IdMateria = Int32.Parse(txtClave.Text);
                     datos.Unidad =Convert.ToInt32(cmbUnidad.SelectedItem);
                     datos.TemaUnidad = txtTema.ToString();
                     datos.SubtemaUnidad = txtSubtema.ToString();
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     datos.IdMateria = Convert.ToInt32(txtClave.Text);
                     datos.Unidad =Convert.ToInt32(cmbUnidad.Text);
                     datos.TemaUnidad = txtTema.Text;
                     datos.SubtemaUnidad = txtSubtema.Text;
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     puente.RegistroAñadirContenido(datos);
                     Limpiar();
 
@@ -203,14 +221,19 @@ namespace BopiSoft.Presentacion
             txtClave.Text = "";
             txtTema.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
             cmbUnidad.SelectedIndex = 0;
 =======
             cmbUnidad.Text="";
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            cmbUnidad.Text="";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             txtSubtema.Text = "";
         }
 
         private void cmbUnidad_Click(object sender, EventArgs e)
+<<<<<<< HEAD
 <<<<<<< HEAD
         {
             datos.IdMateria = Int32.Parse(txtClave.Text);
@@ -226,6 +249,8 @@ namespace BopiSoft.Presentacion
             }
             
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         {//para que el comboBox jale el número de unidades que tiene dicha materia
             if (!txtClave.Text.Equals(""))
             {
@@ -241,16 +266,23 @@ namespace BopiSoft.Presentacion
                      s++;
                 }
             }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
 
         private void cmbUnidad_SelectedIndexChanged(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             datos.IdMateria= Int32.Parse(txtClave.Text);
 =======
             datos.IdMateria= Convert.ToInt32(txtClave.Text);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            datos.IdMateria= Convert.ToInt32(txtClave.Text);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
 
             if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria,datos.Unidad))
@@ -271,18 +303,24 @@ namespace BopiSoft.Presentacion
                     try
                     {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         datos.IdMateria = Int32.Parse(txtClave.Text);
                         datos.Unidad = Convert.ToInt32(cmbUnidad.SelectedItem);
                         datos.TemaUnidad = txtTema.ToString();
                         datos.SubtemaUnidad = txtSubtema.ToString();
                         puente.RegistroModificar(datos);
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                         datos.IdMateria = Convert.ToInt32(txtClave.Text);
                         datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
                         datos.TemaUnidad = txtTema.Text;
                         datos.SubtemaUnidad = txtSubtema.Text;
                         puente.RegistroModificarContenido(datos);
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                         Limpiar();
 
                     }
@@ -310,10 +348,14 @@ namespace BopiSoft.Presentacion
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.IdMateria = Int32.Parse(txtClave.Text);
 =======
                     datos.IdMateria = Convert.ToInt32(txtClave.Text);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                    datos.IdMateria = Convert.ToInt32(txtClave.Text);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
                     if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
                     {
@@ -338,9 +380,12 @@ namespace BopiSoft.Presentacion
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public static void SoloNumeros(KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -378,9 +423,12 @@ namespace BopiSoft.Presentacion
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
        
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure to log out?", "Warning",
@@ -396,7 +444,10 @@ namespace BopiSoft.Presentacion
 
             }
         }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 
 }

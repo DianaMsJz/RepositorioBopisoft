@@ -9,10 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -23,13 +26,17 @@ using BopiSoft.Presentacion;
 using System.Drawing.Imaging;
 using System.IO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 namespace BopiSoft
 {
     public partial class _13 : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         public _13()
@@ -38,6 +45,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         string nombreJefe;
         string paternoJefe;
         string maternoJefe;
@@ -86,9 +95,12 @@ namespace BopiSoft
             Image returnImage = Image.FromStream(ms);
             return returnImage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
     }
 }

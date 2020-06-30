@@ -85,6 +85,7 @@ namespace BopiSoft
                 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     MemoryStream ms = new MemoryStream();
                     pbFoto.Image.Save(ms, ImageFormat.Jpeg);
                     byte[] imagen = ms.ToArray();
@@ -105,6 +106,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     datos.IdPersonal = Int32.Parse(txtIdPersonal.Text);
                     if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
                     {
@@ -132,9 +135,12 @@ namespace BopiSoft
                         
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                 }
                 catch (Exception ex)
@@ -244,19 +250,27 @@ namespace BopiSoft
         {
             txtIdPersonal.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cmbTipo.Text = "";
 =======
             cmbTipo.Text = "";
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            cmbTipo.Text = "";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             cmbDepartamento.Text="";
             txtNombre.Text = "";
             txtApaterno.Text = "";
             txtlbAmaterno.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cmbSexo.Text = "";
 =======
             cmbSexo.Text = "";
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            cmbSexo.Text = "";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtContraseña.Text = "";
@@ -369,6 +383,7 @@ namespace BopiSoft
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
             if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
             {
@@ -382,6 +397,8 @@ namespace BopiSoft
             //}
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             if(txtIdPersonal.Text != "")
             {
                 datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
@@ -391,7 +408,10 @@ namespace BopiSoft
                 }
             }
            
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
 
         private void toolStripListaDocente_Click(object sender, EventArgs e)
@@ -464,7 +484,10 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         private void txtIdPersonal_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -491,6 +514,9 @@ namespace BopiSoft
 
             }
         }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

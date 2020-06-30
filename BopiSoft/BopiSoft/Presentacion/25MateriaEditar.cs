@@ -19,12 +19,16 @@ namespace BopiSoft
         DatosMaterias datos = new DatosMaterias();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         RegistroMateriaSql registro = new RegistroMateriaSql();
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
         RegistroMateriaSql registro = new RegistroMateriaSql();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        RegistroMateriaSql registro = new RegistroMateriaSql();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         public _25MateriaEditar()
         {
@@ -38,6 +42,7 @@ namespace BopiSoft
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.IdMateria = Int32.Parse(txtClave.Text);
                     datos.Nombre = txtNombre.Text;
                     datos.Creditos = Convert.ToInt32(txtCreditos.Text);
@@ -48,6 +53,8 @@ namespace BopiSoft
                     puente.RegistroAñadir(datos);
                     Limpiar();
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                     datos.IdMateria = Int32.Parse(txtClave.Text);
                     if (!registro.ExisteMateria(datos.IdMateria))
@@ -65,7 +72,10 @@ namespace BopiSoft
                         puente.RegistroAñadir(datos);
                         Limpiar();
                     }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                 }
                 catch (Exception ex)
@@ -89,6 +99,7 @@ namespace BopiSoft
                     datos.IdMateria = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
                     datos.Creditos = Convert.ToInt32(txtCreditos.Text);
                     datos.Carrera = cmbCarrera.SelectedItem.ToString();
@@ -104,13 +115,18 @@ namespace BopiSoft
                         datos.Creditos = Convert.ToInt32(txtCreditos.Text);
                         datos.Carrera = cmbCarrera.SelectedItem.ToString();
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                     if (!registro.ExisteMateria(datos.IdMateria))
                     {
                         
                         datos.Nombre = txtNombre.Text;
                         datos.Creditos = Convert.ToInt32(txtCreditos.Text);
                         datos.Carrera = cmbCarrera.Text;
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                         datos.Unidades = Convert.ToInt32(txtUnidades.Text);
                         datos.Caracterizacion = txtCaracterizacion.Text;
                         datos.Competencia = txtCompetencia.Text;
@@ -122,9 +138,12 @@ namespace BopiSoft
                         MessageBox.Show("No existe materia con esa ID" );
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                 }
                 catch (Exception ex)
@@ -148,6 +167,7 @@ namespace BopiSoft
                     datos.IdMateria = Int32.Parse(txtClave.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     puente.RegistroEliminar(datos);
                     Limpiar();
 
@@ -158,6 +178,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                     if (!registro.ExisteMateria(datos.IdMateria))
                     {
@@ -177,9 +199,12 @@ namespace BopiSoft
                 {
                     MessageBox.Show("" + ex.ToString());
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                 }
 
             }
@@ -211,6 +236,7 @@ namespace BopiSoft
                 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     MessageBox.Show("" + ex);
 =======
                     MessageBox.Show("No existe materia con esa ID" );
@@ -218,6 +244,9 @@ namespace BopiSoft
 =======
                     MessageBox.Show("No existe materia con esa ID" );
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                    MessageBox.Show("No existe materia con esa ID" );
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                 }
             }
             else
@@ -405,7 +434,10 @@ namespace BopiSoft
             departamento.Show();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
         private void txtNombre_Click(object sender, EventArgs e)
         {
@@ -434,6 +466,9 @@ namespace BopiSoft
 
             }
         }
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

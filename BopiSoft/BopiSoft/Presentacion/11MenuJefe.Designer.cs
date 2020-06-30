@@ -44,6 +44,7 @@
             this.btnNotif = new System.Windows.Forms.Button();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbPeriodo = new System.Windows.Forms.Label();
             this.lbArea = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
@@ -55,6 +56,10 @@
             this.lbAreaJefe = new System.Windows.Forms.Label();
             this.lbNombreJefe = new System.Windows.Forms.Label();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.lbAreaJefe = new System.Windows.Forms.Label();
+            this.lbNombreJefe = new System.Windows.Forms.Label();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.label2 = new System.Windows.Forms.Label();
             this.lbImagen = new System.Windows.Forms.Label();
             this.lbGrupos1 = new System.Windows.Forms.Label();
@@ -65,6 +70,7 @@
             this.lbNombreM2 = new System.Windows.Forms.Label();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.pbJefe = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).BeginInit();
@@ -73,6 +79,10 @@
             this.pbJefe = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).BeginInit();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.pbJefe = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).BeginInit();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.SuspendLayout();
             // 
             // lbGrupos
@@ -194,12 +204,16 @@
             this.btnSalir.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // btnNotif
             // 
@@ -216,6 +230,7 @@
             this.btnNotif.TabIndex = 35;
             this.btnNotif.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             // lbPeriodo
@@ -253,6 +268,8 @@
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // lbAreaJefe
             // 
             this.lbAreaJefe.AutoSize = true;
@@ -275,9 +292,12 @@
             this.lbNombreJefe.TabIndex = 32;
             this.lbNombreJefe.Text = "nombre";
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // label2
             // 
@@ -372,9 +392,12 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // pbJefe
             // 
             this.pbJefe.Location = new System.Drawing.Point(12, 12);
@@ -385,9 +408,12 @@
             this.pbJefe.TabStop = false;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // MenuJefe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -396,12 +422,16 @@
             this.ClientSize = new System.Drawing.Size(828, 529);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.Controls.Add(this.pbJefe);
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
             this.Controls.Add(this.pbJefe);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.Controls.Add(this.pbJefe);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.lbGrupos2);
             this.Controls.Add(this.lbMatricula2);
             this.Controls.Add(this.lbNombreM2);
@@ -423,6 +453,7 @@
             this.Controls.Add(this.btnNotif);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.lbPeriodo);
             this.Controls.Add(this.lbArea);
             this.Controls.Add(this.lbNombre);
@@ -434,6 +465,10 @@
             this.Controls.Add(this.lbAreaJefe);
             this.Controls.Add(this.lbNombreJefe);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            this.Controls.Add(this.lbAreaJefe);
+            this.Controls.Add(this.lbNombreJefe);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbImagen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -442,12 +477,16 @@
             this.Load += new System.EventHandler(this.MenuJefe_Load);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -469,6 +508,7 @@
         private System.Windows.Forms.Button btnNotif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbPeriodo;
         private System.Windows.Forms.Label lbArea;
         private System.Windows.Forms.Label lbNombre;
@@ -480,6 +520,10 @@
         private System.Windows.Forms.Label lbAreaJefe;
         private System.Windows.Forms.Label lbNombreJefe;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.Label lbAreaJefe;
+        private System.Windows.Forms.Label lbNombreJefe;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbImagen;
         private System.Windows.Forms.Label lbGrupos1;
@@ -490,11 +534,15 @@
         private System.Windows.Forms.Label lbNombreM2;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.PictureBox pbJefe;
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
         private System.Windows.Forms.PictureBox pbJefe;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+        private System.Windows.Forms.PictureBox pbJefe;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
     }
 }

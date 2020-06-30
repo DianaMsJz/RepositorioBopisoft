@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -22,9 +25,12 @@ using BopiSoft.Presentacion;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
 namespace BopiSoft
 {
@@ -38,31 +44,41 @@ namespace BopiSoft
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         PuentePersonal PuentePersonal = new PuentePersonal();
         DatosPersonal datos = new DatosPersonal();
         RegistroPersonalSql registroPersonal = new RegistroPersonalSql();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         string ID; 
         string Password;
        
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         string IDtest;
         string ID; 
         string Password;
        
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         private void btnLogin_Click(object sender, EventArgs e)
@@ -78,6 +94,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         public void btnLogin_Click(object sender, EventArgs e)
         {
             ID = txtID.Text;
@@ -122,6 +140,7 @@ namespace BopiSoft
 
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         public bool ProcesarLogin()
         {
@@ -216,6 +235,8 @@ namespace BopiSoft
 
         }
 =======
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         //public bool ProcesarLogin()
         //{
 
@@ -308,11 +329,15 @@ namespace BopiSoft
 
 
         //}
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
 
         public void TestLogin()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             
       
@@ -322,6 +347,8 @@ namespace BopiSoft
            
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 
                 string tipoUsu;
 
@@ -370,9 +397,13 @@ namespace BopiSoft
                     {
                         this.Hide();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     string IDTest = txtID.Text;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                    string IDTest = txtID.Text;
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                         string Nombre = datos.Nombre;
                         string Materno = datos.Amaterno;
                         String Paterno = datos.Apaterno;
@@ -380,26 +411,35 @@ namespace BopiSoft
                         byte[] Foto = datos.Foto;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         MenuDocente MenuDocenteObj = new MenuDocente(Nombre, Paterno, Materno, Area, Foto);
 =======
                         _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                        _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                         MenuDocenteObj.Show();
                       
                       
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
 =======
                     
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                    
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
                 }
                 else
                 { //Si no lo es mostrara este mensaje.
                     MessageBox.Show("Error, datos incorrectos o el usuario no existe.");
                     bd.closeconnection(); //Cerramos la conexion.
                   
+<<<<<<< HEAD
 <<<<<<< HEAD
                     
 
@@ -415,6 +455,10 @@ namespace BopiSoft
                 }
                 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+                }
+                
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         }
 
         public bool validarSesion(string id, string password)
@@ -437,9 +481,12 @@ namespace BopiSoft
 
         public void logout()
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
+=======
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
         {
 
         }

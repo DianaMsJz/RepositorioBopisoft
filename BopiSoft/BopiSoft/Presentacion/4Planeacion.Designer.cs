@@ -211,7 +211,11 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(175, 25);
             this.label15.TabIndex = 15;
+<<<<<<< HEAD
             this.label15.Text = "Competencia(s)";
+=======
+            this.label15.Text = "Temario";
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // 
             // txtDocente
             // 
@@ -307,7 +311,11 @@
             // 
             this.txtPracticas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtPracticas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.txtPracticas.Location = new System.Drawing.Point(96, 383);
+=======
+            this.txtPracticas.Location = new System.Drawing.Point(96, 393);
+>>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.txtPracticas.Multiline = true;
             this.txtPracticas.Name = "txtPracticas";
             this.txtPracticas.Size = new System.Drawing.Size(287, 115);
