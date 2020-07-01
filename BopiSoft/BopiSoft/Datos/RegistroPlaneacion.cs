@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+﻿using MySql.Data.MySqlClient;
+using System;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using MySql.Data.MySqlClient;
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Windows.Forms;
 
 namespace BopiSoft.Datos
@@ -25,7 +33,11 @@ namespace BopiSoft.Datos
             bd.closeconnection();
         }
 
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public bool ExisteRegistro(int ID)
         {
@@ -38,6 +50,22 @@ namespace BopiSoft.Datos
 
             return count == 0;
         }
+<<<<<<< HEAD
+=======
+        public bool ExisteRegistroIdGrupo(int ID,int Unidad)
+        {
+            bd.connecttodb();
+            string existe = "Select count(*) from planeacion where IdGrupo=@IdGrupo and Unidad=@Unidad";
+            bd.command = new MySqlCommand(existe, bd.connect);
+            bd.command.Parameters.AddWithValue("@IdGrupo", ID);
+
+            bd.command.Parameters.AddWithValue("@Unidad", Unidad);
+
+            int count = Convert.ToInt32(bd.command.ExecuteScalar());
+
+            return count == 0;
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public void AñadirPlaneacion(DatosPlaneaciones datos)
         {
@@ -164,6 +192,45 @@ namespace BopiSoft.Datos
 
             bd.closeconnection();
         }
+<<<<<<< HEAD
+=======
+        public void PlaneacionBuscarPorIdGrupo(DatosPlaneaciones datos)
+        {
+            MySqlCommand buscarporID = new MySqlCommand("select * from planeacion where IdGrupo=@IdGrupo and Unidad=@Unidad", bd.connect);
+            buscarporID.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
+            buscarporID.Parameters.AddWithValue("@Unidad", datos.Unidad);
+            bd.connecttodb();
+            MySqlDataReader registro = buscarporID.ExecuteReader();
+            if (registro.Read())
+            {
+                datos.IdPlaneacion= Convert.ToInt32(registro[0]);
+                datos.IdGrupo = Convert.ToInt32(registro[1]);
+                datos.NombreMateria = registro[2].ToString();
+                datos.IDdocente = Convert.ToInt32(registro[3]);
+                datos.NombreDocente = registro[4].ToString();
+                datos.Unidad = Convert.ToInt32(registro[5]);
+                datos.CompetenciaMat = registro[6].ToString();
+                datos.Caracterizacion = registro[7].ToString();
+                datos.TemarioUnidad = registro[8].ToString();
+                datos.ActAprendizaje = registro[9].ToString();
+                datos.HrsTeoria = Convert.ToInt32(registro[10]);
+                datos.HrsPractica = Convert.ToInt32(registro[11]);
+                datos.SesionesEst = Convert.ToInt32(registro[12]);
+                datos.FechaExam = Convert.ToDateTime(registro[13]);
+                datos.Visitas = registro[14].ToString();
+                datos.Practicas = registro[15].ToString();
+                datos.ActEnseñanza = registro[16].ToString();
+                datos.Recursos = registro[17].ToString();
+
+
+
+
+
+            }
+
+            bd.closeconnection();
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public void PlaneacionEliminar(DatosPlaneaciones datos)
         {
@@ -182,5 +249,8 @@ namespace BopiSoft.Datos
         }
     }
 }
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)

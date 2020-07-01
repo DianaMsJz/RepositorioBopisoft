@@ -1,15 +1,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 ﻿using System;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,10 +31,13 @@ namespace BopiSoft
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public CalificacionesSemestral()
         {
             InitializeComponent();
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         DatosMaterias datosMaterias = new DatosMaterias();
         DatosCalificaciones datos = new DatosCalificaciones();
         CalificacionesSql calificacionesSql = new CalificacionesSql();
@@ -139,6 +148,7 @@ namespace BopiSoft
 
         private void planeacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
@@ -146,6 +156,11 @@ namespace BopiSoft
         {
             InitializeComponent();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Hide();
+            Planeacion plan = new Planeacion(IDGrupo, IdMateria, IdDoc);
+            plan.Show();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
     }
 }

@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -75,6 +76,9 @@
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -99,6 +104,9 @@
 =======
             this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.txtNombre.Click += new System.EventHandler(this.txtNombre_Click);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtClave
@@ -251,6 +259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -263,6 +272,9 @@
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.cmbCarrera.FormattingEnabled = true;
             this.cmbCarrera.Location = new System.Drawing.Point(544, 108);
             this.cmbCarrera.Name = "cmbCarrera";
@@ -323,6 +335,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.toolStripMenuItem1});
 =======
             this.toolStripMenuItem1,
@@ -336,6 +349,10 @@
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(827, 24);
@@ -456,11 +473,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
@@ -470,11 +490,14 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // _25MateriaEditar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -550,6 +573,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -559,5 +583,8 @@
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
 =======
@@ -54,6 +55,10 @@
             this.txtID = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -92,6 +97,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(281, 279);
@@ -113,6 +119,8 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // txtID
             // 
             this.txtID.Location = new System.Drawing.Point(281, 279);
@@ -131,6 +139,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -138,6 +147,8 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // 
             // btnLogin
             // 
@@ -160,6 +171,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(227, 279);
             this.label1.Name = "label1";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +199,11 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "ID";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.label1.Size = new System.Drawing.Size(18, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ID";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -211,6 +228,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtEmail);
 =======
@@ -229,6 +247,10 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtID);
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtID);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.Controls.Add(this.NomBopi);
             this.Controls.Add(this.ImgenUser);
             this.Controls.Add(this.Inicio);
@@ -246,6 +268,7 @@
         private System.Windows.Forms.Label Inicio;
         private System.Windows.Forms.Label ImgenUser;
         private System.Windows.Forms.Label NomBopi;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +291,10 @@
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtPassword;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtPassword;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

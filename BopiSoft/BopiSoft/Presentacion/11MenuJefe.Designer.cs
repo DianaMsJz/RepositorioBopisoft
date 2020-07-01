@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuJefe));
+<<<<<<< HEAD
             this.lbGrupos = new System.Windows.Forms.Label();
             this.lbMatricula = new System.Windows.Forms.Label();
             this.lbNombreM = new System.Windows.Forms.Label();
@@ -179,6 +180,21 @@
             this.label5.Size = new System.Drawing.Size(258, 190);
             this.label5.TabIndex = 39;
             // 
+=======
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbAreaJefe = new System.Windows.Forms.Label();
+            this.lbNombreJefe = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pbJefe = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.lbImagen = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).BeginInit();
+            this.SuspendLayout();
+            // 
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // label3
             // 
             this.label3.AutoSize = true;
@@ -198,6 +214,7 @@
             this.label1.Size = new System.Drawing.Size(656, 10);
             this.label1.TabIndex = 37;
             // 
+<<<<<<< HEAD
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -287,6 +304,8 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // lbAreaJefe
             // 
             this.lbAreaJefe.AutoSize = true;
@@ -303,11 +322,16 @@
             this.lbNombreJefe.AutoSize = true;
             this.lbNombreJefe.Font = new System.Drawing.Font("Ebrima", 18F);
             this.lbNombreJefe.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.lbNombreJefe.Location = new System.Drawing.Point(293, 51);
+=======
+            this.lbNombreJefe.Location = new System.Drawing.Point(302, 51);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.lbNombreJefe.Name = "lbNombreJefe";
             this.lbNombreJefe.Size = new System.Drawing.Size(99, 32);
             this.lbNombreJefe.TabIndex = 32;
             this.lbNombreJefe.Text = "nombre";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +342,8 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // 
             // label2
             // 
@@ -330,6 +356,7 @@
             this.label2.TabIndex = 31;
             this.label2.Text = "Bienvenido, ";
             // 
+<<<<<<< HEAD
             // lbImagen
             // 
             this.lbImagen.Image = ((System.Drawing.Image)(resources.GetObject("lbImagen.Image")));
@@ -421,6 +448,18 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(25, 246);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(764, 240);
+            this.dataGridView1.TabIndex = 63;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // pbJefe
             // 
             this.pbJefe.Location = new System.Drawing.Point(12, 12);
@@ -433,6 +472,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -440,12 +480,39 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnSalir.FlatAppearance.BorderSize = 3;
+            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.Location = new System.Drawing.Point(703, 33);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(71, 69);
+            this.btnSalir.TabIndex = 36;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // lbImagen
+            // 
+            this.lbImagen.Image = ((System.Drawing.Image)(resources.GetObject("lbImagen.Image")));
+            this.lbImagen.Location = new System.Drawing.Point(12, 18);
+            this.lbImagen.Name = "lbImagen";
+            this.lbImagen.Size = new System.Drawing.Size(133, 131);
+            this.lbImagen.TabIndex = 30;
+            // 
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // MenuJefe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(109)))), ((int)(((byte)(198)))));
             this.ClientSize = new System.Drawing.Size(828, 529);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,12 +571,22 @@
             this.Controls.Add(this.lbAreaJefe);
             this.Controls.Add(this.lbNombreJefe);
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pbJefe);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.lbAreaJefe);
+            this.Controls.Add(this.lbNombreJefe);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbImagen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuJefe";
             this.Text = "Menu Jefe";
             this.Load += new System.EventHandler(this.MenuJefe_Load);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,12 +603,17 @@
 =======
             ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJefe)).EndInit();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbGrupos;
         private System.Windows.Forms.Label lbMatricula;
         private System.Windows.Forms.Label lbNombreM;
@@ -592,5 +674,16 @@
 =======
         private System.Windows.Forms.PictureBox pbJefe;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label lbAreaJefe;
+        private System.Windows.Forms.Label lbNombreJefe;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbImagen;
+        private System.Windows.Forms.PictureBox pbJefe;
+        private System.Windows.Forms.DataGridView dataGridView1;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

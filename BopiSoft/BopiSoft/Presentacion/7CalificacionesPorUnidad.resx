@@ -119,11 +119,14 @@
   </resheader>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnBuscar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -140,8 +143,12 @@
 </value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="btnBuscarClave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+  <data name="btnBuscarClave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAA1JJREFUWEft
         ll9IU2EYxrUuoq6Duo2im266SgkhiiwtyD9zuqTU853jwtYo/E9IzihJg9ICdahXmpqVZVpmUQYllpYK
@@ -162,6 +169,7 @@
 </value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>29</value>
@@ -169,4 +177,9 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>29</value>
+  </metadata>
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 </root>

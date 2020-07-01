@@ -250,6 +250,7 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.3\BopiSoft\BopiSo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -306,6 +307,8 @@ C:\Users\Diana Miramontes\source\repos\BopiProyectoImagenArreglado\BopiProyectov
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\dell\Documents\BopiProyecto\BopiProyectoVERSIONES\BopiProyectoV1.4\BopiProyectov1.3\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -446,12 +449,15 @@ C:\Users\Diana Miramontes\source\repos\BopiProyectov1.5.1.2\BopiProyectov1.5.1\B
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.5.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.5.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.5.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -592,10 +598,13 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6\BopiSoft\BopiSoft\obj\Debug\BopiSoft._2MenuDocente.resources
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe.config
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\bin\Debug\BopiSoft.pdb
@@ -603,7 +612,10 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\bin\Debug\BibliotecaDeClases.pdb
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\bin\Debug\MySql.Data.xml
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csprojAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft._13.resources
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft._21RegistroEditar.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft._22RegistroListDoc.resources
@@ -620,14 +632,20 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesPorUnidad.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.CalificacionesSemestral.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Evidencias.resources
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.EvidenciasJefe_16_.resources
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Form1.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.ListaAlumnos.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Menu.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuDespegableRevision.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft._2MenuDocente.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefe.resources
+<<<<<<< HEAD
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.MenuJefeAlumno.resources
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Planeacion.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.PlaneacionJefe_11_.resources
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Properties.Resources.resources
@@ -642,6 +660,7 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.csproj.CopyComplete
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
@@ -737,3 +756,7 @@ C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyecto1.7\BopiProyectov1.6
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyecto1.7\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.exe
 C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyecto1.7\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.pdb
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion.MenuDocenteJefe.resources
+C:\Users\Diana Miramontes\source\repos\Proyecto\BopiProyectov1.6.1\BopiProyectov1.6\BopiProyectov1.6.2\BopiSoft\BopiSoft\obj\Debug\BopiSoft.Presentacion.EvidenciasJefe.resources
+>>>>>>> 031b574... Proyecto completo (Versión Final)

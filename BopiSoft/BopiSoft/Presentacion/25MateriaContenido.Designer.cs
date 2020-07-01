@@ -45,9 +45,13 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtClave = new System.Windows.Forms.TextBox();
             this.lbClave = new System.Windows.Forms.Label();
@@ -63,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -71,12 +76,15 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,6 +101,10 @@
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
@@ -211,15 +223,22 @@
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
             this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+<<<<<<< HEAD
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            // 
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(48, 69);
@@ -235,16 +254,23 @@
             this.txtClave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txtClave.Enabled = false;
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.txtClave.Enabled = false;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.txtClave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClave.Location = new System.Drawing.Point(184, 69);
             this.txtClave.Multiline = true;
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(95, 26);
             this.txtClave.TabIndex = 120;
+<<<<<<< HEAD
             this.txtClave.TextChanged += new System.EventHandler(this.txtClave_TextChanged);
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // 
             // lbClave
             // 
@@ -274,6 +300,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -286,6 +313,9 @@
 =======
             this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.cmbUnidad.FormattingEnabled = true;
             this.cmbUnidad.Location = new System.Drawing.Point(105, 147);
             this.cmbUnidad.Name = "cmbUnidad";
@@ -382,6 +412,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
@@ -398,6 +429,8 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // _25MateriaContenido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,6 +493,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -469,5 +503,8 @@
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

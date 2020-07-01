@@ -129,6 +129,7 @@
         qPkbumEk4mdkdc1GGGBgAABMh76D5Ch7BQAAAABJRU5ErkJggg==
 </value>
   </data>
+<<<<<<< HEAD
   <data name="btnNotif.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAmJJREFUWEft
@@ -145,6 +146,8 @@
         CsVfxhuRruS76S8AAAAASUVORK5CYII=
 </value>
   </data>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
   <data name="lbImagen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m

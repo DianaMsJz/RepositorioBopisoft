@@ -48,6 +48,7 @@
     value   : The object must be serialized with 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             : System.Serialization.Formatters.Binary.BinaryFormatter
 =======
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
@@ -55,6 +56,9 @@
 =======
             : System.Serialization.Formatters.Binary.BinaryFormatter
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -70,11 +74,15 @@
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -85,20 +93,26 @@
               </xsd:sequence>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <xsd:attribute name="name" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
               <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
               <xsd:attribute ref="xml:space" />
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
               <xsd:attribute name="name" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -115,20 +129,26 @@
               </xsd:sequence>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
               <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
               <xsd:attribute ref="xml:space" />
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
               <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -152,6 +172,7 @@
   <resheader name="reader">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -161,6 +182,8 @@
   </resheader>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
@@ -170,7 +193,10 @@
   <data name="icons8_Eye_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_Eye_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 </root>

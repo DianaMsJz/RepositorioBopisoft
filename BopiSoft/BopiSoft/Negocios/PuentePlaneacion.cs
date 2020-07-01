@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+﻿using BopiSoft.Datos;
+using System;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using BopiSoft.Datos;
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
 namespace BopiSoft.Negocios
 {
@@ -32,6 +40,13 @@ namespace BopiSoft.Negocios
             registro.PlaneacionBuscar(datos);
         }
 
+<<<<<<< HEAD
+=======
+        public void PlaneacionBuscarId(DatosPlaneaciones datos)
+        {
+            registro.PlaneacionBuscarPorIdGrupo(datos);
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public void LlenarComboBoxUnidad(ComboBox combo)
         {
@@ -42,7 +57,10 @@ namespace BopiSoft.Negocios
         {
             registro.ExisteRegistro(ID);
         }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

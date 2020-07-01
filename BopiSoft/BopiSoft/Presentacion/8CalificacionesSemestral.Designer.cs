@@ -30,9 +30,12 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.SuspendLayout();
             // 
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalificacionesSemestral));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrarAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -210,16 +213,20 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
             this.SuspendLayout();
             // 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // CalificacionesSemestral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -230,6 +237,8 @@
             this.ResumeLayout(false);
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.ClientSize = new System.Drawing.Size(973, 450);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label1);
@@ -249,16 +258,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         }
 
         #endregion
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem registrarAlumnosToolStripMenuItem;
@@ -276,8 +291,11 @@
         private System.Windows.Forms.DataGridView GRID1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnVolver;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

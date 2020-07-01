@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <OutputType>WinExe</OutputType>
 =======
     <OutputType>Exe</OutputType>
@@ -22,6 +23,9 @@
 =======
     <OutputType>Exe</OutputType>
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+    <OutputType>Exe</OutputType>
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <RootNamespace>BopiSoft</RootNamespace>
     <AssemblyName>BopiSoft</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -78,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
 <<<<<<< HEAD
@@ -100,12 +105,16 @@
     <Compile Include="Datos\CalificacionesSql.cs" />
     <Compile Include="Datos\DatosPlaneaciones.cs" />
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+    <Compile Include="Datos\CalificacionesSql.cs" />
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Datos\DatosAlumnosGrupos.cs" />
     <Compile Include="Datos\DatosCalificaciones.cs" />
     <Compile Include="Datos\DatosCarreras.cs" />
     <Compile Include="Datos\DatosDepartamentos.cs" />
     <Compile Include="Datos\DatosEvidencias.cs" />
     <Compile Include="Datos\DatosGrupos.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
@@ -144,10 +153,20 @@
 =======
     <Compile Include="Datos\RegistroEvidenciasSql.cs" />
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+    <Compile Include="Datos\DatosMaterias.cs" />
+    <Compile Include="Datos\DatosPersonal.cs" />
+    <Compile Include="Datos\DatosPlaneaciones.cs" />
+    <Compile Include="Datos\DatosRevisiones.cs" />
+    <Compile Include="Datos\RegistroCarrerasSql.cs" />
+    <Compile Include="Datos\RegistroDepartamentoSql.cs" />
+    <Compile Include="Datos\RegistroEvidenciasSql.cs" />
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Datos\RegistroGruposSql.cs" />
     <Compile Include="Datos\RegistroListaAlumnosSql.cs" />
     <Compile Include="Datos\RegistroMateriaSql.cs" />
     <Compile Include="Datos\RegistroPersonalSql.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Negocios\PuenteAlumnos.cs" />
 <<<<<<< HEAD
@@ -161,11 +180,17 @@
     <Compile Include="Negocios\PuentePlaneacion.cs" />
     <Compile Include="Negocios\PuenteAlumnos.cs" />
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+    <Compile Include="Datos\RegistroPlaneacion.cs" />
+    <Compile Include="Datos\RegistroRevision.cs" />
+    <Compile Include="Negocios\PuenteAlumnos.cs" />
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Negocios\PuenteCalificaciones.cs" />
     <Compile Include="Negocios\PuenteCarrera.cs" />
     <Compile Include="Negocios\PuenteDepartamento.cs" />
     <Compile Include="Negocios\PuenteEvidencias.cs" />
     <Compile Include="Negocios\PuenteGrupo.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
@@ -178,6 +203,11 @@
     <Compile Include="Presentacion\13.1MenuJefe.Designer.cs">
       <DependentUpon>13.1MenuJefe.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Negocios\PuenteMaterias.cs" />
+    <Compile Include="Negocios\PuentePersonal.cs" />
+    <Compile Include="Negocios\PuentePlaneacion.cs" />
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Presentacion\21.1MenuAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,12 +304,15 @@
     <Compile Include="Presentacion\5Evidencias.Designer.cs">
       <DependentUpon>5Evidencias.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Presentacion\16EvidenciasJefe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\16EvidenciasJefe.Designer.cs">
       <DependentUpon>16EvidenciasJefe.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Presentacion\1InterfazInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -316,12 +349,15 @@
     <Compile Include="Presentacion\11MenuJefe.Designer.cs">
       <DependentUpon>11MenuJefe.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Presentacion\13MenuJefeAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\13MenuJefeAlumno.Designer.cs">
       <DependentUpon>13MenuJefeAlumno.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Presentacion\4Planeacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -334,6 +370,21 @@
     <Compile Include="Presentacion\14PlaneacionJefe.Designer.cs">
       <DependentUpon>14PlaneacionJefe.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Presentacion\EvidenciasJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\EvidenciasJefe.Designer.cs">
+      <DependentUpon>EvidenciasJefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\MenuDocenteJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\MenuDocenteJefe.Designer.cs">
+      <DependentUpon>MenuDocenteJefe.cs</DependentUpon>
+    </Compile>
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Presentacion\17ProyectoIndividual.cs">
@@ -372,9 +423,12 @@
     <Compile Include="Presentacion\20VentanaDesplegable.Designer.cs">
       <DependentUpon>20VentanaDesplegable.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="Presentacion\13.1MenuJefe.resx">
       <DependentUpon>13.1MenuJefe.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <EmbeddedResource Include="Presentacion\21.1MenuAdministrador.resx">
       <DependentUpon>21.1MenuAdministrador.cs</DependentUpon>
     </EmbeddedResource>
@@ -423,9 +477,12 @@
     <EmbeddedResource Include="Presentacion\5Evidencias.resx">
       <DependentUpon>5Evidencias.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Presentacion\16EvidenciasJefe.resx">
       <DependentUpon>16EvidenciasJefe.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <EmbeddedResource Include="Presentacion\1InterfazInicio.resx">
       <DependentUpon>1InterfazInicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -444,15 +501,27 @@
     <EmbeddedResource Include="Presentacion\11MenuJefe.resx">
       <DependentUpon>11MenuJefe.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Presentacion\13MenuJefeAlumno.resx">
       <DependentUpon>13MenuJefeAlumno.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <EmbeddedResource Include="Presentacion\4Planeacion.resx">
       <DependentUpon>4Planeacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\14PlaneacionJefe.resx">
       <DependentUpon>14PlaneacionJefe.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="Presentacion\EvidenciasJefe.resx">
+      <DependentUpon>EvidenciasJefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\MenuDocenteJefe.resx">
+      <DependentUpon>MenuDocenteJefe.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -496,6 +565,7 @@
   </ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <ItemGroup>
     <None Include="Resources\icons8_Eye_16.png" />
@@ -503,5 +573,10 @@
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+  <ItemGroup>
+    <None Include="Resources\icons8_Eye_16.png" />
+  </ItemGroup>
+>>>>>>> 031b574... Proyecto completo (Versión Final)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

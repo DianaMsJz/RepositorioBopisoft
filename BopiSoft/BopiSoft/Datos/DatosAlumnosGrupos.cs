@@ -10,6 +10,7 @@ namespace BopiSoft.Datos
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         public int No_Control { get; set; }
 =======
@@ -18,6 +19,9 @@ namespace BopiSoft.Datos
 =======
         public int NoControl { get; set; }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        public int NoControl { get; set; }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public int IdGrupo { get; set; }
         public string Nombre { get; set; }
         public string Apaterno { get; set; }
@@ -27,6 +31,7 @@ namespace BopiSoft.Datos
         {
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         public DatosAlumnosGrupos(int no_Control, int idGrupo, string nombre, string apaterno, string amaterno)
@@ -42,6 +47,11 @@ namespace BopiSoft.Datos
         {
             NoControl = noControl;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        public DatosAlumnosGrupos(int noControl, int idGrupo, string nombre, string apaterno, string amaterno)
+        {
+            NoControl = noControl;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             IdGrupo = idGrupo;
             Nombre = nombre;
             Apaterno = apaterno;

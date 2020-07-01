@@ -1,29 +1,39 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using System;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.IO;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 using System.IO;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+using System.IO;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +45,7 @@ namespace BopiSoft
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public Evidencias()
         {
             InitializeComponent();
@@ -44,17 +55,25 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         DatosMaterias datosMaterias = new DatosMaterias();
         DatosEvidencias datos = new DatosEvidencias();
         RegistroEvidenciasSql registro = new RegistroEvidenciasSql();
         PuenteEvidencias puente = new PuenteEvidencias();
         PuenteMaterias puenteMaterias = new PuenteMaterias();
 <<<<<<< HEAD
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
         DatosPersonal datospersonal = new DatosPersonal();
         PuentePersonal puentePersonal = new PuentePersonal();
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        BDConexion bd = new BDConexion();
+        DatosPersonal datospersonal = new DatosPersonal();
+        PuentePersonal puentePersonal = new PuentePersonal();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         int s = 1;
         string IDGrupo;
         string NombreGrupo;
@@ -82,11 +101,16 @@ namespace BopiSoft
         private void Evidencias_Load(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
 =======
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
+            this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -129,9 +153,13 @@ namespace BopiSoft
             E6.Text = "";
             E7.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
             txtComent.Text = "";
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            txtComent.Text = "";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -193,6 +221,9 @@ namespace BopiSoft
         private void button7_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             openFileDialog7.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog7.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
             openFileDialog7.FilterIndex = 1;
@@ -202,6 +233,7 @@ namespace BopiSoft
             {
 
                 E7.Text = openFileDialog7.FileName;
+<<<<<<< HEAD
 =======
             openFileDialog6.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog6.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
@@ -213,12 +245,17 @@ namespace BopiSoft
 
                 E6.Text = openFileDialog6.FileName;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             openFileDialog6.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog6.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
             openFileDialog6.FilterIndex = 1;
@@ -230,6 +267,7 @@ namespace BopiSoft
                 E6.Text = openFileDialog6.FileName;
             }
            
+<<<<<<< HEAD
 =======
             openFileDialog7.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog7.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
@@ -242,6 +280,8 @@ namespace BopiSoft
                 E7.Text = openFileDialog7.FileName;
             }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void btnAñadir_Click(object sender, EventArgs e)
@@ -272,6 +312,9 @@ namespace BopiSoft
                         Stream myStream6 = openFileDialog6.OpenFile();
                         Stream myStream7 = openFileDialog7.OpenFile();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         datos.Ruta1 = openFileDialog1.FileName;
                         datos.Ruta2 = openFileDialog2.FileName;
                         datos.Ruta3 = openFileDialog3.FileName;
@@ -280,8 +323,11 @@ namespace BopiSoft
                         datos.Ruta6 = openFileDialog6.FileName;
                         datos.Ruta7 = openFileDialog7.FileName;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         using (MemoryStream ms = new MemoryStream())
                         {
                             myStream1.CopyTo(ms);
@@ -334,10 +380,14 @@ namespace BopiSoft
                         }
                         puente.AñadirEvidencias(datos);
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Limpiar();
 =======
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                        Limpiar();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                     }
 
                 }
@@ -365,6 +415,9 @@ namespace BopiSoft
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         private void cmbUnidad_TextChanged(object sender, EventArgs e)
         {
@@ -627,10 +680,17 @@ namespace BopiSoft
 
         private void planeacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Hide();
+            Planeacion plan = new Planeacion(IDGrupo, IdMateria, IdDoc);
+            plan.Show();
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }
