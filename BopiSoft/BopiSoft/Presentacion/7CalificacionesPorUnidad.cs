@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
 ﻿using BopiSoft.Datos;
@@ -6,6 +7,11 @@ using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using System;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +26,7 @@ namespace BopiSoft
     public partial class CalificacionesPorUnidad : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public CalificacionesPorUnidad()
         {
             InitializeComponent();
@@ -27,6 +34,8 @@ namespace BopiSoft
 
       
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         DatosMaterias datosMaterias = new DatosMaterias();
         PuenteMaterias puenteMaterias = new PuenteMaterias();
         DatosCalificaciones datos = new DatosCalificaciones();
@@ -34,8 +43,11 @@ namespace BopiSoft
         PuenteCalificaciones puente = new PuenteCalificaciones();
         RegistroListaAlumnosSql regisAlumno = new RegistroListaAlumnosSql();
         BDConexion bd = new BDConexion();
+<<<<<<< HEAD
         DatosPersonal datospersonal = new DatosPersonal();
         PuentePersonal puentePersonal = new PuentePersonal();
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         string IDGrupo;
         string NombreGrupo;
@@ -60,6 +72,7 @@ namespace BopiSoft
             datosMaterias.IdMateria = IdMateria;
         }
 
+<<<<<<< HEAD
         
         public Boolean VerificadoCorrecto()
         {
@@ -77,6 +90,29 @@ namespace BopiSoft
             }
             if ( x>0)
             {
+=======
+        private void cmbUnidad_Click(object sender, EventArgs e)
+        {
+            if (!txtNombreMateria.Text.Equals(""))
+            {
+                puenteMaterias.RegistroBuscar(datosMaterias);
+                if (s == 1)
+                {
+                    for (int i = 0; i < datosMaterias.Unidades; i++)
+                    {
+                        cmbUnidad.Items.Insert(i, i + 1);
+                    }
+                    s++;
+                }
+            }
+        }
+        public Boolean VerificadoCorrecto()
+        {
+            Boolean v;
+            if (cmbUnidad.Text.Equals("") || txtNC.Text.Equals("") || txtCalifUni.Text.Equals("") )
+            {
+                MessageBox.Show("HAY CAMPOS VACIOS POR FAVOR VERIFIQUE");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                 v = false;
             }
             else
@@ -88,6 +124,7 @@ namespace BopiSoft
 
         public void Limpiar()
         {
+<<<<<<< HEAD
             txtNC.Text = "";
             calif1.Text = "";
             calif2.Text = "";
@@ -96,6 +133,11 @@ namespace BopiSoft
             calif5.Text = "";
             calif6.Text = "";
             calif7.Text = "";
+=======
+            cmbUnidad.Text = "";
+            txtNC.Text = "";
+            txtCalifUni.Text = "";
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         private void btnAñadir_Click(object sender, EventArgs e)
@@ -107,12 +149,18 @@ namespace BopiSoft
 
                     datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
                     datos.NoControl= Int32.Parse(txtNC.Text);
+<<<<<<< HEAD
                     if (!registro.ExisteCalifAlumno(datos.IdGrupo,datos.NoControl))
+=======
+                    datos.NoUnidad = Int32.Parse(cmbUnidad.Text);
+                    if (!registro.ExisteCalificacionUnidad(datos.IdGrupo,datos.NoUnidad,datos.NoControl))
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     {
                         MessageBox.Show("Ya existe registro de esa calificación");
                     }
                     else
                     {
+<<<<<<< HEAD
                         int suma = 0 ;
                         int promedio;
                         if (datosMaterias.Unidades == 6)
@@ -156,6 +204,12 @@ namespace BopiSoft
                         promedio = suma / datosMaterias.Unidades;
                         datos.Promedio = promedio;
                         puente.Añadir(datos);
+=======
+                        datos.CalificacionUni = Convert.ToInt32(txtCalifUni.Text);
+                        
+                        puente.Añadir(datos);
+                        actualizarGrid();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         Limpiar();
                     }
 
@@ -181,6 +235,7 @@ namespace BopiSoft
 
                     datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
                     datos.NoControl = Int32.Parse(txtNC.Text);
+<<<<<<< HEAD
                     if (!registro.ExisteCalifAlumno(datos.IdGrupo, datos.NoControl))
                     {
                         
@@ -227,11 +282,24 @@ namespace BopiSoft
                         promedio = suma / datosMaterias.Unidades;
                         datos.Promedio = promedio;
                         puente.RegistroModificar(datos);
+=======
+                    datos.NoUnidad = Int32.Parse(cmbUnidad.Text);
+                    if (!registro.ExisteCalificacionUnidad(datos.IdGrupo, datos.NoUnidad, datos.NoControl))
+                    {
+                        datos.CalificacionUni = Convert.ToInt32(txtCalifUni.Text);
+
+                        puente.RegistroModificar(datos);
+                        actualizarGrid();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         Limpiar();
                     }
                     else
                     {
+<<<<<<< HEAD
                         MessageBox.Show("No existe registro de esas calificaciones, no se puede modificar");
+=======
+                        MessageBox.Show("No existe registro de esa calificación, no se puede modificar");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                     }
 
@@ -250,6 +318,7 @@ namespace BopiSoft
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (!txtNC.Text.Equals(""))
             {
                 try
@@ -262,13 +331,34 @@ namespace BopiSoft
                         if (n == DialogResult.Yes)
                         {
                             puente.RegistroEliminar(datos);
+=======
+            if (!cmbUnidad.Text.Equals("") || !txtNC.Text.Equals(""))
+            {
+                try
+                {
+
+                    datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
+                    datos.NoControl = Int32.Parse(txtNC.Text);
+                    datos.NoUnidad = Int32.Parse(cmbUnidad.Text);
+                    if (!registro.ExisteCalificacionUnidad(datos.IdGrupo, datos.NoUnidad, datos.NoControl))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar la calificación del alumno " + datos.NoControl+ " de la unidad "+datos.NoUnidad+"", "Confirmar eliminación", MessageBoxButtons.YesNo);
+                        if (n == DialogResult.Yes)
+                        {
+                            puente.RegistroEliminar(datos);
+                            actualizarGrid();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                             Limpiar();
                         }
                         
                     }
                     else
                     {
+<<<<<<< HEAD
                         MessageBox.Show("No existe registro de esas calificaciones, no se puede eliminar");
+=======
+                        MessageBox.Show("No existe registro de esa calificación, no se puede eliminar");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                     }
 
@@ -319,6 +409,7 @@ namespace BopiSoft
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+<<<<<<< HEAD
            
             puenteMaterias.RegistroBuscar(datosMaterias);
             TextBox[] aTextbox = { calif1, calif2, calif3, calif4, calif5, calif6, calif7 };
@@ -333,6 +424,21 @@ namespace BopiSoft
         }
 
 
+=======
+            actualizarGrid();
+        }
+
+        public void actualizarGrid()
+        {
+            if (!cmbUnidad.Text.Equals(""))
+            {
+                datos.NoUnidad = Convert.ToInt32(cmbUnidad.Text);
+                dataGridView1.DataSource = bd.SelectDataTable("select * from calificaciones_unidad where IdGrupo='" + datos.IdGrupo + "' and NoUnidad='"+datos.NoUnidad+"'");
+
+            }
+            
+        }
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public static void SoloNumeros(KeyPressEventArgs e)
         {
@@ -357,6 +463,7 @@ namespace BopiSoft
             SoloNumeros(e);
         }
 
+<<<<<<< HEAD
        
         private void btnBuscarClave_Click(object sender, EventArgs e)
         {
@@ -481,5 +588,24 @@ namespace BopiSoft
 
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        private void cmbUnidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int nounidad = Convert.ToInt32(cmbUnidad.Text);
+            dataGridView1.DataSource = bd.SelectDataTable("select * from calificaciones_unidad where IdGrupo='" + datos.IdGrupo + "' and NoUnidad='" + nounidad + "'");
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow llenarNC = dataGridView1.Rows[e.RowIndex];
+            txtNC.Text = llenarNC.Cells["NoControl"].Value.ToString();
+
+            DataGridViewRow llenarCalif = dataGridView1.Rows[e.RowIndex];
+            txtCalifUni.Text = llenarCalif.Cells["CalificacionUni"].Value.ToString();
+
+            DataGridViewRow llenarUnidad = dataGridView1.Rows[e.RowIndex];
+            cmbUnidad.Text = llenarUnidad.Cells["NoUnidad"].Value.ToString();
+        }
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

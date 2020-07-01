@@ -43,6 +43,7 @@ namespace BopiSoft.Negocios
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -50,6 +51,8 @@ namespace BopiSoft.Negocios
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             registro.ExisteRegistro(ID);
         }
     }

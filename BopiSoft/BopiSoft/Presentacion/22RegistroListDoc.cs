@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
@@ -22,6 +23,11 @@ using BopiSoft.Presentacion;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -41,6 +47,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         DatosGrupos datos = new DatosGrupos();
 >>>>>>> 6591c39... 5to Commit
@@ -56,6 +63,10 @@ namespace BopiSoft
         DatosGrupos datos = new DatosGrupos();
         PuenteDepartamento puente = new PuenteDepartamento();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        DatosGrupos datos = new DatosGrupos();
+        PuenteDepartamento puente = new PuenteDepartamento();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public _22RegistroListDoc()
         {
@@ -69,16 +80,20 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente'");
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             puente.LlenarComboBoxDeptos(comboBox1);
             String depto;
             depto = comboBox1.Text;
             GRID1.DataSource = bd.SelectDataTable("select * from lista_personal where Tipo='docente' and NombreDpto='"+depto+"'");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -86,6 +101,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -161,6 +178,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -168,6 +186,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void GRID1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -181,6 +201,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             int IdPersonal= Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 =======
             int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
@@ -191,6 +212,9 @@ namespace BopiSoft
 =======
             int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            int IdPersonal = Convert.ToInt32(llenarClave.Cells["IdPersonal"].Value);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             datos.IdPersonal = IdPersonal;
             MessageBox.Show(datos.IdPersonal.ToString());
             grupos.actualizarClaveDocente(datos.IdPersonal);
@@ -200,12 +224,15 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6591c39... 5to Commit
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -215,10 +242,13 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -236,8 +266,11 @@ namespace BopiSoft
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

@@ -48,12 +48,16 @@
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -62,12 +66,16 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
             this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.GRID1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GRID1.Location = new System.Drawing.Point(27, 80);
             this.GRID1.Name = "GRID1";
@@ -79,6 +87,7 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.toolStripMenuItem1});
 =======
             this.toolStripMenuItem1,
@@ -88,6 +97,10 @@
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.toolStripMenuItem1,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(800, 24);
@@ -207,9 +220,12 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
@@ -218,9 +234,12 @@
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // _23RegistroListaJefe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,11 +280,15 @@
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

@@ -47,10 +47,14 @@
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
 <<<<<<< HEAD
+<<<<<<< HEAD
             : System.Serialization.Formatters.Binary.BinaryFormatter
 =======
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -65,9 +69,12 @@
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -76,6 +83,7 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
+<<<<<<< HEAD
 <<<<<<< HEAD
               <xsd:attribute name="name" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
@@ -86,6 +94,11 @@
               <xsd:attribute name="mimetype" type="xsd:string" />
               <xsd:attribute ref="xml:space" />
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -101,6 +114,7 @@
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
@@ -110,6 +124,11 @@
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
               <xsd:attribute ref="xml:space" />
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -132,11 +151,15 @@
   </resheader>
   <resheader name="reader">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+<<<<<<< HEAD
 =======
     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
@@ -148,4 +171,6 @@
     <value>..\Resources\icons8_Eye_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 </root>

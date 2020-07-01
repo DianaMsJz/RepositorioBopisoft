@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalificacionesPorUnidad));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.cmbUnidad = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCantTra = new System.Windows.Forms.TextBox();
@@ -139,6 +140,14 @@
             this.calif1 = new System.Windows.Forms.TextBox();
             this.txtNC = new System.Windows.Forms.TextBox();
             this.lab1 = new System.Windows.Forms.Label();
+=======
+            this.cmbUnidad = new System.Windows.Forms.ComboBox();
+            this.txtCalifUni = new System.Windows.Forms.TextBox();
+            this.txtNC = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.txtIDGrupo = new System.Windows.Forms.TextBox();
             this.txtNombreGrupo = new System.Windows.Forms.TextBox();
             this.txtNombreMateria = new System.Windows.Forms.TextBox();
@@ -157,6 +166,7 @@
             this.evidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planeacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnVolver = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.lab2 = new System.Windows.Forms.Label();
             this.calif2 = new System.Windows.Forms.TextBox();
             this.lab3 = new System.Windows.Forms.Label();
@@ -186,18 +196,50 @@
             this.calif1.TabIndex = 62;
             this.calif1.Visible = false;
             this.calif1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCalifUni_KeyPress);
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // cmbUnidad
+            // 
+            this.cmbUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbUnidad.FormattingEnabled = true;
+            this.cmbUnidad.Location = new System.Drawing.Point(199, 96);
+            this.cmbUnidad.Name = "cmbUnidad";
+            this.cmbUnidad.Size = new System.Drawing.Size(59, 21);
+            this.cmbUnidad.TabIndex = 29;
+            this.cmbUnidad.SelectedIndexChanged += new System.EventHandler(this.cmbUnidad_SelectedIndexChanged);
+            this.cmbUnidad.Click += new System.EventHandler(this.cmbUnidad_Click);
+            // 
+            // txtCalifUni
+            // 
+            this.txtCalifUni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
+            this.txtCalifUni.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCalifUni.Location = new System.Drawing.Point(199, 154);
+            this.txtCalifUni.Multiline = true;
+            this.txtCalifUni.Name = "txtCalifUni";
+            this.txtCalifUni.Size = new System.Drawing.Size(135, 26);
+            this.txtCalifUni.TabIndex = 62;
+            this.txtCalifUni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCalifUni_KeyPress);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // txtNC
             // 
             this.txtNC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(186)))), ((int)(((byte)(223)))));
             this.txtNC.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNC.Enabled = false;
+<<<<<<< HEAD
             this.txtNC.Location = new System.Drawing.Point(172, 66);
+=======
+            this.txtNC.Location = new System.Drawing.Point(199, 45);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.txtNC.Multiline = true;
             this.txtNC.Name = "txtNC";
             this.txtNC.Size = new System.Drawing.Size(134, 26);
             this.txtNC.TabIndex = 67;
             // 
+<<<<<<< HEAD
             // lab1
             // 
             this.lab1.AutoSize = true;
@@ -209,6 +251,39 @@
             this.lab1.TabIndex = 101;
             this.lab1.Text = "Unidad 1:";
             this.lab1.Visible = false;
+=======
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.label22.Location = new System.Drawing.Point(99, 93);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(66, 21);
+            this.label22.TabIndex = 96;
+            this.label22.Text = "Unidad";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
+            this.label6.Location = new System.Drawing.Point(37, 159);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(156, 21);
+            this.label6.TabIndex = 101;
+            this.label6.Text = "Calificación Parcial";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 245);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(658, 215);
+            this.dataGridView1.TabIndex = 103;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // txtIDGrupo
             // 
@@ -242,12 +317,16 @@
             this.txtNombreMateria.Name = "txtNombreMateria";
             this.txtNombreMateria.Size = new System.Drawing.Size(105, 26);
             this.txtNombreMateria.TabIndex = 117;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(384, 175);
             this.label3.Name = "label3";
@@ -285,17 +364,23 @@
             this.label6.TabIndex = 56;
             this.label6.Text = "T4";
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.label3.Location = new System.Drawing.Point(572, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 21);
             this.label3.TabIndex = 118;
             this.label3.Text = "ID Grupo";
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(602, 175);
             this.label7.Name = "label7";
@@ -313,17 +398,23 @@
             this.label8.TabIndex = 58;
             this.label8.Text = "T1";
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.label7.Location = new System.Drawing.Point(572, 88);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(116, 21);
             this.label7.TabIndex = 119;
             this.label7.Text = "Nombre Grupo";
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Ebrima", 12F);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(297, 118);
             this.label9.Name = "label9";
@@ -621,6 +712,8 @@
             // 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.label9.Location = new System.Drawing.Point(572, 120);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(125, 21);
@@ -629,7 +722,11 @@
             // 
             // btnBuscarNC
             // 
+<<<<<<< HEAD
             this.btnBuscarNC.Location = new System.Drawing.Point(31, 66);
+=======
+            this.btnBuscarNC.Location = new System.Drawing.Point(41, 45);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnBuscarNC.Name = "btnBuscarNC";
             this.btnBuscarNC.Size = new System.Drawing.Size(124, 26);
             this.btnBuscarNC.TabIndex = 121;
@@ -645,7 +742,11 @@
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAñadir.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAñadir.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnAñadir.Location = new System.Drawing.Point(528, 344);
+=======
+            this.btnAñadir.Location = new System.Drawing.Point(516, 174);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(117, 40);
             this.btnAñadir.TabIndex = 151;
@@ -661,7 +762,11 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnEliminar.Location = new System.Drawing.Point(774, 344);
+=======
+            this.btnEliminar.Location = new System.Drawing.Point(762, 174);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(117, 40);
             this.btnEliminar.TabIndex = 154;
@@ -677,7 +782,11 @@
             this.btnModi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModi.Font = new System.Drawing.Font("Ebrima", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnModi.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.btnModi.Location = new System.Drawing.Point(651, 344);
+=======
+            this.btnModi.Location = new System.Drawing.Point(639, 174);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnModi.Name = "btnModi";
             this.btnModi.Size = new System.Drawing.Size(117, 40);
             this.btnModi.TabIndex = 153;
@@ -726,21 +835,30 @@
             this.calificacionesSemestralesToolStripMenuItem.Name = "calificacionesSemestralesToolStripMenuItem";
             this.calificacionesSemestralesToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.calificacionesSemestralesToolStripMenuItem.Text = "Calificaciones semestrales";
+<<<<<<< HEAD
             this.calificacionesSemestralesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesSemestralesToolStripMenuItem_Click);
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // evidenciasToolStripMenuItem
             // 
             this.evidenciasToolStripMenuItem.Name = "evidenciasToolStripMenuItem";
             this.evidenciasToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.evidenciasToolStripMenuItem.Text = "Evidencias";
+<<<<<<< HEAD
             this.evidenciasToolStripMenuItem.Click += new System.EventHandler(this.evidenciasToolStripMenuItem_Click);
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // planeacionToolStripMenuItem
             // 
             this.planeacionToolStripMenuItem.Name = "planeacionToolStripMenuItem";
             this.planeacionToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.planeacionToolStripMenuItem.Text = "Planeacion";
+<<<<<<< HEAD
             this.planeacionToolStripMenuItem.Click += new System.EventHandler(this.planeacionToolStripMenuItem_Click);
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // btnVolver
             // 
@@ -756,6 +874,7 @@
             this.btnVolver.Size = new System.Drawing.Size(48, 49);
             this.btnVolver.TabIndex = 156;
             this.btnVolver.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // lab2
@@ -931,11 +1050,15 @@
             this.label1.Visible = false;
             // 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            // 
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // CalificacionesPorUnidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
 <<<<<<< HEAD
@@ -999,6 +1122,9 @@
             this.Controls.Add(this.lab3);
             this.Controls.Add(this.calif2);
             this.Controls.Add(this.lab2);
+=======
+            this.ClientSize = new System.Drawing.Size(903, 536);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnEliminar);
@@ -1011,6 +1137,7 @@
             this.Controls.Add(this.txtNombreMateria);
             this.Controls.Add(this.txtNombreGrupo);
             this.Controls.Add(this.txtIDGrupo);
+<<<<<<< HEAD
             this.Controls.Add(this.lab1);
             this.Controls.Add(this.txtNC);
             this.Controls.Add(this.calif1);
@@ -1020,12 +1147,27 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.txtNC);
+            this.Controls.Add(this.txtCalifUni);
+            this.Controls.Add(this.cmbUnidad);
+            this.Name = "CalificacionesPorUnidad";
+            this.Text = "Calificaciones por unidad";
+            this.Load += new System.EventHandler(this.CalificacionesPorUnidad_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         private System.Windows.Forms.ComboBox cmbUnidad;
@@ -1074,6 +1216,14 @@
 =======
         private System.Windows.Forms.TextBox calif1;
         private System.Windows.Forms.Label lab1;
+=======
+
+        private System.Windows.Forms.ComboBox cmbUnidad;
+        private System.Windows.Forms.TextBox txtCalifUni;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dataGridView1;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private System.Windows.Forms.TextBox txtIDGrupo;
         private System.Windows.Forms.TextBox txtNombreGrupo;
         private System.Windows.Forms.TextBox txtNombreMateria;
@@ -1093,6 +1243,7 @@
         private System.Windows.Forms.ToolStripMenuItem planeacionToolStripMenuItem;
         private System.Windows.Forms.Button btnVolver;
         public System.Windows.Forms.TextBox txtNC;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lab2;
         private System.Windows.Forms.TextBox calif2;
         private System.Windows.Forms.Label lab3;
@@ -1108,5 +1259,7 @@
         private System.Windows.Forms.Button btnBuscarClave;
         private System.Windows.Forms.Label label1;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

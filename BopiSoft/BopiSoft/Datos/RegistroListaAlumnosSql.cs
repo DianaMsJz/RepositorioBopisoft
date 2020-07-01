@@ -12,6 +12,7 @@ namespace BopiSoft.Datos
     {
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
+<<<<<<< HEAD
         DatosAlumnosGrupos datos = new DatosAlumnosGrupos();
 
         public bool ExisteAlumno(int ID,int IdGrupo)
@@ -22,6 +23,8 @@ namespace BopiSoft.Datos
             bd.command.Parameters.AddWithValue("@No_Control", ID);
             bd.command.Parameters.AddWithValue("@IdGrupo", IdGrupo);
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public void AlumnoBuscar(DatosAlumnosGrupos datos)
         {
@@ -58,12 +61,16 @@ namespace BopiSoft.Datos
             string existe = "Select count(*) from lista_alumnos where IdGrupo=@IdGrupo";
             bd.command = new MySqlCommand(existe, bd.connect);
             bd.command.Parameters.AddWithValue("@IdGrupo", ID);
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             int count = Convert.ToInt32(bd.command.ExecuteScalar());
 
             return count == 0;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         public void AñadirAlumno(DatosAlumnosGrupos datos)
         {
@@ -86,6 +93,8 @@ namespace BopiSoft.Datos
         }
         public void ModificarAlumno(DatosAlumnosGrupos datos)
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public void Añadir(DatosAlumnosGrupos datos)
         {
             string agregar = "insert into lista_alumnos values ('" + datos.NoControl+ "','" + datos.IdGrupo + "','" + datos.Nombre + "','" + datos.Apaterno+"','" + datos.Amaterno + "')";
@@ -100,27 +109,40 @@ namespace BopiSoft.Datos
         }
 
         public void Modificar(DatosAlumnosGrupos datos)
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         {
             try
             {
                 bd.connecttodb();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 string actualizar = "update lista_alumnos set  Nombre=@Nombre, Apaterno=@Apaterno, Amaterno=@Amaterno  where No_Control='" + datos.No_Control +"' and IdGrupo='"+datos.IdGrupo+"'";
 =======
                 string actualizar = "update lista_alumnos set Nombre=@Nombre, Apaterno=@Apaterno, Amaterno=@Amaterno where No_Control=@NoControl and IdGrupo=@IdGrupo";
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                string actualizar = "update lista_alumnos set Nombre=@Nombre, Apaterno=@Apaterno, Amaterno=@Amaterno where No_Control=@NoControl and IdGrupo=@IdGrupo";
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                 bd.command = new MySqlCommand(actualizar, bd.connect);
                 bd.command.Parameters.AddWithValue("@Nombre", datos.Nombre);
                 bd.command.Parameters.AddWithValue("@Apaterno", datos.Apaterno);
                 bd.command.Parameters.AddWithValue("@Amaterno", datos.Amaterno);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 bd.command.Parameters.AddWithValue("@NoControl", datos.NoControl);
                 bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                bd.command.Parameters.AddWithValue("@NoControl", datos.NoControl);
+                bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                 int cant;
                 cant = bd.command.ExecuteNonQuery();
@@ -137,6 +159,7 @@ namespace BopiSoft.Datos
             {
                 MessageBox.Show(ex.ToString());
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         }
@@ -174,6 +197,8 @@ namespace BopiSoft.Datos
         }
 
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
         public void Eliminar(DatosAlumnosGrupos datos)
         {
@@ -194,6 +219,9 @@ namespace BopiSoft.Datos
                 MessageBox.Show("Algo salió mal");
             }
         }
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

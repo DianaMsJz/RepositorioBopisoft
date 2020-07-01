@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
 ﻿using BopiSoft.Datos;
@@ -6,14 +7,23 @@ using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using System;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.IO;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+using System.IO;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +34,7 @@ namespace BopiSoft
     public partial class Evidencias : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public Evidencias()
         {
             InitializeComponent();
@@ -31,14 +42,19 @@ namespace BopiSoft
 
        
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         DatosMaterias datosMaterias = new DatosMaterias();
         DatosEvidencias datos = new DatosEvidencias();
         RegistroEvidenciasSql registro = new RegistroEvidenciasSql();
         PuenteEvidencias puente = new PuenteEvidencias();
         PuenteMaterias puenteMaterias = new PuenteMaterias();
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
         DatosPersonal datospersonal = new DatosPersonal();
         PuentePersonal puentePersonal = new PuentePersonal();
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         int s = 1;
         string IDGrupo;
         string NombreGrupo;
@@ -65,8 +81,12 @@ namespace BopiSoft
 
         private void Evidencias_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+=======
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -108,7 +128,10 @@ namespace BopiSoft
             E5.Text = "";
             E6.Text = "";
             E7.Text = "";
+<<<<<<< HEAD
             txtComent.Text = "";
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -169,6 +192,7 @@ namespace BopiSoft
 
         private void button7_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             openFileDialog7.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog7.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
             openFileDialog7.FilterIndex = 1;
@@ -178,11 +202,23 @@ namespace BopiSoft
             {
 
                 E7.Text = openFileDialog7.FileName;
+=======
+            openFileDialog6.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            openFileDialog6.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
+            openFileDialog6.FilterIndex = 1;
+            openFileDialog6.RestoreDirectory = true;
+
+            if (openFileDialog6.ShowDialog() == DialogResult.OK)
+            {
+
+                E6.Text = openFileDialog6.FileName;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             openFileDialog6.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             openFileDialog6.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
             openFileDialog6.FilterIndex = 1;
@@ -194,6 +230,18 @@ namespace BopiSoft
                 E6.Text = openFileDialog6.FileName;
             }
            
+=======
+            openFileDialog7.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            openFileDialog7.Filter = "Documentos (*.docx)|*.docx|Todos los archivos (*.*)|*.*";
+            openFileDialog7.FilterIndex = 1;
+            openFileDialog7.RestoreDirectory = true;
+
+            if (openFileDialog7.ShowDialog() == DialogResult.OK)
+            {
+
+                E7.Text = openFileDialog7.FileName;
+            }
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         private void btnAñadir_Click(object sender, EventArgs e)
@@ -223,6 +271,7 @@ namespace BopiSoft
                         Stream myStream5 = openFileDialog5.OpenFile();
                         Stream myStream6 = openFileDialog6.OpenFile();
                         Stream myStream7 = openFileDialog7.OpenFile();
+<<<<<<< HEAD
                         datos.Ruta1 = openFileDialog1.FileName;
                         datos.Ruta2 = openFileDialog2.FileName;
                         datos.Ruta3 = openFileDialog3.FileName;
@@ -231,6 +280,8 @@ namespace BopiSoft
                         datos.Ruta6 = openFileDialog6.FileName;
                         datos.Ruta7 = openFileDialog7.FileName;
 
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         using (MemoryStream ms = new MemoryStream())
                         {
                             myStream1.CopyTo(ms);
@@ -282,7 +333,11 @@ namespace BopiSoft
                             datos.Comentario = txtComent.Text;
                         }
                         puente.AñadirEvidencias(datos);
+<<<<<<< HEAD
                         Limpiar();
+=======
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     }
 
                 }
@@ -309,6 +364,7 @@ namespace BopiSoft
                 }
             }
         }
+<<<<<<< HEAD
 
         private void cmbUnidad_TextChanged(object sender, EventArgs e)
         {
@@ -574,5 +630,7 @@ namespace BopiSoft
 
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

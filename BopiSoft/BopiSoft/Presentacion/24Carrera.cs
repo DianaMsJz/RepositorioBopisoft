@@ -21,11 +21,14 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         RegistroCarrerasSql registro = new RegistroCarrerasSql();
 
         string ID;
@@ -33,11 +36,14 @@ namespace BopiSoft
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public _24Carrera()
         {
@@ -49,16 +55,20 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (txtClave.Text != "" && txtNombre.Text != "")
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
             ID = txtClave.Text;
             Nombre = txtNombre.Text;
             if (validarCarreraVacia(ID, Nombre))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -66,6 +76,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             {
                 try
                 {
@@ -84,6 +96,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             }
             else
@@ -99,6 +112,10 @@ namespace BopiSoft
             }
           else
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            }
+          else
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             {
                 MessageBox.Show("ERROR LLENE TODOS LOS CAMPOS");
             }
@@ -126,6 +143,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.Nombre = txtNombre.Text;
 
 
@@ -137,6 +155,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     if (!registro.ExisteCarrera(datos.IdCarrera))
                     {
                         datos.Nombre = txtNombre.Text;
@@ -150,11 +170,14 @@ namespace BopiSoft
                     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                 }
                 catch (Exception ex)
                 {
@@ -180,6 +203,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     puente.RegistroEliminar(datos);
                     Limpiar();
@@ -189,6 +213,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     if (!registro.ExisteCarrera(datos.IdCarrera))
                     {
                         var n = MessageBox.Show("¿Está seguro que desea eliminar la carrera con la ID " + datos.IdCarrera + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
@@ -206,11 +232,14 @@ namespace BopiSoft
  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                 }
                 catch (Exception ex)
                 {
@@ -375,11 +404,14 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 
         public bool validarCarreraVacia(string id, string nombre)
@@ -403,10 +435,13 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -424,9 +459,12 @@ namespace BopiSoft
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }
 

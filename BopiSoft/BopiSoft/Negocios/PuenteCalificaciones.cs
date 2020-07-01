@@ -24,10 +24,13 @@ namespace BopiSoft.Negocios
         {
             registro.Eliminar(datos);
         }
+<<<<<<< HEAD
 
         public void BuscarCalif(DatosCalificaciones datos)
         {
             registro.RegistroBuscar(datos);
         }
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

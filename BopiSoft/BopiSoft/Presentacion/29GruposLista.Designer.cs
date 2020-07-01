@@ -54,23 +54,30 @@
             this.registroDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip2.SuspendLayout();
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.GRID1 = new System.Windows.Forms.DataGridView();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).BeginInit();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.SuspendLayout();
             // 
             // cmbTurno
             // 
             this.cmbTurno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +90,9 @@
 =======
             this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cmbTurno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbTurno.FormattingEnabled = true;
             this.cmbTurno.Items.AddRange(new object[] {
             "Matutino",
@@ -109,6 +119,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -118,6 +129,9 @@
 =======
             this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cmbSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbSemestre.FormattingEnabled = true;
             this.cmbSemestre.Items.AddRange(new object[] {
             "1",
@@ -130,6 +144,7 @@
             "8",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "9",
             "10",
             "11",
@@ -140,6 +155,9 @@
 =======
             "9"});
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            "9"});
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbSemestre.Location = new System.Drawing.Point(435, 54);
             this.cmbSemestre.Name = "cmbSemestre";
             this.cmbSemestre.Size = new System.Drawing.Size(72, 21);
@@ -162,6 +180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -180,6 +199,10 @@
             this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCarrera.FormattingEnabled = true;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCarrera.FormattingEnabled = true;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbCarrera.Location = new System.Drawing.Point(97, 57);
             this.cmbCarrera.Name = "cmbCarrera";
             this.cmbCarrera.Size = new System.Drawing.Size(240, 21);
@@ -212,16 +235,21 @@
             this.btnBuscar.UseVisualStyleBackColor = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.toolStripMenuItem1});
@@ -231,15 +259,20 @@
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.toolStripMenuItem1,
             this.cerrarSesiónToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(980, 24);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.menuStrip2.TabIndex = 157;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -356,9 +389,12 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // GRID1
             // 
             this.GRID1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
@@ -376,14 +412,18 @@
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // _29GruposLista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(836, 450);
@@ -395,6 +435,10 @@
             this.ClientSize = new System.Drawing.Size(980, 450);
             this.Controls.Add(this.GRID1);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.ClientSize = new System.Drawing.Size(980, 450);
+            this.Controls.Add(this.GRID1);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.cmbTurno);
@@ -408,19 +452,25 @@
             this.Text = "Grupos Lista";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Load += new System.EventHandler(this._29GruposLista_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRID1)).EndInit();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -453,6 +503,7 @@
         private System.Windows.Forms.ToolStripMenuItem registroDepartamentoToolStripMenuItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.DataGridView GRID1;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
@@ -461,5 +512,9 @@
         private System.Windows.Forms.DataGridView GRID1;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        private System.Windows.Forms.DataGridView GRID1;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.listaDocenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaJefeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,6 +81,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.listaDocenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaJefeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -96,6 +99,7 @@
             this.pbFoto = new System.Windows.Forms.PictureBox();
             this.btnSeleccionarImagen = new System.Windows.Forms.Button();
             this.cmbDepartamento = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -105,6 +109,9 @@
 =======
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
             this.SuspendLayout();
@@ -226,6 +233,7 @@
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(216)))), ((int)(((byte)(244)))));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.label13.Location = new System.Drawing.Point(668, 22);
 =======
             this.label13.Location = new System.Drawing.Point(606, 24);
@@ -233,6 +241,9 @@
 =======
             this.label13.Location = new System.Drawing.Point(606, 24);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.label13.Location = new System.Drawing.Point(606, 24);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(181, 32);
             this.label13.TabIndex = 12;
@@ -259,16 +270,21 @@
             this.txtIdPersonal.TabIndex = 98;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.txtIdPersonal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdPersonal_KeyPress);
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
             this.txtIdPersonal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdPersonal_KeyPress);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.txtIdPersonal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdPersonal_KeyPress);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // cmbTipo
             // 
             this.cmbTipo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(208)))), ((int)(((byte)(216)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +297,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipo.FormattingEnabled = true;
             this.cmbTipo.Items.AddRange(new object[] {
@@ -289,11 +307,14 @@
             "Admin"});
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbTipo.Location = new System.Drawing.Point(98, 69);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(95, 21);
@@ -339,6 +360,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.cmbSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -348,6 +370,9 @@
 =======
             this.cmbSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.cmbSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.cmbSexo.FormattingEnabled = true;
             this.cmbSexo.Items.AddRange(new object[] {
             "M",
@@ -441,6 +466,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.registroToolStripMenuItem});
 =======
             this.registroToolStripMenuItem,
@@ -450,6 +476,10 @@
             this.registroToolStripMenuItem,
             this.cerrarSesiónToolStripMenuItem});
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.registroToolStripMenuItem,
+            this.cerrarSesiónToolStripMenuItem});
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(895, 24);
@@ -487,6 +517,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -501,10 +532,13 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // listaDocenteToolStripMenuItem
             // 
             this.listaDocenteToolStripMenuItem.Name = "listaDocenteToolStripMenuItem";
             this.listaDocenteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -512,6 +546,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.listaDocenteToolStripMenuItem.Text = "Lista Docente";
             this.listaDocenteToolStripMenuItem.Click += new System.EventHandler(this.listaDocenteToolStripMenuItem_Click);
             // 
@@ -522,6 +558,7 @@
             this.listaJefeToolStripMenuItem.Text = "Lista Jefe";
             this.listaJefeToolStripMenuItem.Click += new System.EventHandler(this.listaJefeToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,10 +595,13 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(193, 6);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -569,6 +609,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // registroCarreraToolStripMenuItem
             // 
@@ -580,11 +622,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
@@ -592,11 +637,14 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // registroMateriaToolStripMenuItem
             // 
             this.registroMateriaToolStripMenuItem.Name = "registroMateriaToolStripMenuItem";
@@ -607,11 +655,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // contenidoMateriaToolStripMenuItem
             // 
             this.contenidoMateriaToolStripMenuItem.Name = "contenidoMateriaToolStripMenuItem";
@@ -621,11 +672,14 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // listaMateriaToolStripMenuItem
             // 
             this.listaMateriaToolStripMenuItem.Name = "listaMateriaToolStripMenuItem";
@@ -636,11 +690,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
@@ -648,11 +705,14 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // registroGrupoToolStripMenuItem
             // 
             this.registroGrupoToolStripMenuItem.Name = "registroGrupoToolStripMenuItem";
@@ -670,11 +730,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -682,11 +745,14 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // registroDepartamentoToolStripMenuItem
             // 
             this.registroDepartamentoToolStripMenuItem.Name = "registroDepartamentoToolStripMenuItem";
@@ -694,6 +760,7 @@
             this.registroDepartamentoToolStripMenuItem.Text = "Registro Departamento";
             this.registroDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.registroDepartamentoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +790,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // pbFoto
             // 
             this.pbFoto.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -754,10 +823,13 @@
             this.cmbDepartamento.TabIndex = 120;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // cerrarSesiónToolStripMenuItem
             // 
@@ -766,9 +838,12 @@
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // _21RegistroEditar
             // 
@@ -863,11 +938,15 @@
         private System.Windows.Forms.ToolStripMenuItem contenidoMateriaToolStripMenuItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

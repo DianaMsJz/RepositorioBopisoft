@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.Windows.Forms;
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -16,6 +17,9 @@ using System.Windows.Forms;
 =======
 using System.Windows.Forms;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+using System.Windows.Forms;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 namespace BopiSoft.Negocios
 {
@@ -45,11 +49,14 @@ namespace BopiSoft.Negocios
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public void LlenarComboBoxDeptos(ComboBox combo)
         {
             registro.LlenarComboBoxDeptos(combo);
@@ -60,10 +67,13 @@ namespace BopiSoft.Negocios
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

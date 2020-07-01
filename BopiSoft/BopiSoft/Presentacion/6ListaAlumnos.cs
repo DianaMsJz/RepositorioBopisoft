@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
 ﻿using BopiSoft.Datos;
@@ -8,12 +9,17 @@ using MySql.Data.MySqlClient;
 using System;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 using MySql.Data.MySqlClient;
 using System;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +32,7 @@ using System.Windows.Forms;
 namespace BopiSoft
 {
     public partial class ListaAlumnos : Form
+<<<<<<< HEAD
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,12 +45,18 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+
+    {
+        
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         DatosAlumnosGrupos datos = new DatosAlumnosGrupos();
         DatosPersonal datospersonal = new DatosPersonal();
         PuentePersonal PuentePersonal = new PuentePersonal();
         RegistroListaAlumnosSql registro = new RegistroListaAlumnosSql();
         PuenteAlumnos puente = new PuenteAlumnos();
         BDConexion bd = new BDConexion();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         string IDGrupo;
@@ -53,30 +66,55 @@ namespace BopiSoft
 
         public ListaAlumnos(string IDGrupo, string NombreGrupo, string NombreMateria, int IdDoc)
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         
         string IDGrupo;
         string NombreGrupo;
         string NombreMateria;
         int IdMateria;
         int IdDoc;
+<<<<<<< HEAD
 
         public ListaAlumnos(string IDGrupo, string NombreGrupo, string NombreMateria,int IdMateria, int IdDoc)
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        string NombreDocente;
+        string Unidad;
+        string CompetenciaMateria;
+        string Caracterizacion;
+        string ActividadAprendizaje;
+        string CompetenciaUnidad;
+        string temarioUnidad;
+
+
+        public ListaAlumnos(string IDGrupo, string NombreGrupo, string NombreMateria,int IdMateria, int IdDoc)
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         {
             InitializeComponent();
             this.IDGrupo = IDGrupo;
             this.NombreGrupo = NombreGrupo;
             this.NombreMateria = NombreMateria;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.IdMateria = IdMateria;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             this.IdDoc = IdDoc;
+=======
+            this.IdMateria = IdMateria;
+            this.IdDoc = IdDoc;
+           
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
             txtIDGrupo.Text = IDGrupo;
             txtNombreGrupo.Text = NombreGrupo;
             txtNombreMateria.Text = NombreMateria;
             datos.IdGrupo = Convert.ToInt32(IDGrupo);
+<<<<<<< HEAD
+=======
+            MessageBox.Show("ID DEL DOCENTE ES: " + IdDoc+ ", ID GRUPO ES: "+IDGrupo+", ID MATERIA ES: "+IdMateria);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
            
         }
 
@@ -171,6 +209,7 @@ namespace BopiSoft
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.No_Control = Convert.ToInt32(txtNC.Text);
                     datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
                     if (!registro.ExisteAlumno(datos.No_Control,datos.IdGrupo))
@@ -179,6 +218,11 @@ namespace BopiSoft
                     datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
                     if (!registro.ExisteAlumno(datos.IdGrupo,datos.NoControl))
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                    datos.NoControl = Convert.ToInt32(txtNC.Text);
+                    datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
+                    if (!registro.ExisteAlumno(datos.IdGrupo,datos.NoControl))
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     {
                         MessageBox.Show("Ya existe un alumno con esa clave");
                     }
@@ -189,10 +233,14 @@ namespace BopiSoft
                         datos.Amaterno = txtApellidoMaterno.Text;
                         
 <<<<<<< HEAD
+<<<<<<< HEAD
                         puente.AñadirAlumno(datos);
 =======
                         puente.Añadir(datos);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        puente.Añadir(datos);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         actualizarGrid();
                         Limpiar();
                     }
@@ -212,16 +260,22 @@ namespace BopiSoft
                 {
                     datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.No_Control = Convert.ToInt32(txtNC.Text);
                     if (!registro.ExisteAlumno(datos.No_Control,datos.IdGrupo))
                     {
                         puente.BuscarAlumno(datos);
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     datos.NoControl = Convert.ToInt32(txtNC.Text);
                     if (!registro.ExisteAlumno(datos.IdGrupo,datos.NoControl))
                     {
                         puente.Buscar(datos);
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                         txtNom.Text = datos.Nombre;
                         txtApellidoPaterno.Text = datos.Apaterno;
@@ -253,9 +307,13 @@ namespace BopiSoft
         private void btnVolver_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
            
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+           
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM lista_personal WHERE IdPersonal='" + IdDoc + "' ", bd.connect); 
             MySqlDataReader leer = cmd.ExecuteReader();
             if (leer.Read())
@@ -282,25 +340,35 @@ namespace BopiSoft
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.No_Control = Convert.ToInt32(txtNC.Text);
                     datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
 
                     if (!registro.ExisteAlumno(datos.No_Control,datos.IdGrupo))
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     datos.NoControl = Convert.ToInt32(txtNC.Text);
                     datos.IdGrupo = Convert.ToInt32(txtIDGrupo.Text);
 
                     if (!registro.ExisteAlumno(datos.IdGrupo, datos.NoControl))
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     {
                         datos.Nombre = txtNom.Text;
                         datos.Apaterno= txtApellidoPaterno.Text;
                         datos.Amaterno = txtApellidoMaterno.Text;
 <<<<<<< HEAD
+<<<<<<< HEAD
                         puente.ModificarAlumno(datos);
 =======
                         puente.RegistroModificar(datos);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        puente.RegistroModificar(datos);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         actualizarGrid();
                         Limpiar();
                     }
@@ -324,6 +392,7 @@ namespace BopiSoft
                 {
                     datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     datos.No_Control=Int32.Parse(txtNC.Text);
 
                     if (!registro.ExisteAlumno(datos.No_Control,datos.IdGrupo))
@@ -333,6 +402,8 @@ namespace BopiSoft
                         {
                             puente.EliminarAlumno(datos);
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     datos.NoControl=Int32.Parse(txtNC.Text);
 
                     if (!registro.ExisteAlumno(datos.IdGrupo, datos.NoControl))
@@ -341,7 +412,10 @@ namespace BopiSoft
                         if (n == DialogResult.Yes)
                         {
                             puente.RegistroEliminar(datos);
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                             actualizarGrid();
                             Limpiar();
                         }
@@ -363,20 +437,27 @@ namespace BopiSoft
         {
             this.Hide();
 <<<<<<< HEAD
+<<<<<<< HEAD
             ListaAlumnos listaAlumno = new ListaAlumnos(IDGrupo, NombreGrupo, NombreMateria, IdDoc);
 =======
             ListaAlumnos listaAlumno = new ListaAlumnos(IDGrupo, NombreGrupo, NombreMateria,IdMateria, IdDoc);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            ListaAlumnos listaAlumno = new ListaAlumnos(IDGrupo, NombreGrupo, NombreMateria, IdMateria, IdDoc);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             listaAlumno.Show();
         }
 
         private void calificacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         }
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Hide();
             CalificacionesPorUnidad calif = new CalificacionesPorUnidad(IDGrupo, NombreGrupo, NombreMateria, IdMateria, IdDoc);
             calif.Show();
@@ -403,6 +484,7 @@ namespace BopiSoft
             evidencias.Show();
         }
 
+<<<<<<< HEAD
         private void calificacionesSemestralesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -415,5 +497,12 @@ namespace BopiSoft
 
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        private void planeacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Planeacion PlaneacionDocente = new Planeacion(IDGrupo, IdMateria, IdDoc);
+            PlaneacionDocente.Show();
+        }
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

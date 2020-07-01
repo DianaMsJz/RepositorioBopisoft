@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.SuspendLayout();
             // 
 =======
@@ -210,16 +211,24 @@
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // CalificacionesSemestral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "CalificacionesSemestral";
             this.Text = "Calificaciones semestral";
             this.ResumeLayout(false);
+<<<<<<< HEAD
 =======
             this.ClientSize = new System.Drawing.Size(973, 450);
             this.Controls.Add(this.btnVolver);
@@ -241,10 +250,13 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         }
 
         #endregion
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -265,5 +277,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnVolver;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }
