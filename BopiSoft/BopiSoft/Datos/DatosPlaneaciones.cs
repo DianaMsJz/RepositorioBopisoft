@@ -8,11 +8,18 @@ namespace BopiSoft.Datos
 {
     class DatosPlaneaciones
     {
+<<<<<<< HEAD
 
         public int IdPlaneacion { get; set; }
         public int IdGrupo { get; set; }
         public string NombreMateria { get; set; }
         public int IDdocente   { get; set; }
+=======
+        public int IdPlaneacion { get; set; }
+        public int IdGrupo { get; set; }
+        public string NombreMateria { get; set; }
+        public int IDdocente { get; set; }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public string NombreDocente { get; set; }
         public int Unidad { get; set; }
         public string CompetenciaMat { get; set; }
@@ -20,6 +27,7 @@ namespace BopiSoft.Datos
         public string TemarioUnidad { get; set; }
         public string CompetenciaUnidad { get; set; }
         public string ActAprendizaje { get; set; }
+<<<<<<< HEAD
         public int HrsTeoria   { get; set; }
         public int HrsPractica { get; set; }
         public int SesionesEst { get; set; }
@@ -27,6 +35,15 @@ namespace BopiSoft.Datos
         public string Visitas { get; set; }
         public string Practicas { get; set; }
         public string ActEnseñanza   { get; set; }
+=======
+        public int HrsTeoria { get; set; }
+        public int HrsPractica { get; set; }
+        public int SesionesEst { get; set; }
+        public DateTime FechaExam { get; set; }
+        public string Visitas { get; set; }
+        public string Practicas { get; set; }
+        public string ActEnseñanza { get; set; }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public string Recursos { get; set; }
 
         public DatosPlaneaciones()
@@ -58,10 +75,13 @@ namespace BopiSoft.Datos
             this.Recursos = recursos;
         }
 
+<<<<<<< HEAD
         
 
 
         
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
     }
 }

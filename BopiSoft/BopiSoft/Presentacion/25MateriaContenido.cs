@@ -23,6 +23,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -39,6 +40,9 @@ namespace BopiSoft.Presentacion
 =======
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         int s = 1;
 
         public _25MateriaContenido()
@@ -123,6 +127,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> 6591c39... 5to Commit
@@ -134,13 +139,19 @@ namespace BopiSoft.Presentacion
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
         private void txtClave_TextChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -150,6 +161,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             lista.form = 1;
 
@@ -170,6 +182,10 @@ namespace BopiSoft.Presentacion
             lista.form = 1;
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            lista.form = 1;
+
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.Hide();
             lista.Show();
             MessageBox.Show("Selecciona la materia para obtener la clave");
@@ -181,6 +197,7 @@ namespace BopiSoft.Presentacion
             {
                 try
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +223,24 @@ namespace BopiSoft.Presentacion
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
                     puente.RegistroAñadirContenido(datos);
                     Limpiar();
+=======
+                    datos.IdMateria = Convert.ToInt32(txtClave.Text);
+                    datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
+                    if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
+                    {
+                        MessageBox.Show("Ya existe contenido de esa materia");
+                    }
+                    else
+                    {
+                        datos.TemaUnidad = txtTema.Text;
+                        datos.SubtemaUnidad = txtSubtema.Text;
+                        puente.RegistroAñadirContenido(datos);
+                        Limpiar();
+
+                    }
+                    
+                   
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 }
                 catch (Exception ex)
@@ -223,7 +258,11 @@ namespace BopiSoft.Presentacion
         public Boolean VerificadoCorrecto()
         {
             Boolean v;
+<<<<<<< HEAD
             if (txtClave.Text.Equals("") || cmbUnidad.Text.Equals("") || txtTema.Text.Equals("") || txtSubtema.Text.Equals("") )
+=======
+            if (txtClave.Text.Equals("") || cmbUnidad.Text.Equals("") || txtTema.Text.Equals("") || txtSubtema.Text.Equals(""))
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             {
                 MessageBox.Show("HAY CAMPOS VACIOS POR FAVOR VERIFIQUE");
                 v = false;
@@ -241,6 +280,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cmbUnidad.SelectedIndex = 0;
 =======
             cmbUnidad.Text="";
@@ -251,10 +291,14 @@ namespace BopiSoft.Presentacion
 =======
             cmbUnidad.Text="";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            cmbUnidad.Text = "";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             txtSubtema.Text = "";
         }
 
         private void cmbUnidad_Click(object sender, EventArgs e)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +320,8 @@ namespace BopiSoft.Presentacion
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         {//para que el comboBox jale el número de unidades que tiene dicha materia
             if (!txtClave.Text.Equals(""))
             {
@@ -283,6 +329,7 @@ namespace BopiSoft.Presentacion
                 puente.RegistroBuscar(datos);
                 if (s == 1)
                 {
+<<<<<<< HEAD
                      for (int i = 0; i < datos.Unidades; i++)
                      {
                          cmbUnidad.Items.Insert(i, i + 1);
@@ -298,10 +345,21 @@ namespace BopiSoft.Presentacion
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                    for (int i = 0; i < datos.Unidades; i++)
+                    {
+                        cmbUnidad.Items.Insert(i, i + 1);
+
+                    }
+                    s++;
+                }
+            }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void cmbUnidad_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,11 +376,30 @@ namespace BopiSoft.Presentacion
             datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
 
             if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria,datos.Unidad))
+=======
+            if (!txtClave.Text.Equals(""))
+            {
+                datos.IdMateria = Convert.ToInt32(txtClave.Text);
+                datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
+
+            if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             {
                 puente.BuscarContenido(datos);
                 txtTema.Text = datos.TemaUnidad;
                 txtSubtema.Text = datos.SubtemaUnidad;
             }
+<<<<<<< HEAD
+=======
+            else
+            {
+                txtTema.Text = "";
+                txtSubtema.Text = "";
+            }
+
+            }
+           
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         }
 
@@ -337,6 +414,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         datos.IdMateria = Int32.Parse(txtClave.Text);
                         datos.Unidad = Convert.ToInt32(cmbUnidad.SelectedItem);
                         datos.TemaUnidad = txtTema.ToString();
@@ -347,6 +425,8 @@ namespace BopiSoft.Presentacion
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         datos.IdMateria = Convert.ToInt32(txtClave.Text);
                         datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
                         datos.TemaUnidad = txtTema.Text;
@@ -354,11 +434,14 @@ namespace BopiSoft.Presentacion
                         puente.RegistroModificarContenido(datos);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         Limpiar();
 
                     }
@@ -381,6 +464,7 @@ namespace BopiSoft.Presentacion
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtClave.Text != "" && cmbUnidad.Text !="")
             {
                 try
@@ -402,6 +486,17 @@ namespace BopiSoft.Presentacion
                     if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
                     {
                         var n = MessageBox.Show("¿Está seguro que desea eliminar el contenido de la unidad " + datos.Unidad + " con la Id de la materia "+datos.IdMateria+ "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+=======
+            if (txtClave.Text != "" && cmbUnidad.Text != "")
+            {
+                try
+                {
+                    datos.IdMateria = Convert.ToInt32(txtClave.Text);
+                    datos.Unidad = Convert.ToInt32(cmbUnidad.Text);
+                    if (!Registro.ExisteContenidoDeEsaUnidad(datos.IdMateria, datos.Unidad))
+                    {
+                        var n = MessageBox.Show("¿Está seguro que desea eliminar el contenido de la unidad " + datos.Unidad + " con la Id de la materia " + datos.IdMateria + "?", "Confirmar eliminación", MessageBoxButtons.YesNo);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         if (n == DialogResult.Yes)
                         {
                             puente.RegistroEliminarContenido(datos);
@@ -424,6 +519,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -431,6 +527,8 @@ namespace BopiSoft.Presentacion
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public static void SoloNumeros(KeyPressEventArgs e)
         {
             if (char.IsDigit(e.KeyChar))
@@ -470,6 +568,7 @@ namespace BopiSoft.Presentacion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
@@ -501,4 +600,8 @@ namespace BopiSoft.Presentacion
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 
+=======
+
+    }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 }

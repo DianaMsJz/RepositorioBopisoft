@@ -8,9 +8,16 @@ using System.Windows.Forms;
 
 namespace BopiSoft.Negocios
 {
+<<<<<<< HEAD
     class PuenteMaterias
     {
         RegistroMateriaSql  registro = new RegistroMateriaSql();
+=======
+
+    class PuenteMaterias
+    {
+        RegistroMateriaSql registro = new RegistroMateriaSql();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public void RegistroAñadir(DatosMaterias datos)
         {
@@ -30,11 +37,14 @@ namespace BopiSoft.Negocios
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public void RegistroModificarContenido(DatosMaterias datos)
         {
             registro.RegistroModificarContenido(datos);
@@ -42,11 +52,14 @@ namespace BopiSoft.Negocios
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public void RegistroEliminar(DatosMaterias datos)
         {
             registro.RegistroEliminar(datos);
@@ -63,6 +76,7 @@ namespace BopiSoft.Negocios
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         public void RegistroBuscarContenido(DatosMaterias datos)
         {
@@ -70,6 +84,8 @@ namespace BopiSoft.Negocios
         }
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public void LlenarCombo(ComboBox combo)
         {
             registro.LlenarComboBoxCarreras(combo);
@@ -83,6 +99,7 @@ namespace BopiSoft.Negocios
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -90,10 +107,13 @@ namespace BopiSoft.Negocios
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public void ExisteMateria(int ID)
         {
             registro.ExisteMateria(ID);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +124,8 @@ namespace BopiSoft.Negocios
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
     }
 }

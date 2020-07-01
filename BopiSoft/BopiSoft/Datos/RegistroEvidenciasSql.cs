@@ -29,15 +29,22 @@ namespace BopiSoft.Datos
             {
                 bd.connecttodb();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 string añadir = "insert into evidencia(IdGrupo,Unidad,Ruta1,Archivo1,Ruta2,Archivo2,Ruta3,Archivo3,Ruta4,Archivo4,Ruta5,Archivo5,Ruta6,Archivo6,Ruta7,Archivo7,Comentario) values (@IdGrupo, @Unidad,@Ruta1, @Archivo1,@Ruta2, @Archivo2,@Ruta3, @Archivo3,@Ruta4, @Archivo4,@Ruta5, @Archivo5,@Ruta6, @Archivo6,@Ruta7, @Archivo7, @Comentario)";
 =======
                 string añadir = "insert into evidencia(IdGrupo,Unidad,Archivo1,Archivo2,Archivo3,Archivo4,Archivo5,Archivo6,Archivo7,Comentario) values (@IdGrupo, @Unidad, @Archivo1, @Archivo2, @Archivo3, @Archivo4, @Archivo5, @Archivo6, @Archivo7, @Comentario)";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                string añadir = "insert into evidencia(IdGrupo,Unidad,Ruta1,Archivo1,Ruta2,Archivo2,Ruta3,Archivo3,Ruta4,Archivo4,Ruta5,Archivo5,Ruta6,Archivo6,Ruta7,Archivo7,Comentario) values (@IdGrupo, @Unidad,@Ruta1, @Archivo1,@Ruta2, @Archivo2,@Ruta3, @Archivo3,@Ruta4, @Archivo4,@Ruta5, @Archivo5,@Ruta6, @Archivo6,@Ruta7, @Archivo7, @Comentario)";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 bd.command = new MySqlCommand(añadir, bd.connect);
                 bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
                 bd.command.Parameters.AddWithValue("@Unidad", datos.NoUnidad);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 bd.command.Parameters.AddWithValue("@Ruta1", datos.Ruta1);
                 bd.command.Parameters.AddWithValue("@Ruta2", datos.Ruta2);
                 bd.command.Parameters.AddWithValue("@Ruta3", datos.Ruta3);
@@ -45,8 +52,11 @@ namespace BopiSoft.Datos
                 bd.command.Parameters.AddWithValue("@Ruta5", datos.Ruta5);
                 bd.command.Parameters.AddWithValue("@Ruta6", datos.Ruta6);
                 bd.command.Parameters.AddWithValue("@Ruta7", datos.Ruta7);
+<<<<<<< HEAD
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 bd.command.Parameters.AddWithValue("@Archivo1", datos.File1);
                 bd.command.Parameters.AddWithValue("@Archivo2", datos.File2);
                 bd.command.Parameters.AddWithValue("@Archivo3", datos.File3);
@@ -74,6 +84,9 @@ namespace BopiSoft.Datos
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public void ModificarEvidencia(DatosEvidencias datos)
         {
@@ -172,7 +185,10 @@ namespace BopiSoft.Datos
                 MessageBox.Show("Algo salió mal");
             }
         }
+<<<<<<< HEAD
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

@@ -28,11 +28,14 @@ namespace BopiSoft.Datos
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public bool ExisteRegistro(int ID)
         {
@@ -52,6 +55,7 @@ namespace BopiSoft.Datos
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 string agregar = "insert into lista_grupos values ('" + datos.IdGrupo + "','" + datos.Nombre + "','" + datos.NombreCarrera + "','" + datos.NombreMateria + "','" + datos.IdPersonal + "','" + datos.Semestre + "','" + datos.Turno + "')";
 =======
                 string agregar = "insert into lista_grupos values ('" + datos.IdGrupo + "','" + datos.Nombre + "','" + datos.NombreCarrera + "','" + datos.NombreMateria + "','" + datos.IdMateria + "','" + datos.IdPersonal+ "','" + datos.Semestre + "','" + datos.Turno + "')";
@@ -59,6 +63,9 @@ namespace BopiSoft.Datos
 =======
                 string agregar = "insert into lista_grupos values ('" + datos.IdGrupo + "','" + datos.Nombre + "','" + datos.NombreCarrera + "','" + datos.NombreMateria + "','" + datos.IdMateria + "','" + datos.IdPersonal+ "','" + datos.Semestre + "','" + datos.Turno + "')";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                string agregar = "insert into lista_grupos values ('" + datos.IdGrupo + "','" + datos.Nombre + "','" + datos.NombreCarrera + "','" + datos.NombreMateria + "','" + datos.IdMateria + "','" + datos.IdPersonal+ "','" + datos.Semestre + "','" + datos.Turno + "')";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 if (bd.executecommand(agregar))
                 {
                     MessageBox.Show("Grupo añadido con exito!");
@@ -81,6 +88,7 @@ namespace BopiSoft.Datos
                 bd.connecttodb();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 string actualizar = "update lista_grupos set  Nombre=@Nombre, NombreCarrera=@NombreCarrera, NombreMateria=@NombreMateria , IdPersonal=@IdPersonal, Semestre=@Semestre, Turno=@Turno where IdGrupo=" + datos.IdGrupo;
 =======
                 string actualizar = "update lista_grupos set  Nombre=@Nombre, NombreCarrera=@NombreCarrera, NombreMateria=@NombreMateria , IdMateria=@IdMateria, IdPersonal=@IdPersonal, Semestre=@Semestre, Turno=@Turno where IdGrupo=" + datos.IdGrupo;
@@ -88,11 +96,15 @@ namespace BopiSoft.Datos
 =======
                 string actualizar = "update lista_grupos set  Nombre=@Nombre, NombreCarrera=@NombreCarrera, NombreMateria=@NombreMateria , IdMateria=@IdMateria, IdPersonal=@IdPersonal, Semestre=@Semestre, Turno=@Turno where IdGrupo=" + datos.IdGrupo;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                string actualizar = "update lista_grupos set  Nombre=@Nombre, NombreCarrera=@NombreCarrera, NombreMateria=@NombreMateria , IdMateria=@IdMateria, IdPersonal=@IdPersonal, Semestre=@Semestre, Turno=@Turno where IdGrupo=" + datos.IdGrupo;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 bd.command = new MySqlCommand(actualizar, bd.connect);
                 bd.command.Parameters.AddWithValue("@Nombre", datos.Nombre);
                 bd.command.Parameters.AddWithValue("@NombreCarrera", datos.NombreCarrera);
                 bd.command.Parameters.AddWithValue("@NombreMateria", datos.NombreMateria);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -101,6 +113,9 @@ namespace BopiSoft.Datos
 =======
                 bd.command.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                bd.command.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 bd.command.Parameters.AddWithValue("@IdPersonal", datos.IdPersonal);
                 bd.command.Parameters.AddWithValue("@Semestre", datos.Semestre);
                 bd.command.Parameters.AddWithValue("@Turno", datos.Turno);
@@ -159,10 +174,13 @@ namespace BopiSoft.Datos
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AreaNotificaciones));
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.lbComent = new System.Windows.Forms.Label();
             this.lbRegresar = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,6 +47,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.lbComent1 = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
+=======
+            this.lbRegresar = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.SuspendLayout();
             // 
             // label1
@@ -58,6 +64,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Área de notificaciones";
             // 
+<<<<<<< HEAD
             // lbComent
             // 
             this.lbComent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(168)))), ((int)(((byte)(211)))));
@@ -66,6 +73,8 @@
             this.lbComent.Size = new System.Drawing.Size(423, 122);
             this.lbComent.TabIndex = 1;
             // 
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // lbRegresar
             // 
             this.lbRegresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -74,6 +83,7 @@
             this.lbRegresar.Name = "lbRegresar";
             this.lbRegresar.Size = new System.Drawing.Size(53, 55);
             this.lbRegresar.TabIndex = 2;
+<<<<<<< HEAD
             // 
             // label4
             // 
@@ -217,6 +227,18 @@
             this.btnLimpiar.TabIndex = 51;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+=======
+            this.lbRegresar.Click += new System.EventHandler(this.lbRegresar_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(41, 146);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(699, 243);
+            this.dataGridView1.TabIndex = 3;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             // 
             // AreaNotificaciones
             // 
@@ -224,6 +246,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lbGrupo1);
             this.Controls.Add(this.lbUnidad1);
@@ -240,10 +263,19 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lbRegresar);
             this.Controls.Add(this.lbComent);
+=======
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.lbRegresar);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AreaNotificaciones";
             this.Text = "Área de notificaciones";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.AreaNotificaciones_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,6 +284,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbComent;
         private System.Windows.Forms.Label lbRegresar;
         private System.Windows.Forms.Label label4;
@@ -268,5 +301,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lbComent1;
         private System.Windows.Forms.Button btnLimpiar;
+=======
+        private System.Windows.Forms.Label lbRegresar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

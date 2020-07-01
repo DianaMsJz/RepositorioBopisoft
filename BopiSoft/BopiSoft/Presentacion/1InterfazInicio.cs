@@ -11,6 +11,7 @@ using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -18,6 +19,8 @@ using System.Windows.Forms;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -30,6 +33,7 @@ using BopiSoft.Presentacion;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -37,6 +41,8 @@ using BopiSoft.Presentacion;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
 namespace BopiSoft
 {
@@ -52,6 +58,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -60,10 +67,13 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         PuentePersonal PuentePersonal = new PuentePersonal();
         DatosPersonal datos = new DatosPersonal();
         RegistroPersonalSql registroPersonal = new RegistroPersonalSql();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,10 +86,13 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         string IDtest;
         string ID; 
         string Password;
        
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -87,12 +100,15 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +130,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public void btnLogin_Click(object sender, EventArgs e)
         {
             ID = txtID.Text;
@@ -158,6 +176,7 @@ namespace BopiSoft
 
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +277,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         //public bool ProcesarLogin()
         //{
 
@@ -352,15 +373,19 @@ namespace BopiSoft
         //}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
 
         public void TestLogin()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +401,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 string tipoUsu;
 
@@ -409,13 +436,21 @@ namespace BopiSoft
                     if (tipoUsu.Equals("Jefe"))
                     {
                         this.Hide();
+<<<<<<< HEAD
+=======
+                        int IdJefe = datos.IdPersonal;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         string Nombre = datos.Nombre;
                         string Materno = datos.Amaterno;
                         String Paterno = datos.Apaterno;
                         string Area = datos.NombreDpto;
                         byte[] Foto = datos.Foto;
 
+<<<<<<< HEAD
                         MenuJefe menujefe = new MenuJefe(Nombre, Paterno, Materno, Area, Foto);
+=======
+                        MenuJefe menujefe = new MenuJefe(IdJefe, Nombre, Paterno, Materno, Area, Foto);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         menujefe.Show();
                         
                         
@@ -423,6 +458,7 @@ namespace BopiSoft
                     if (tipoUsu.Equals("Docente"))
                     {
                         this.Hide();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,12 +471,16 @@ namespace BopiSoft
 =======
                     string IDTest = txtID.Text;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                    string IDTest = txtID.Text;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         string Nombre = datos.Nombre;
                         string Materno = datos.Amaterno;
                         String Paterno = datos.Apaterno;
                         string Area = datos.NombreDpto;
                         byte[] Foto = datos.Foto;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,10 +494,14 @@ namespace BopiSoft
 =======
                         _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                        _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         MenuDocenteObj.Show();
                       
                       
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,12 +516,16 @@ namespace BopiSoft
 =======
                     
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                    
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 }
                 else
                 { //Si no lo es mostrara este mensaje.
                     MessageBox.Show("Error, datos incorrectos o el usuario no existe.");
                     bd.closeconnection(); //Cerramos la conexion.
                   
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +551,10 @@ namespace BopiSoft
                 }
                 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                }
+                
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         public bool validarSesion(string id, string password)
@@ -527,6 +579,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -534,6 +587,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         {
 
         }

@@ -21,6 +21,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         BDConexion bd = new BDConexion();
 =======
         DatosGrupos datos = new DatosGrupos();
@@ -47,12 +48,18 @@ namespace BopiSoft
         BDConexion bd = new BDConexion();
         public int form;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        DatosGrupos datos = new DatosGrupos();
+        BDConexion bd = new BDConexion();
+        public int form;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public _27MateriaLista()
         {
             InitializeComponent();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +76,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         private void toolStripMenuItem2_Click_2(object sender, EventArgs e)
         {
@@ -155,6 +164,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             GRID1.DataSource = bd.SelectDataTable("select * from lista_materias where Carrera="+carrera);
         }
 <<<<<<< HEAD
@@ -184,6 +194,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             GRID1.DataSource = bd.SelectDataTable("select * from lista_materias where Carrera=" + carrera);
         }
 
@@ -197,6 +209,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -204,12 +217,15 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             {
                 DataGridViewRow llenarClave = GRID1.Rows[e.RowIndex];
                 materiaContenido.txtClave.Text = llenarClave.Cells["IdMateria"].Value.ToString();
                 materiaContenido.Show();
                 this.Hide();
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +248,10 @@ namespace BopiSoft
 
             else if (form == 2)
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+
+            else if (form == 2)
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             {
                 DataGridViewRow llenarNombreMateria = GRID1.Rows[e.RowIndex];
                 String nombreMateria = llenarNombreMateria.Cells["Nombre"].Value.ToString();
@@ -240,23 +260,30 @@ namespace BopiSoft
                 gruposEditra.actualizarNombreMateria(datos.NombreMateria);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 DataGridViewRow llenarIdMateria = GRID1.Rows[e.RowIndex];
                 String IdMateria = llenarIdMateria.Cells["IdMateria"].Value.ToString();
                 datos.IdMateria= Convert.ToInt32(IdMateria);
                 gruposEditra.actualizarIdMateria(datos.IdMateria);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 gruposEditra.Show();
                 this.Hide();
             }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +301,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
@@ -287,6 +316,7 @@ namespace BopiSoft
             }
             else
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -307,5 +337,9 @@ namespace BopiSoft
 
         }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            }
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

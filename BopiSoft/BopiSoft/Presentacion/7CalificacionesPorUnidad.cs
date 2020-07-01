@@ -1,17 +1,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 ﻿using BopiSoft.Datos;
 using BopiSoft.Negocios;
 using System;
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +33,7 @@ namespace BopiSoft
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public CalificacionesPorUnidad()
         {
             InitializeComponent();
@@ -36,6 +43,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         DatosMaterias datosMaterias = new DatosMaterias();
         PuenteMaterias puenteMaterias = new PuenteMaterias();
         DatosCalificaciones datos = new DatosCalificaciones();
@@ -44,10 +53,15 @@ namespace BopiSoft
         RegistroListaAlumnosSql regisAlumno = new RegistroListaAlumnosSql();
         BDConexion bd = new BDConexion();
 <<<<<<< HEAD
+<<<<<<< HEAD
         DatosPersonal datospersonal = new DatosPersonal();
         PuentePersonal puentePersonal = new PuentePersonal();
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+        DatosPersonal datospersonal = new DatosPersonal();
+        PuentePersonal puentePersonal = new PuentePersonal();
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         string IDGrupo;
         string NombreGrupo;
@@ -73,6 +87,9 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         
         public Boolean VerificadoCorrecto()
         {
@@ -90,6 +107,7 @@ namespace BopiSoft
             }
             if ( x>0)
             {
+<<<<<<< HEAD
 =======
         private void cmbUnidad_Click(object sender, EventArgs e)
         {
@@ -113,6 +131,8 @@ namespace BopiSoft
             {
                 MessageBox.Show("HAY CAMPOS VACIOS POR FAVOR VERIFIQUE");
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                 v = false;
             }
             else
@@ -125,6 +145,9 @@ namespace BopiSoft
         public void Limpiar()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             txtNC.Text = "";
             calif1.Text = "";
             calif2.Text = "";
@@ -133,11 +156,14 @@ namespace BopiSoft
             calif5.Text = "";
             calif6.Text = "";
             calif7.Text = "";
+<<<<<<< HEAD
 =======
             cmbUnidad.Text = "";
             txtNC.Text = "";
             txtCalifUni.Text = "";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void btnAñadir_Click(object sender, EventArgs e)
@@ -150,17 +176,24 @@ namespace BopiSoft
                     datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
                     datos.NoControl= Int32.Parse(txtNC.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!registro.ExisteCalifAlumno(datos.IdGrupo,datos.NoControl))
 =======
                     datos.NoUnidad = Int32.Parse(cmbUnidad.Text);
                     if (!registro.ExisteCalificacionUnidad(datos.IdGrupo,datos.NoUnidad,datos.NoControl))
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                    if (!registro.ExisteCalifAlumno(datos.IdGrupo,datos.NoControl))
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                     {
                         MessageBox.Show("Ya existe registro de esa calificación");
                     }
                     else
                     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         int suma = 0 ;
                         int promedio;
                         if (datosMaterias.Unidades == 6)
@@ -204,12 +237,15 @@ namespace BopiSoft
                         promedio = suma / datosMaterias.Unidades;
                         datos.Promedio = promedio;
                         puente.Añadir(datos);
+<<<<<<< HEAD
 =======
                         datos.CalificacionUni = Convert.ToInt32(txtCalifUni.Text);
                         
                         puente.Añadir(datos);
                         actualizarGrid();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         Limpiar();
                     }
 
@@ -236,6 +272,9 @@ namespace BopiSoft
                     datos.IdGrupo = Int32.Parse(txtIDGrupo.Text);
                     datos.NoControl = Int32.Parse(txtNC.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                     if (!registro.ExisteCalifAlumno(datos.IdGrupo, datos.NoControl))
                     {
                         
@@ -282,6 +321,7 @@ namespace BopiSoft
                         promedio = suma / datosMaterias.Unidades;
                         datos.Promedio = promedio;
                         puente.RegistroModificar(datos);
+<<<<<<< HEAD
 =======
                     datos.NoUnidad = Int32.Parse(cmbUnidad.Text);
                     if (!registro.ExisteCalificacionUnidad(datos.IdGrupo, datos.NoUnidad, datos.NoControl))
@@ -291,15 +331,21 @@ namespace BopiSoft
                         puente.RegistroModificar(datos);
                         actualizarGrid();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                         Limpiar();
                     }
                     else
                     {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         MessageBox.Show("No existe registro de esas calificaciones, no se puede modificar");
 =======
                         MessageBox.Show("No existe registro de esa calificación, no se puede modificar");
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                        MessageBox.Show("No existe registro de esas calificaciones, no se puede modificar");
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                     }
 
@@ -319,6 +365,9 @@ namespace BopiSoft
         private void btnEliminar_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             if (!txtNC.Text.Equals(""))
             {
                 try
@@ -331,6 +380,7 @@ namespace BopiSoft
                         if (n == DialogResult.Yes)
                         {
                             puente.RegistroEliminar(datos);
+<<<<<<< HEAD
 =======
             if (!cmbUnidad.Text.Equals("") || !txtNC.Text.Equals(""))
             {
@@ -348,6 +398,8 @@ namespace BopiSoft
                             puente.RegistroEliminar(datos);
                             actualizarGrid();
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                             Limpiar();
                         }
                         
@@ -355,10 +407,14 @@ namespace BopiSoft
                     else
                     {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         MessageBox.Show("No existe registro de esas calificaciones, no se puede eliminar");
 =======
                         MessageBox.Show("No existe registro de esa calificación, no se puede eliminar");
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+                        MessageBox.Show("No existe registro de esas calificaciones, no se puede eliminar");
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                     }
 
@@ -410,6 +466,9 @@ namespace BopiSoft
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
            
             puenteMaterias.RegistroBuscar(datosMaterias);
             TextBox[] aTextbox = { calif1, calif2, calif3, calif4, calif5, calif6, calif7 };
@@ -424,6 +483,7 @@ namespace BopiSoft
         }
 
 
+<<<<<<< HEAD
 =======
             actualizarGrid();
         }
@@ -439,6 +499,8 @@ namespace BopiSoft
             
         }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         public static void SoloNumeros(KeyPressEventArgs e)
         {
@@ -464,6 +526,9 @@ namespace BopiSoft
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
        
         private void btnBuscarClave_Click(object sender, EventArgs e)
         {
@@ -585,6 +650,7 @@ namespace BopiSoft
 
         private void planeacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
@@ -607,5 +673,11 @@ namespace BopiSoft
             cmbUnidad.Text = llenarUnidad.Cells["NoUnidad"].Value.ToString();
         }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            this.Hide();
+            Planeacion plan = new Planeacion(IDGrupo, IdMateria, IdDoc);
+            plan.Show();
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

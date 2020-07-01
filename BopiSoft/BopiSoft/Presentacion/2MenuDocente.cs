@@ -11,6 +11,7 @@ using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -18,6 +19,8 @@ using System.Windows.Forms;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -31,6 +34,7 @@ using BopiSoft.Presentacion;
 
 using System.IO;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +57,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
 namespace BopiSoft
 {
@@ -63,15 +69,19 @@ namespace BopiSoft
         PuenteDepartamento puenteDpto = new PuenteDepartamento();
 
         _27MateriaLista lista = new _27MateriaLista();
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         DatosGrupos datos = new DatosGrupos();
         RegistroGruposSql registro = new RegistroGruposSql();
 
         string IDGrupo;
         string NombreMateria;
         string NombreGrupo;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -82,12 +92,18 @@ namespace BopiSoft
 
         string IDdoc;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        int IdMateria;
+
+        string IDdoc;
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         string nombredoc;
         string paternodoc;
         string maternodoc;
         string areadoc;
         byte[] fotodoc;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         public MenuDocente(string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
@@ -107,10 +123,13 @@ namespace BopiSoft
         byte[] fotodoc;
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         public _2MenuDocente(string IDdoc, string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
         {
             InitializeComponent();
             this.IDdoc = IDdoc;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -118,6 +137,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             this.nombredoc = nombredoc;
             this.paternodoc = paternodoc;
             this.maternodoc = maternodoc;
@@ -125,6 +146,7 @@ namespace BopiSoft
             this.fotodoc = fotodoc;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +163,9 @@ namespace BopiSoft
 =======
      
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+     
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -170,6 +195,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
 
@@ -182,6 +208,10 @@ namespace BopiSoft
             tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
 
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
+
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         public Image byteArrayToImage(byte[] byteArrayIn)
@@ -194,16 +224,20 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         private void tablaGruposDOC_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow llenarIDGrupo = tablaGruposDOC.Rows[e.RowIndex];
             IDGrupo = Convert.ToString(llenarIDGrupo.Cells["IdGrupo"].Value);
+<<<<<<< HEAD
            
 
             DataGridViewRow llenarNombreGrupo = tablaGruposDOC.Rows[e.RowIndex];
@@ -223,10 +257,21 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+
+
+            DataGridViewRow llenarNombreGrupo = tablaGruposDOC.Rows[e.RowIndex];
+            NombreGrupo = Convert.ToString(llenarNombreGrupo.Cells["Nombre"].Value);
+
+
+            DataGridViewRow llenarNombreMateria = tablaGruposDOC.Rows[e.RowIndex];
+            NombreMateria = Convert.ToString(llenarNombreMateria.Cells["NombreMateria"].Value);
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
             DataGridViewRow llenarIdMateria = tablaGruposDOC.Rows[e.RowIndex];
             IdMateria = Convert.ToInt32(llenarIdMateria.Cells["IdMateria"].Value);
 
+<<<<<<< HEAD
             ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo,NombreMateria,IdMateria,Convert.ToInt32(IDdoc));
             this.Hide();
             AlumnosLista.Show(); 
@@ -240,5 +285,23 @@ namespace BopiSoft
 
         }
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo, NombreMateria, IdMateria, Convert.ToInt32(IDdoc));
+            this.Hide();
+            AlumnosLista.Show();
+        }
+
+        private void tablaGruposDOC_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+        
+        }
+
+        private void btnNotif_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AreaNotificaciones notif = new AreaNotificaciones(Convert.ToInt32(IDdoc));
+            notif.Show();
+        }
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }

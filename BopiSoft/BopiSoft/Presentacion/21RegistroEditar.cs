@@ -87,6 +87,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     MemoryStream ms = new MemoryStream();
                     pbFoto.Image.Save(ms, ImageFormat.Jpeg);
                     byte[] imagen = ms.ToArray();
@@ -111,6 +112,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
                     datos.IdPersonal = Int32.Parse(txtIdPersonal.Text);
                     if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
                     {
@@ -140,6 +143,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
@@ -147,6 +151,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
                 }
                 catch (Exception ex)
@@ -258,6 +264,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cmbTipo.Text = "";
 =======
             cmbTipo.Text = "";
@@ -268,10 +275,14 @@ namespace BopiSoft
 =======
             cmbTipo.Text = "";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            cmbTipo.Text = "";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             cmbDepartamento.Text="";
             txtNombre.Text = "";
             txtApaterno.Text = "";
             txtlbAmaterno.Text = "";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +296,9 @@ namespace BopiSoft
 =======
             cmbSexo.Text = "";
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+            cmbSexo.Text = "";
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtContraseña.Text = "";
@@ -399,6 +413,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
             if (!registroPersonal.ExisteRegistro(datos.IdPersonal))
             {
@@ -416,6 +431,8 @@ namespace BopiSoft
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
             if(txtIdPersonal.Text != "")
             {
                 datos.IdPersonal = Convert.ToInt32(txtIdPersonal.Text);
@@ -427,11 +444,14 @@ namespace BopiSoft
            
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
         }
 
         private void toolStripListaDocente_Click(object sender, EventArgs e)
@@ -506,11 +526,14 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
 
         private void txtIdPersonal_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -539,10 +562,13 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
 =======
 >>>>>>> 80c648b... Commit 9 registro de las planeaciones
+=======
+>>>>>>> 031b574... Proyecto completo (Versión Final)
     }
 }
