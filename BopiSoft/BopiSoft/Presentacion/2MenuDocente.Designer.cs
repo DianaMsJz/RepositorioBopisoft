@@ -2,6 +2,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     partial class MenuDocente
 =======
     partial class _2MenuDocente
@@ -9,6 +10,9 @@
 =======
     partial class _2MenuDocente
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+    partial class _2MenuDocente
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +42,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuDocente));
 =======
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_2MenuDocente));
@@ -45,10 +50,14 @@
 =======
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_2MenuDocente));
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_2MenuDocente));
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.lbImagen = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.lbArea = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,10 +68,13 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnNotif = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.label5 = new System.Windows.Forms.Label();
@@ -90,6 +102,8 @@
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnReporteF = new System.Windows.Forms.Button();
             this.btnProyectoI = new System.Windows.Forms.Button();
             this.pbFotoDoc = new System.Windows.Forms.PictureBox();
@@ -97,9 +111,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaGruposDOC)).BeginInit();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.SuspendLayout();
             // 
             // lbImagen
@@ -146,6 +163,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // lbPeriodo
             // 
             this.lbPeriodo.AutoSize = true;
@@ -163,6 +181,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // btnNotif
             // 
             this.btnNotif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -195,6 +215,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -204,6 +225,9 @@
 =======
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             // label1
             // 
@@ -224,6 +248,7 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "GRUPOS ASIGNADOS";
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             // label5
@@ -386,6 +411,8 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // btnReporteF
             // 
             this.btnReporteF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(204)))));
@@ -396,6 +423,7 @@
             this.btnReporteF.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnReporteF.Location = new System.Drawing.Point(250, 434);
 =======
             this.btnReporteF.Location = new System.Drawing.Point(250, 465);
@@ -403,6 +431,9 @@
 =======
             this.btnReporteF.Location = new System.Drawing.Point(250, 465);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.btnReporteF.Location = new System.Drawing.Point(250, 465);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnReporteF.Name = "btnReporteF";
             this.btnReporteF.Size = new System.Drawing.Size(113, 59);
             this.btnReporteF.TabIndex = 28;
@@ -420,6 +451,7 @@
             this.btnProyectoI.ForeColor = System.Drawing.Color.Black;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btnProyectoI.Location = new System.Drawing.Point(470, 434);
 =======
             this.btnProyectoI.Location = new System.Drawing.Point(472, 465);
@@ -427,6 +459,9 @@
 =======
             this.btnProyectoI.Location = new System.Drawing.Point(472, 465);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.btnProyectoI.Location = new System.Drawing.Point(472, 465);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.btnProyectoI.Name = "btnProyectoI";
             this.btnProyectoI.Size = new System.Drawing.Size(109, 59);
             this.btnProyectoI.TabIndex = 29;
@@ -436,11 +471,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // pbFotoDoc
             // 
             this.pbFotoDoc.Location = new System.Drawing.Point(5, 9);
@@ -452,10 +490,13 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // tablaGruposDOC
             // 
             this.tablaGruposDOC.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
@@ -465,16 +506,23 @@
             this.tablaGruposDOC.Size = new System.Drawing.Size(784, 231);
             this.tablaGruposDOC.TabIndex = 31;
             this.tablaGruposDOC.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaGruposDOC_CellClick);
+<<<<<<< HEAD
             // 
 <<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
             // MenuDocente
+=======
+            this.tablaGruposDOC.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaGruposDOC_CellContentClick);
+            // 
+            // _2MenuDocente
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(225)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(811, 505);
@@ -502,19 +550,25 @@
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.ClientSize = new System.Drawing.Size(811, 549);
             this.Controls.Add(this.tablaGruposDOC);
             this.Controls.Add(this.pbFotoDoc);
             this.Controls.Add(this.btnProyectoI);
             this.Controls.Add(this.btnReporteF);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNotif);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,11 +579,14 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Controls.Add(this.lbArea);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbImagen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+<<<<<<< HEAD
             this.Name = "MenuDocente";
             this.Text = "Menu Docente";
 <<<<<<< HEAD
@@ -549,6 +606,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaGruposDOC)).EndInit();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.Name = "_2MenuDocente";
+            this.Text = "Menu Docente";
+            this.Load += new System.EventHandler(this.MenuDocente_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoDoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaGruposDOC)).EndInit();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -563,6 +627,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.Label lbPeriodo;
 =======
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -570,10 +635,13 @@
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private System.Windows.Forms.Button btnNotif;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         private System.Windows.Forms.Label label5;
@@ -600,13 +668,18 @@
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private System.Windows.Forms.Button btnReporteF;
         private System.Windows.Forms.Button btnProyectoI;
         private System.Windows.Forms.PictureBox pbFotoDoc;
         private System.Windows.Forms.DataGridView tablaGruposDOC;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

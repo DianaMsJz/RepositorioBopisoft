@@ -60,6 +60,7 @@ namespace BopiSoft.Properties {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
         /// <summary>
@@ -72,5 +73,7 @@ namespace BopiSoft.Properties {
             }
         }
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.GRID1.Location = new System.Drawing.Point(200, 135);
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(331, 150);
@@ -185,6 +186,11 @@
             this.GRID1.Name = "GRID1";
             this.GRID1.Size = new System.Drawing.Size(410, 150);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            this.GRID1.Location = new System.Drawing.Point(176, 135);
+            this.GRID1.Name = "GRID1";
+            this.GRID1.Size = new System.Drawing.Size(410, 150);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.GRID1.TabIndex = 159;
             // 
             // menuStrip2

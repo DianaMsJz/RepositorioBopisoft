@@ -12,12 +12,22 @@ namespace BopiSoft.Datos
     {
         BDConexion bd = new BDConexion();
 
+<<<<<<< HEAD
         public bool ExisteCalifAlumno(int ID, int NoControl)
         {
             bd.connecttodb();
             string existe = "Select count(*) from calificaciones_unidad where IdGrupo=@IdGrupo and NoControl=@NoControl";
             bd.command = new MySqlCommand(existe, bd.connect);
             bd.command.Parameters.AddWithValue("@IdGrupo", ID);
+=======
+        public bool ExisteCalificacionUnidad(int ID, int NoUnidad, int NoControl)
+        {
+            bd.connecttodb();
+            string existe = "Select count(*) from calificaciones_unidad where IdGrupo=@IdGrupo and NoControl=@NoControl and NoUnidad=@NoUnidad";
+            bd.command = new MySqlCommand(existe, bd.connect);
+            bd.command.Parameters.AddWithValue("@IdGrupo", ID);
+            bd.command.Parameters.AddWithValue("@NoUnidad", NoUnidad);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             bd.command.Parameters.AddWithValue("@NoControl", NoControl);
             int count = Convert.ToInt32(bd.command.ExecuteScalar());
 
@@ -26,10 +36,17 @@ namespace BopiSoft.Datos
 
         public void Añadir(DatosCalificaciones datos)
         {
+<<<<<<< HEAD
             string agregar = "insert into calificaciones_unidad values ('" + datos.IdGrupo + "','" + datos.NoControl +  "','" + datos.Calif1 + "','" + datos.Calif2+"','" +datos.Calif3+"','"+datos.Calif4+"','"+datos.Calif5+"','"+datos.Calif6+"','"+datos.Calif7+"','"+datos.Promedio+"')";
             if (bd.executecommand(agregar))
             {
                 MessageBox.Show("Calificaciones añadidas con exito!");
+=======
+            string agregar = "insert into calificaciones_unidad values ('" + datos.IdGrupo + "','" + datos.NoControl + "','" + datos.NoUnidad + "','" + datos.CalificacionUni + "')";
+            if (bd.executecommand(agregar))
+            {
+                MessageBox.Show("Calificación añadida con exito!");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             }
             else
             {
@@ -42,6 +59,7 @@ namespace BopiSoft.Datos
             try
             {
                 bd.connecttodb();
+<<<<<<< HEAD
                 string actualizar = "update calificaciones_unidad set Unidad1=@Unidad1,Unidad2=@Unidad2,Unidad3=@Unidad3,Unidad4=@Unidad4,Unidad5=@Unidad5,Unidad6=@Unidad6,Unidad7=@Unidad7,Promedio=@Promedio  where IdGrupo=@IdGrupo and NoControl=@NoControl ";
 
                 bd.command = new MySqlCommand(actualizar, bd.connect);
@@ -55,13 +73,26 @@ namespace BopiSoft.Datos
                 bd.command.Parameters.AddWithValue("@Promedio", datos.Promedio);
                 bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
                 bd.command.Parameters.AddWithValue("@NoControl", datos.NoControl);
+=======
+                string actualizar = "update calificaciones_unidad set CalificacionUni=@CalificacionUni  where IdGrupo=@IdGrupo and NoControl=@NoControl and NoUnidad=@NoUnidad";
+
+                bd.command = new MySqlCommand(actualizar, bd.connect);
+                bd.command.Parameters.AddWithValue("@CalificacionUni", datos.CalificacionUni);
+                bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
+                bd.command.Parameters.AddWithValue("@NoControl", datos.NoControl);
+                bd.command.Parameters.AddWithValue("@NoUnidad", datos.NoUnidad);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 
                 int cant;
                 cant = bd.command.ExecuteNonQuery();
                 if (cant == 1)
                 {
+<<<<<<< HEAD
                     MessageBox.Show("Calificaciones modificadas con exito");
+=======
+                    MessageBox.Show("Calificación modificada con exito");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                 }
                 else
                 {
@@ -76,22 +107,34 @@ namespace BopiSoft.Datos
         public void Eliminar(DatosCalificaciones datos)
         {
             bd.connecttodb();
+<<<<<<< HEAD
             string eliminar = "delete from calificaciones_unidad where IdGrupo=@IdGrupo and  NoControl=@NoControl";
             bd.command = new MySqlCommand(eliminar, bd.connect);
             bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
+=======
+            string eliminar = "delete from calificaciones_unidad where IdGrupo=@IdGrupo and NoUnidad=@NoUnidad and NoControl=@NoControl";
+            bd.command = new MySqlCommand(eliminar, bd.connect);
+            bd.command.Parameters.AddWithValue("@IdGrupo", datos.IdGrupo);
+            bd.command.Parameters.AddWithValue("@NoUnidad", datos.NoUnidad);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             bd.command.Parameters.AddWithValue("@NoControl", datos.NoControl);
 
             int cant;
             cant = bd.command.ExecuteNonQuery();
             if (cant == 1)
             {
+<<<<<<< HEAD
                 MessageBox.Show("Calificaciones eliminadas con exito");
+=======
+                MessageBox.Show("Calificación eliminada con exito");
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             }
             else
             {
                 MessageBox.Show("Algo salió mal");
             }
         }
+<<<<<<< HEAD
 
         public void RegistroBuscar(DatosCalificaciones datos)
         {
@@ -122,5 +165,7 @@ namespace BopiSoft.Datos
         }
 
 
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

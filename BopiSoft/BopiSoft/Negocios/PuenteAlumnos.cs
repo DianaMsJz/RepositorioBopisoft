@@ -12,6 +12,7 @@ namespace BopiSoft.Negocios
         RegistroListaAlumnosSql registro = new RegistroListaAlumnosSql();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public void AñadirAlumno(DatosAlumnosGrupos datos)
         {
             registro.AñadirAlumno(datos);
@@ -29,6 +30,8 @@ namespace BopiSoft.Negocios
             registro.AlumnoEliminar(datos);
         }
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public void Añadir(DatosAlumnosGrupos datos)
         {
             registro.Añadir(datos);
@@ -48,6 +51,9 @@ namespace BopiSoft.Negocios
             registro.AlumnoBuscar(datos);
         }
 
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

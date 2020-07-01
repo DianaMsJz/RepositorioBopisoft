@@ -118,6 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<<<<<<< HEAD
+=======
+  <data name="btnBuscarClave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAA1JJREFUWEft
+        ll9IU2EYxrUuoq6Duo2im266SgkhiiwtyD9zuqTU853jwtYo/E9IzihJg9ICdahXmpqVZVpmUQYllpYK
+        FZlgQgqSYFGRc5v59n5n77ecHdzOKunCBx6c+877e5/vO2fvFrIsHQpVFGWDJEnbGWO709LStprN5rW0
+        9u+UkpKyGZtVYuNxNCzwHLoPA+VgmDVU8ndktVpXYeOL2MAlGrJj2cByzgDLKwEp0waS+ej8MON4fTyV
+        /5nwqNchsEcFMxlYUTXIV4ZBuTPt67avIFc/wzCFIgQ/kWJEhHpIQYgfJUIGVKAlE+T6od8bL3T7d5DL
+        2tWwFOQU4fQL7+clDmGWLFBuTHibHOmYhqInM1Dx0gm1g04o73VCfpfDJ4hsf4ohGA8wi5wIQgau1NTU
+        LbyY70SZd+QFjx3QOuyCzhE3NLx2Qf0rF1wfcsGD926ow9fWzl9BWEmTOIVBm822gtCBCYvsvJidrvEC
+        8x85oBMb1Q44wXLPd8d8rWXIDTffuSH9Lr3f+hmkjONqCDyFnYT2L6PRuBKLPvJCpXHE2+TE/Wko7p6B
+        dPp/oS24+/M9vuustFmcwmXC+xf/vKtF/N7PgwXlujciQD/h/Qsv3sWLWN45baget0yKAJOE9y+8XwfU
+        ACcvaEP1+PYXEcBBeP+SZXmbGiCrSBuqw3LzmAgwSnj/wjG6HgvmJHOGOuG0wIFanY6eAF2ED0x4G17w
+        QqW2TxMcqJmtSgTIJnRgwgD5aiHOdj5eteD+LDeMiJE8i4NtI6EDE86C1Vj4gYeQyzs0Gyzqtm/AcovF
+        7isIq0/4LJhUAO5CtndrN9Iyb15YKZpP8WeKkPqFgBJPCAZy6VV1vGo2FW4aBSnnrGj+g//lt5NwwQkB
+        ZgR5fozgbOdB5Lq3oNz6hE3x+cBvSrnmOe66wvs1jLueEAHQc6bkQ3mEC04YIgJBvQRczLNoO/2QSUC7
+        45OSIXxvDETHJ14jXNAKRSAf02XofvQUmu9yDP0QnYtDbBNdq8pgOmzhzcPQ4VGxsN9gaqClpVNkXGKl
+        NwR6nyGpmZaWThiiSoTg/i9C/I1nQrciYxIaRQAeJsZgCqOlpdOeWKOdN4+KTSygt5Ze0XEHd9DLZZFC
+        Qn4CgL1BKpCznEoAAAAASUVORK5CYII=
+</value>
+  </data>
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAADAE

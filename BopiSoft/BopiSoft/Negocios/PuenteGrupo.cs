@@ -11,6 +11,7 @@ namespace BopiSoft.Negocios
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
@@ -21,6 +22,9 @@ namespace BopiSoft.Negocios
 =======
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     class PuenteGrupo
     {
         RegistroGruposSql registro = new RegistroGruposSql();
@@ -31,9 +35,12 @@ namespace BopiSoft.Negocios
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public void AñadirGrupo(DatosGrupos datos)
         {
@@ -56,8 +63,11 @@ namespace BopiSoft.Negocios
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

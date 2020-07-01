@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Datos;
@@ -23,6 +24,11 @@ using BopiSoft.Presentacion;
 using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using BopiSoft.Datos;
+using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,6 +43,7 @@ namespace BopiSoft
 {
     public partial class _28GruposEditra : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +63,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         BDConexion bd = new BDConexion();
         PuenteGrupo puente = new PuenteGrupo();
         PuenteDepartamento puenteDpto = new PuenteDepartamento();
@@ -64,9 +73,12 @@ namespace BopiSoft
         RegistroGruposSql registro = new RegistroGruposSql();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public _28GruposEditra()
         {
             InitializeComponent();
@@ -145,6 +157,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         private void _28GruposEditra_Load(object sender, EventArgs e)
@@ -159,19 +172,25 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void _28GruposEditra_Load(object sender, EventArgs e)
         {
             puenteDpto.LlenarComboBoxDeptos(comboBox1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
             puente.LlenarCombo(cmbCarrera);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,18 +200,26 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public void actualizarNombreMateria(String nombreMateria)
         {
             txtNombreMat.Text = nombreMateria;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public void actualizarIdMateria(int IdMateria)
         {
             txtIdMateria.Text = IdMateria.ToString();
         }
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         public void actualizarClaveDocente(int IdPersonal)
         {
@@ -202,11 +229,14 @@ namespace BopiSoft
         private void btnBuscarMateria_Click_1(object sender, EventArgs e)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         {
             lista.form = 2;
             this.Hide();
@@ -214,6 +244,7 @@ namespace BopiSoft
             MessageBox.Show("Selecciona la materia para obtener el nombre");
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +275,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private void btnBuscarDocente_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show("Selecciona el docente en la tabla para obtener la clave");
@@ -253,9 +286,12 @@ namespace BopiSoft
         {
             SoloNumeros(e);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         public static void SoloNumeros(KeyPressEventArgs e)
@@ -297,6 +333,7 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
         {
             SoloNumeros(e);
@@ -311,6 +348,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
 
@@ -334,10 +373,14 @@ namespace BopiSoft
             Boolean v;
             if (txtClave.Text.Equals("") || txtNombre.Text.Equals("") || cmbCarrera.Text.Equals("") || txtNombreMat.Text.Equals("") || txtClaveDoc.Text.Equals("") ||
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cmbSemestre.Text.Equals("") || cmbTurno.Text.Equals(""))
 =======
                 cmbSemestre.Text.Equals("") || cmbTurno.Text.Equals("") || txtIdMateria.Text.Equals(""))
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                cmbSemestre.Text.Equals("") || cmbTurno.Text.Equals("") || txtIdMateria.Text.Equals(""))
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             {
                 v = false;
             }
@@ -354,9 +397,13 @@ namespace BopiSoft
             cmbCarrera.Text = "";
             txtNombreMat.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             txtIdMateria.Text = "";
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            txtIdMateria.Text = "";
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             txtClaveDoc.Text = "";
             cmbSemestre.Text = "";
             cmbTurno.Text = "";
@@ -379,9 +426,13 @@ namespace BopiSoft
                         datos.NombreCarrera = cmbCarrera.Text;
                         datos.NombreMateria = txtNombreMat.Text;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         datos.IdMateria =Convert.ToInt32(txtIdMateria.Text);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        datos.IdMateria =Convert.ToInt32(txtIdMateria.Text);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         datos.IdPersonal = Convert.ToInt32(txtClaveDoc.Text);
                         datos.Semestre = Convert.ToInt32(cmbSemestre.Text);
                         datos.Turno = cmbTurno.Text;
@@ -410,9 +461,13 @@ namespace BopiSoft
                         datos.NombreCarrera = cmbCarrera.Text;
                         datos.NombreMateria = txtNombreMat.Text;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         datos.IdMateria = Convert.ToInt32(txtIdMateria.Text);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        datos.IdMateria = Convert.ToInt32(txtIdMateria.Text);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         datos.IdPersonal = Convert.ToInt32(txtClaveDoc.Text);
                         datos.Semestre = Convert.ToInt32(cmbSemestre.Text);
                         datos.Turno = cmbTurno.Text;
@@ -446,9 +501,13 @@ namespace BopiSoft
                         cmbCarrera.Text = datos.NombreCarrera;
                         txtNombreMat.Text = datos.NombreMateria;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         txtIdMateria.Text = datos.IdMateria.ToString();
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        txtIdMateria.Text = datos.IdMateria.ToString();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         txtClaveDoc.Text = datos.IdPersonal.ToString();
                         cmbSemestre.Text = datos.Semestre.ToString();
                         cmbTurno.Text = datos.Turno.ToString();
@@ -533,8 +592,11 @@ namespace BopiSoft
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

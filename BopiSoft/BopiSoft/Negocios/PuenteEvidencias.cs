@@ -15,6 +15,7 @@ namespace BopiSoft.Negocios
         {
             registro.AñadirEvidencia(datos);
         }
+<<<<<<< HEAD
 
         public void BuscarEvidencias(DatosEvidencias datos)
         {
@@ -28,5 +29,7 @@ namespace BopiSoft.Negocios
         {
             registro.EvidenciasEliminar(datos);
         }
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

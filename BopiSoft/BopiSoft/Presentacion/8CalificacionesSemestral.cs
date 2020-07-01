@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 =======
 ﻿using BopiSoft.Datos;
@@ -6,6 +7,9 @@ using BopiSoft.Negocios;
 using MySql.Data.MySqlClient;
 using System;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using System;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +23,7 @@ namespace BopiSoft
 {
     public partial class CalificacionesSemestral : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         public CalificacionesSemestral()
         {
@@ -136,6 +141,11 @@ namespace BopiSoft
         {
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        public CalificacionesSemestral()
+        {
+            InitializeComponent();
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
     }
 }

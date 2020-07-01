@@ -10,11 +10,14 @@ using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -28,6 +31,7 @@ using BopiSoft.Presentacion;
 
 using System.IO;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
@@ -47,6 +51,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 namespace BopiSoft
 {
@@ -66,6 +72,7 @@ namespace BopiSoft
         string IDGrupo;
         string NombreMateria;
         string NombreGrupo;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         string IDdoc;
@@ -89,14 +96,28 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        int IdMateria;
+
+        public string IDdoc;
+        public string nombredoc;
+        public string paternodoc;
+        public string maternodoc;
+        string areadoc;
+        byte[] fotodoc;
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public _2MenuDocente(string IDdoc, string nombredoc, string paternodoc, string maternodoc, string areadoc, byte[] fotodoc)
         {
             InitializeComponent();
             this.IDdoc = IDdoc;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             this.nombredoc = nombredoc;
             this.paternodoc = paternodoc;
             this.maternodoc = maternodoc;
@@ -104,6 +125,7 @@ namespace BopiSoft
             this.fotodoc = fotodoc;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         BDConexion bd = new BDConexion();
@@ -116,6 +138,9 @@ namespace BopiSoft
 =======
      
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+     
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -144,6 +169,7 @@ namespace BopiSoft
             lbArea.Text = areadoc;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
 
@@ -152,6 +178,10 @@ namespace BopiSoft
             tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+            tablaGruposDOC.DataSource = bd.SelectDataTable("select * from lista_grupos where IdPersonal='" + IDdoc + "'");
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         public Image byteArrayToImage(byte[] byteArrayIn)
@@ -163,10 +193,13 @@ namespace BopiSoft
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private void tablaGruposDOC_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow llenarIDGrupo = tablaGruposDOC.Rows[e.RowIndex];
@@ -180,6 +213,7 @@ namespace BopiSoft
             DataGridViewRow llenarNombreMateria = tablaGruposDOC.Rows[e.RowIndex];
             NombreMateria = Convert.ToString(llenarNombreMateria.Cells["NombreMateria"].Value);
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             ListaAlumnos AlumnosLista = new ListaAlumnos(IDGrupo, NombreGrupo,NombreMateria,Convert.ToInt32(IDdoc));
             this.Hide();
@@ -187,6 +221,8 @@ namespace BopiSoft
         }
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
             DataGridViewRow llenarIdMateria = tablaGruposDOC.Rows[e.RowIndex];
             IdMateria = Convert.ToInt32(llenarIdMateria.Cells["IdMateria"].Value);
@@ -195,6 +231,14 @@ namespace BopiSoft
             this.Hide();
             AlumnosLista.Show(); 
         }
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+
+        private void tablaGruposDOC_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 }

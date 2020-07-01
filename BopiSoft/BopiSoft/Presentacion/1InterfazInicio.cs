@@ -10,11 +10,14 @@ using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using MySql.Data.MySqlClient;
 
 using System.Configuration;
@@ -26,11 +29,14 @@ using BopiSoft.Presentacion;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 namespace BopiSoft
 {
@@ -45,16 +51,20 @@ namespace BopiSoft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         PuentePersonal PuentePersonal = new PuentePersonal();
         DatosPersonal datos = new DatosPersonal();
         RegistroPersonalSql registroPersonal = new RegistroPersonalSql();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         string ID; 
@@ -64,20 +74,26 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         string IDtest;
         string ID; 
         string Password;
        
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +112,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public void btnLogin_Click(object sender, EventArgs e)
         {
             ID = txtID.Text;
@@ -140,6 +158,7 @@ namespace BopiSoft
 
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         public bool ProcesarLogin()
@@ -237,6 +256,8 @@ namespace BopiSoft
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         //public bool ProcesarLogin()
         //{
 
@@ -330,13 +351,17 @@ namespace BopiSoft
 
         //}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
 
         public void TestLogin()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             
@@ -349,6 +374,8 @@ namespace BopiSoft
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
                 string tipoUsu;
 
@@ -398,18 +425,23 @@ namespace BopiSoft
                         this.Hide();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     string IDTest = txtID.Text;
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
                     string IDTest = txtID.Text;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                    string IDTest = txtID.Text;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         string Nombre = datos.Nombre;
                         string Materno = datos.Amaterno;
                         String Paterno = datos.Apaterno;
                         string Area = datos.NombreDpto;
                         byte[] Foto = datos.Foto;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         MenuDocente MenuDocenteObj = new MenuDocente(Nombre, Paterno, Materno, Area, Foto);
@@ -419,10 +451,14 @@ namespace BopiSoft
 =======
                         _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                        _2MenuDocente MenuDocenteObj = new _2MenuDocente(IDTest, Nombre, Paterno, Materno, Area, Foto);
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                         MenuDocenteObj.Show();
                       
                       
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -433,12 +469,16 @@ namespace BopiSoft
 =======
                     
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                    
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
                 }
                 else
                 { //Si no lo es mostrara este mensaje.
                     MessageBox.Show("Error, datos incorrectos o el usuario no existe.");
                     bd.closeconnection(); //Cerramos la conexion.
                   
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     
@@ -459,6 +499,10 @@ namespace BopiSoft
                 }
                 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+                }
+                
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         public bool validarSesion(string id, string password)
@@ -482,11 +526,14 @@ namespace BopiSoft
         public void logout()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         {
 
         }

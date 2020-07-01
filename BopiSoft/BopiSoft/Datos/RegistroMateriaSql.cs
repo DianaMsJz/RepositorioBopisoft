@@ -42,6 +42,7 @@ namespace BopiSoft.Datos
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             string actualizar = "update lista_materias set Nombre='" + datos.Nombre + "','" + datos.Creditos  +"','" + datos.Carrera + "','" + datos.Unidades + "','" + datos.Caracterizacion + "','" + datos.Competencia + "' where Clave=" + datos.IdMateria;
 =======
             string actualizar = "update lista_materias set Nombre='" + datos.Nombre + "','" + datos.Creditos  +"','" + datos.Carrera + "','" + datos.Unidades + "','" + datos.Caracterizacion + "','" + datos.Competencia + "' where IdMateria=" + datos.IdMateria;
@@ -75,6 +76,8 @@ namespace BopiSoft.Datos
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             try
             {
                 bd.connecttodb();
@@ -136,21 +139,28 @@ namespace BopiSoft.Datos
 
            
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         public void RegistroEliminar(DatosMaterias datos)
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             string eliminar = "delete from lista_materias where IdMateria=" + datos.IdMateria;
 
             if (bd.executecommand(eliminar))
@@ -168,6 +178,7 @@ namespace BopiSoft.Datos
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             string eliminar = "delete from materia_contenido where IdMateria=" + datos.IdMateria+ "and Unidad=" +datos.Unidad;
 
             if (bd.executecommand(eliminar))
@@ -182,6 +193,8 @@ namespace BopiSoft.Datos
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             try
             {
                 bd.connecttodb();
@@ -211,13 +224,17 @@ namespace BopiSoft.Datos
 
            
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         }
 
         public void RegistroBuscar(DatosMaterias datos)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +256,8 @@ namespace BopiSoft.Datos
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
            
                 MySqlCommand buscarporID = new MySqlCommand("select * from lista_materias where IdMateria=@IdMateria", bd.connect);
                 buscarporID.Parameters.AddWithValue("@IdMateria", datos.IdMateria);
@@ -257,10 +276,13 @@ namespace BopiSoft.Datos
             
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             bd.closeconnection();
         }
 
@@ -282,7 +304,10 @@ namespace BopiSoft.Datos
             }
 
 
+<<<<<<< HEAD
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
             bd.closeconnection();
         }
         public void RegistroBuscarContenido(DatosMaterias datos)
@@ -310,6 +335,7 @@ namespace BopiSoft.Datos
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             public void LlenarComboBoxCarreras(ComboBox combo)
 =======
         public void LlenarComboBoxCarreras(ComboBox combo)
@@ -320,6 +346,9 @@ namespace BopiSoft.Datos
 =======
         public void LlenarComboBoxCarreras(ComboBox combo)
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        public void LlenarComboBoxCarreras(ComboBox combo)
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         {
             MySqlCommand buscarporID = new MySqlCommand("select * from lista_carreras", bd.connect);
             bd.connecttodb();
@@ -348,11 +377,14 @@ namespace BopiSoft.Datos
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public bool ExisteMateria(int ID)
         {
             bd.connecttodb();
@@ -367,11 +399,14 @@ namespace BopiSoft.Datos
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01c80df... 6to Commit: Login creado
 =======
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
     }
 }

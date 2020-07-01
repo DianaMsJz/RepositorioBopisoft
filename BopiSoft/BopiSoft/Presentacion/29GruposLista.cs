@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using BopiSoft.Presentacion;
 =======
 ﻿using BopiSoft.Negocios;
@@ -9,6 +10,10 @@ using BopiSoft.Presentacion;
 ﻿using BopiSoft.Negocios;
 using BopiSoft.Presentacion;
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+﻿using BopiSoft.Negocios;
+using BopiSoft.Presentacion;
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +30,7 @@ namespace BopiSoft
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         BDConexion bd = new BDConexion();
         PuenteMaterias puenteMat = new PuenteMaterias();
@@ -35,6 +41,11 @@ namespace BopiSoft
         PuenteMaterias puenteMat = new PuenteMaterias();
 
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+        BDConexion bd = new BDConexion();
+        PuenteMaterias puenteMat = new PuenteMaterias();
+
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
         public _29GruposLista()
         {
             InitializeComponent();
@@ -113,9 +124,12 @@ namespace BopiSoft
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
@@ -155,9 +169,12 @@ namespace BopiSoft
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48fe993... Commit 7: Registrar alumnos
 =======
 >>>>>>> 90e77cf... Commit #8: Registro de calificaciones y evidencias
+=======
+>>>>>>> 80c648b... Commit 9 registro de las planeaciones
     }
 
 
